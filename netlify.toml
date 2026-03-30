@@ -1,0 +1,4 @@
+# Static site lives in real-estate-site/. Pushes to the connected branch trigger deploys
+# so automated listing-cache commits update the live site.
+[build]
+  publish = "real-estate-site"

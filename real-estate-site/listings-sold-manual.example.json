@@ -1,0 +1,33 @@
+[
+  {
+    "id": "compass-sold-1",
+    "formattedAddress": "123 Luxury Lane, Georgetown, TX 78628",
+    "addressLine1": "123 Luxury Lane",
+    "price": 750000,
+    "bedrooms": 5,
+    "bathrooms": 4,
+    "squareFootage": 4200,
+    "lotSize": 15000,
+    "propertyType": "single_family",
+    "status": "Sold",
+    "sortOrder": 1,
+    "featured": true,
+    "primaryPhoto": "",
+    "realtorUrl": "https://www.compass.com/homedetails/..."
+  },
+  {
+    "id": "compass-sold-2",
+    "formattedAddress": "456 Oak Street, Liberty Hill, TX 78642",
+    "addressLine1": "456 Oak Street",
+    "price": 425000,
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "squareFootage": 2200,
+    "lotSize": 8000,
+    "propertyType": "single_family",
+    "status": "Sold",
+    "sortOrder": 2,
+    "primaryPhoto": "",
+    "realtorUrl": "https://www.compass.com/homedetails/..."
+  }
+]

@@ -1,0 +1,14 @@
+# Local env (secrets)
+.env
+**/.env
+.env.local
+.env.*.local
+
+# IDE
+.cursor/
+
+# OS
+.DS_Store
+
+# Archives
+*.zip

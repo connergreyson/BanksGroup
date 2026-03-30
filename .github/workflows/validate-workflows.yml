@@ -1,0 +1,21 @@
+# Confirms listing refresh automation is present on the default branch after push.
+name: Validate workflows
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+
+jobs:
+  refresh-workflow-present:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Verify Refresh Listings workflow exists
+        run: |
+          test -f .github/workflows/refresh-listings.yml
+          grep -q "schedule:" .github/workflows/refresh-listings.yml
+          grep -q "workflow_dispatch:" .github/workflows/refresh-listings.yml

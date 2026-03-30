@@ -1,0 +1,7 @@
+# Environment variables (never commit secrets)
+.env
+.env.local
+.env.*.local
+
+# Debug output from fetch-listings
+sold-raw.json

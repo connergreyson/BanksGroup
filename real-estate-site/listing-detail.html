@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Property Details | The Banks Group</title>
+  <meta name="description" content="Property details and contact information.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">The Banks Group</a>
+      <nav class="nav">
+        <a href="index.html#services">Services</a>
+        <a href="listings.html">Listings</a>
+        <a href="index.html#about">About</a>
+        <a href="index.html#contact" class="nav-cta">Get Started</a>
+      </nav>
+      <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main class="listing-detail-main">
+    <div id="listing-loading" class="listing-detail-loading" aria-live="polite">Loading property…</div>
+    <div id="listing-error" class="listing-detail-error" role="alert" hidden></div>
+    <article id="listing-detail" class="listing-detail" hidden aria-label="Property details"></article>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="index.html" class="logo">The Banks Group</a>
+        <p class="footer-tagline">Residential • Commercial • Personal Service</p>
+      </div>
+      <nav class="footer-nav">
+        <div class="footer-col">
+          <span class="footer-col-title">Company</span>
+          <a href="index.html#about">About</a>
+          <a href="index.html#services">Services</a>
+          <a href="listings.html">Listings</a>
+          <a href="index.html#contact">Contact</a>
+        </div>
+        <div class="footer-col">
+          <span class="footer-col-title">Services</span>
+          <a href="index.html#contact">Residential</a>
+          <a href="index.html#contact">Commercial</a>
+          <a href="index.html#contact">Other</a>
+        </div>
+      </nav>
+      <div class="footer-contact">
+        <a href="tel:+15126085246">(512) 608-5246</a>
+        <a href="mailto:tracy.banks@compass.com">tracy.banks@compass.com</a>
+      </div>
+    </div>
+    <p class="footer-legal">© The Banks Group. All rights reserved.</p>
+  </footer>
+
+  <script src="listings.js"></script>
+  <script src="script.js"></script>
+  <script>
+    (function () {
+      'use strict';
+      var params = new URLSearchParams(window.location.search);
+      var id = params.get('id');
+      var loading = document.getElementById('listing-loading');
+      var error = document.getElementById('listing-error');
+      var detail = document.getElementById('listing-detail');
+
+      function showError(msg) {
+        if (loading) loading.hidden = true;
+        if (detail) detail.hidden = true;
+        if (error) {
+          error.textContent = msg;
+          error.hidden = false;
+        }
+      }
+
+      if (!id) {
+        showError('No property specified. Return to listings to browse.');
+        return;
+      }
+
+      function displayListing(listing) {
+        if (loading) loading.hidden = true;
+        if (error) error.hidden = true;
+        detail.innerHTML = renderListingDetail(listing);
+        detail.hidden = false;
+        document.title = (listing.formattedAddress || listing.addressLine1 || 'Property') + ' | The Banks Group';
+      }
+
+      function findAndShow(listings) {
+        return Array.isArray(listings)
+          ? listings.find(function (l) { return String(l.id) === String(id); })
+          : null;
+      }
+
+      fetchListings()
+        .then(function (listings) {
+          var listing = findAndShow(listings);
+          if (listing) {
+            displayListing(listing);
+            return;
+          }
+          return fetchSoldListings().then(function (sold) {
+            listing = findAndShow(sold);
+            if (listing) {
+              displayListing(listing);
+              return;
+            }
+            if (loading) loading.hidden = true;
+            showError('Property not found. It may have been removed from the market.');
+          });
+        })
+        .catch(function (err) {
+          console.error('Listing fetch failed:', err);
+          showError('Unable to load property. Please try again later.');
+        });
+    })();
+  </script>
+</body>
+</html>

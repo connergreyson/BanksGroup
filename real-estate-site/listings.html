@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Listings | The Banks Group</title>
+  <meta name="description" content="Browse current residential and commercial listings. Updated daily.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">The Banks Group</a>
+      <nav class="nav">
+        <a href="index.html#services">Services</a>
+        <a href="listings.html">Listings</a>
+        <a href="index.html#about">About</a>
+        <a href="index.html#contact" class="nav-cta">Get Started</a>
+      </nav>
+      <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main class="listings-main">
+    <section class="listings-hero">
+      <div class="container">
+        <h1><em>Listings</em></h1>
+        <p class="section-intro">Browse homes and properties. Updated daily at noon.</p>
+        <div class="listings-tabs" role="tablist" aria-label="Listing type">
+          <button type="button" class="listings-tab listings-tab-active" role="tab" aria-selected="true" aria-controls="listings-current-panel" id="listings-current-tab">Current Listings</button>
+          <button type="button" class="listings-tab" role="tab" aria-selected="false" aria-controls="listings-past-panel" id="listings-past-tab">Past Listings</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="listings-grid-section">
+      <div class="container">
+        <div id="listings-loading" class="listings-loading" aria-live="polite">Loading listings…</div>
+        <div id="listings-error" class="listings-error" role="alert" hidden></div>
+        <div id="listings-current-panel" class="listings-panel" role="tabpanel" aria-labelledby="listings-current-tab" hidden>
+          <div id="listings-grid" class="listings-grid" aria-label="Current property listings"></div>
+        </div>
+        <div id="listings-past-panel" class="listings-panel" role="tabpanel" aria-labelledby="listings-past-tab" hidden>
+          <div id="listings-sold-loading" class="listings-loading" aria-live="polite">Loading past listings…</div>
+          <div id="listings-sold-error" class="listings-error" role="alert" hidden></div>
+          <div id="listings-sold-grid" class="listings-grid" aria-label="Sold property listings"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="index.html" class="logo">The Banks Group</a>
+        <p class="footer-tagline">Residential • Commercial • Personal Service</p>
+      </div>
+      <nav class="footer-nav">
+        <div class="footer-col">
+          <span class="footer-col-title">Company</span>
+          <a href="index.html#about">About</a>
+          <a href="index.html#services">Services</a>
+          <a href="listings.html">Listings</a>
+          <a href="index.html#contact">Contact</a>
+        </div>
+        <div class="footer-col">
+          <span class="footer-col-title">Services</span>
+          <a href="index.html#contact">Residential</a>
+          <a href="index.html#contact">Commercial</a>
+          <a href="index.html#contact">Other</a>
+        </div>
+      </nav>
+      <div class="footer-contact">
+        <a href="tel:+15126085246">(512) 608-5246</a>
+        <a href="mailto:tracy.banks@compass.com">tracy.banks@compass.com</a>
+      </div>
+    </div>
+    <p class="footer-legal">© The Banks Group. All rights reserved.</p>
+  </footer>
+
+  <script src="listings.js"></script>
+  <script src="script.js"></script>
+  <script>
+    (function () {
+      'use strict';
+      var loading = document.getElementById('listings-loading');
+      var error = document.getElementById('listings-error');
+      var grid = document.getElementById('listings-grid');
+      var soldLoading = document.getElementById('listings-sold-loading');
+      var soldError = document.getElementById('listings-sold-error');
+      var soldGrid = document.getElementById('listings-sold-grid');
+      var currentPanel = document.getElementById('listings-current-panel');
+      var pastPanel = document.getElementById('listings-past-panel');
+      var currentTab = document.getElementById('listings-current-tab');
+      var pastTab = document.getElementById('listings-past-tab');
+
+      function showError(el, loadingEl, gridEl, msg) {
+        if (loadingEl) loadingEl.hidden = true;
+        if (gridEl) gridEl.hidden = true;
+        if (el) {
+          el.textContent = msg;
+          el.hidden = false;
+        }
+      }
+
+      function showGrid(el, loadingEl, errorEl, gridEl, listings) {
+        if (loadingEl) loadingEl.hidden = true;
+        if (errorEl) errorEl.hidden = true;
+        if (gridEl) {
+          gridEl.innerHTML = renderListingGrid(listings);
+          gridEl.hidden = false;
+        }
+      }
+
+      function switchTab(toPast) {
+        if (!currentTab || !pastTab || !currentPanel || !pastPanel) return;
+        currentTab.classList.toggle('listings-tab-active', !toPast);
+        currentTab.setAttribute('aria-selected', !toPast);
+        pastTab.classList.toggle('listings-tab-active', toPast);
+        pastTab.setAttribute('aria-selected', toPast);
+        currentPanel.hidden = toPast;
+        pastPanel.hidden = !toPast;
+      }
+
+      if (currentTab) {
+        currentTab.addEventListener('click', function () { switchTab(false); });
+      }
+      if (pastTab) {
+        pastTab.addEventListener('click', function () { switchTab(true); });
+      }
+
+      fetchListings()
+        .then(function (listings) {
+          if (loading) loading.hidden = true;
+          if (error) error.hidden = true;
+          if (currentPanel) {
+            currentPanel.hidden = false;
+            if (grid) {
+              grid.innerHTML = renderListingGrid(listings);
+            }
+          }
+        })
+        .catch(function (err) {
+          console.error('Listings fetch failed:', err);
+          showError(error, loading, grid, 'Unable to load listings. Please try again later.');
+          if (currentPanel) currentPanel.hidden = false;
+        });
+
+      fetchSoldListings()
+        .then(function (listings) {
+          if (soldLoading) soldLoading.hidden = true;
+          if (soldError) soldError.hidden = true;
+          if (soldGrid) {
+            soldGrid.innerHTML = renderListingGrid(listings, {
+              emptyMessage: 'No past listings yet. Check back soon.'
+            });
+          }
+        })
+        .catch(function (err) {
+          console.error('Sold listings fetch failed:', err);
+          showError(soldError, soldLoading, soldGrid, 'Unable to load past listings. Please try again later.');
+        });
+    })();
+  </script>
+</body>
+</html>

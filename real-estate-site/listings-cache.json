@@ -1,0 +1,59 @@
+[
+  {
+    "id": "2992835731",
+    "formattedAddress": "2903 Bryco Cv, Round Rock, Texas, 78681",
+    "addressLine1": "2903 Bryco Cv",
+    "price": 785000,
+    "bedrooms": 4,
+    "bathrooms": 4,
+    "squareFootage": 3499,
+    "lotSize": 11748,
+    "propertyType": "single_family",
+    "status": "for_sale",
+    "listingAgent": {
+      "name": null,
+      "phone": null,
+      "email": null,
+      "website": null
+    },
+    "primaryPhoto": "http://ap.rdcpix.com/21810d1e2c9f43f72a3b7e67e403a18el-m4168445712s.jpg"
+  },
+  {
+    "id": "2992446093",
+    "formattedAddress": "1940 Blue River Dr, Leander, Texas, 78641",
+    "addressLine1": "1940 Blue River Dr",
+    "price": 385000,
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "squareFootage": 2248,
+    "lotSize": 4400,
+    "propertyType": "single_family",
+    "status": "for_sale",
+    "listingAgent": {
+      "name": null,
+      "phone": null,
+      "email": null,
+      "website": null
+    },
+    "primaryPhoto": "http://ap.rdcpix.com/7319c68ce212f11ff2f0eb73b3b0e18fl-m3947893606s.jpg"
+  },
+  {
+    "id": "2990280878",
+    "formattedAddress": "529 Peace Dr, Liberty Hill, Texas, 78642",
+    "addressLine1": "529 Peace Dr",
+    "price": 349500,
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "squareFootage": 1931,
+    "lotSize": 3733,
+    "propertyType": "townhomes",
+    "status": "for_sale",
+    "listingAgent": {
+      "name": null,
+      "phone": null,
+      "email": null,
+      "website": null
+    },
+    "primaryPhoto": "http://ap.rdcpix.com/75c4c8c16dea66826be8819fff06e5a5l-m56381435s.jpg"
+  }
+]
