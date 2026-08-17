@@ -9,6 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
+  <link rel="preload" href="assets/videos/austin-skyline.mp4" as="video" type="video/mp4">
 </head>
 <body class="home">
   <header class="header">
@@ -33,7 +34,7 @@
   <main>
     <section class="hero">
       <div class="hero-video-wrap" aria-hidden="true">
-        <video class="hero-video" id="hero-video" autoplay muted loop playsinline preload="metadata">
+        <video class="hero-video" id="hero-video" autoplay muted loop playsinline preload="auto">
           <source src="assets/videos/austin-skyline.mp4" type="video/mp4">
         </video>
         <div class="hero-video-overlay"></div>

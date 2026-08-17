@@ -367,12 +367,12 @@ body.home .logo-lockup:hover .logo-crop .logo-img {
   position: absolute;
   inset: 0;
   z-index: 0;
-  /* Shows if video missing or still loading */
+  /* Dark fallback while the hero video loads or if it fails */
   background: linear-gradient(
     165deg,
-    var(--color-bg-elevated) 0%,
-    var(--color-bg) 45%,
-    #dfe4e8 100%
+    #0a0a0a 0%,
+    #141414 45%,
+    #1a1a1a 100%
   );
 }
 
@@ -386,6 +386,13 @@ body.home .logo-lockup:hover .logo-crop .logo-img {
   height: auto;
   transform: translate(-50%, -50%);
   object-fit: cover;
+  z-index: 0;
+  opacity: 0;
+  transition: opacity 0.8s ease;
+}
+
+.hero-video.is-ready {
+  opacity: 1;
 }
 
 .hero-video-overlay {
@@ -393,9 +400,9 @@ body.home .logo-lockup:hover .logo-crop .logo-img {
   inset: 0;
   background: linear-gradient(
     165deg,
-    rgba(0, 0, 0, 0.45) 0%,
-    rgba(0, 0, 0, 0.35) 40%,
-    rgba(0, 0, 0, 0.55) 100%
+    rgba(0, 0, 0, 0.55) 0%,
+    rgba(0, 0, 0, 0.45) 40%,
+    rgba(0, 0, 0, 0.65) 100%
   );
   z-index: 1;
 }

@@ -38,6 +38,7 @@
         function onFbMeta() {
           heroVideo.removeEventListener('loadedmetadata', onFbMeta);
           applyHeroSlowMotion();
+          markHeroReady();
           tryHeroPlay();
         },
         false
@@ -45,9 +46,17 @@
       tryHeroPlay();
     }
 
+    function markHeroReady() {
+      heroVideo.classList.add('is-ready');
+    }
+
     heroVideo.addEventListener('loadedmetadata', function () {
       applyHeroSlowMotion();
     });
+    heroVideo.addEventListener('canplay', markHeroReady, { once: true });
+    if (heroVideo.readyState >= 2) {
+      markHeroReady();
+    }
     applyHeroSlowMotion();
 
     heroVideo.addEventListener('error', switchToHeroFallback);
