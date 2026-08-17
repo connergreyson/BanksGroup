@@ -196,6 +196,46 @@
     statsValue.textContent = targetValue;
   }
 
+  // Blog carousel on homepage
+  var blogCarousel = document.getElementById('blog-carousel');
+  var blogPrev = document.getElementById('blog-prev');
+  var blogNext = document.getElementById('blog-next');
+
+  if (blogCarousel && window.BLOGS && window.renderBlogCard) {
+    blogCarousel.innerHTML = BLOGS.map(function (blog) {
+      return renderBlogCard(blog);
+    }).join('');
+
+    function updateBlogNavButtons() {
+      if (!blogPrev || !blogNext) return;
+      var maxScroll = blogCarousel.scrollWidth - blogCarousel.clientWidth;
+      blogPrev.disabled = blogCarousel.scrollLeft <= 4;
+      blogNext.disabled = blogCarousel.scrollLeft >= maxScroll - 4;
+    }
+
+    function scrollBlogCarousel(direction) {
+      var card = blogCarousel.querySelector('.blog-card');
+      var scrollAmount = card ? card.offsetWidth + 24 : 360;
+      blogCarousel.scrollBy({ left: direction * scrollAmount, behavior: 'smooth' });
+    }
+
+    if (blogPrev) {
+      blogPrev.addEventListener('click', function () {
+        scrollBlogCarousel(-1);
+      });
+    }
+
+    if (blogNext) {
+      blogNext.addEventListener('click', function () {
+        scrollBlogCarousel(1);
+      });
+    }
+
+    blogCarousel.addEventListener('scroll', updateBlogNavButtons, { passive: true });
+    window.addEventListener('resize', updateBlogNavButtons);
+    updateBlogNavButtons();
+  }
+
   // Contact form: POST to Formspree, show success/error without leaving page
   var form = document.getElementById('contact-form');
   if (form) {

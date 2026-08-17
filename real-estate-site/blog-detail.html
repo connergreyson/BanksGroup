@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Property Details | The Banks Group</title>
-  <meta name="description" content="Property details and contact information.">
+  <title>Article | The Banks Group</title>
+  <meta name="description" content="Real estate insights from The Banks Group in Austin, Texas.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -31,10 +31,10 @@
     </div>
   </header>
 
-  <main class="listing-detail-main">
-    <div id="listing-loading" class="listing-detail-loading" aria-live="polite">Loading property…</div>
-    <div id="listing-error" class="listing-detail-error" role="alert" hidden></div>
-    <article id="listing-detail" class="listing-detail" hidden aria-label="Property details"></article>
+  <main class="blog-detail-main">
+    <div id="blog-loading" class="blog-detail-loading" aria-live="polite">Loading article…</div>
+    <div id="blog-error" class="blog-detail-error" role="alert" hidden></div>
+    <article id="blog-detail" class="blog-detail" hidden aria-label="Blog article"></article>
   </main>
 
   <footer class="footer">
@@ -73,16 +73,16 @@
     <p class="footer-legal">© The Banks Group. All rights reserved.</p>
   </footer>
 
-  <script src="listings.js"></script>
+  <script src="blogs.js"></script>
   <script src="script.js"></script>
   <script>
     (function () {
       'use strict';
       var params = new URLSearchParams(window.location.search);
       var id = params.get('id');
-      var loading = document.getElementById('listing-loading');
-      var error = document.getElementById('listing-error');
-      var detail = document.getElementById('listing-detail');
+      var loading = document.getElementById('blog-loading');
+      var error = document.getElementById('blog-error');
+      var detail = document.getElementById('blog-detail');
 
       function showError(msg) {
         if (loading) loading.hidden = true;
@@ -94,45 +94,26 @@
       }
 
       if (!id) {
-        showError('No property specified. Return to listings to browse.');
+        showError('No article specified. Return to the blog to browse stories.');
         return;
       }
 
-      function displayListing(listing) {
-        if (loading) loading.hidden = true;
-        if (error) error.hidden = true;
-        detail.innerHTML = renderListingDetail(listing);
-        detail.hidden = false;
-        document.title = (listing.formattedAddress || listing.addressLine1 || 'Property') + ' | The Banks Group';
+      var blog = getBlogById(id);
+      if (!blog) {
+        showError('Article not found. It may have been removed.');
+        return;
       }
 
-      function findAndShow(listings) {
-        return Array.isArray(listings)
-          ? listings.find(function (l) { return String(l.id) === String(id); })
-          : null;
-      }
+      if (loading) loading.hidden = true;
+      if (error) error.hidden = true;
+      detail.innerHTML = renderBlogDetail(blog);
+      detail.hidden = false;
+      document.title = blog.title + ' | The Banks Group';
 
-      fetchListings()
-        .then(function (listings) {
-          var listing = findAndShow(listings);
-          if (listing) {
-            displayListing(listing);
-            return;
-          }
-          return fetchSoldListings().then(function (sold) {
-            listing = findAndShow(sold);
-            if (listing) {
-              displayListing(listing);
-              return;
-            }
-            if (loading) loading.hidden = true;
-            showError('Property not found. It may have been removed from the market.');
-          });
-        })
-        .catch(function (err) {
-          console.error('Listing fetch failed:', err);
-          showError('Unable to load property. Please try again later.');
-        });
+      var metaDesc = document.querySelector('meta[name="description"]');
+      if (metaDesc) {
+        metaDesc.setAttribute('content', blog.excerpt);
+      }
     })();
   </script>
 </body>

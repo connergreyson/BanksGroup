@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Property Details | The Banks Group</title>
-  <meta name="description" content="Property details and contact information.">
+  <title>Blog | The Banks Group</title>
+  <meta name="description" content="Real estate insights, buyer tips, and market updates from The Banks Group in Austin, Texas.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -31,10 +31,19 @@
     </div>
   </header>
 
-  <main class="listing-detail-main">
-    <div id="listing-loading" class="listing-detail-loading" aria-live="polite">Loading property…</div>
-    <div id="listing-error" class="listing-detail-error" role="alert" hidden></div>
-    <article id="listing-detail" class="listing-detail" hidden aria-label="Property details"></article>
+  <main class="blog-main">
+    <section class="blog-hero">
+      <div class="container">
+        <h1>Real estate <em>stories</em></h1>
+        <p class="section-intro">Practical advice for buyers, sellers, and investors in the Austin market.</p>
+      </div>
+    </section>
+
+    <section class="blog-grid-section" aria-label="Blog posts">
+      <div class="container">
+        <div id="blog-grid" class="blog-grid"></div>
+      </div>
+    </section>
   </main>
 
   <footer class="footer">
@@ -73,66 +82,17 @@
     <p class="footer-legal">© The Banks Group. All rights reserved.</p>
   </footer>
 
-  <script src="listings.js"></script>
+  <script src="blogs.js"></script>
   <script src="script.js"></script>
   <script>
     (function () {
       'use strict';
-      var params = new URLSearchParams(window.location.search);
-      var id = params.get('id');
-      var loading = document.getElementById('listing-loading');
-      var error = document.getElementById('listing-error');
-      var detail = document.getElementById('listing-detail');
-
-      function showError(msg) {
-        if (loading) loading.hidden = true;
-        if (detail) detail.hidden = true;
-        if (error) {
-          error.textContent = msg;
-          error.hidden = false;
-        }
+      var grid = document.getElementById('blog-grid');
+      if (grid && window.BLOGS) {
+        grid.innerHTML = BLOGS.map(function (blog) {
+          return renderBlogCard(blog);
+        }).join('');
       }
-
-      if (!id) {
-        showError('No property specified. Return to listings to browse.');
-        return;
-      }
-
-      function displayListing(listing) {
-        if (loading) loading.hidden = true;
-        if (error) error.hidden = true;
-        detail.innerHTML = renderListingDetail(listing);
-        detail.hidden = false;
-        document.title = (listing.formattedAddress || listing.addressLine1 || 'Property') + ' | The Banks Group';
-      }
-
-      function findAndShow(listings) {
-        return Array.isArray(listings)
-          ? listings.find(function (l) { return String(l.id) === String(id); })
-          : null;
-      }
-
-      fetchListings()
-        .then(function (listings) {
-          var listing = findAndShow(listings);
-          if (listing) {
-            displayListing(listing);
-            return;
-          }
-          return fetchSoldListings().then(function (sold) {
-            listing = findAndShow(sold);
-            if (listing) {
-              displayListing(listing);
-              return;
-            }
-            if (loading) loading.hidden = true;
-            showError('Property not found. It may have been removed from the market.');
-          });
-        })
-        .catch(function (err) {
-          console.error('Listing fetch failed:', err);
-          showError('Unable to load property. Please try again later.');
-        });
     })();
   </script>
 </body>
