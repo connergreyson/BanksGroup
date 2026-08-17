@@ -78,7 +78,7 @@ function renderListingDetail(listing) {
   var agentEmail = escapeHtml(agent.email || '');
   var agentWebsite = escapeHtml(agent.website || '');
   var hoaFee = listing.hoa && listing.hoa.fee ? '$' + listing.hoa.fee + '/mo' : '';
-  var contactMailto = 'mailto:tracy.banks@compass.com?subject=Inquiry%20about%20' + encodeURIComponent(addr);
+  var contactMailto = 'mailto:Banksgroup@compass.com?subject=Inquiry%20about%20' + encodeURIComponent(addr);
 
   var rows = [
     ['Bedrooms', beds],

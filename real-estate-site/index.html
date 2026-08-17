@@ -7,13 +7,17 @@
   <meta name="description" content="Trusted real estate professionals for residential sales, commercial sales, and property services. Contact us directly for a personalized experience.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body class="home">
   <header class="header">
     <div class="container header-inner">
-      <a href="#" class="logo">The Banks Group</a>
+      <a href="index.html" class="logo logo-lockup">
+        <span class="logo-crop">
+          <img src="assets/images/logo.png" alt="The Banks Group" class="logo-img" width="1008" height="558">
+        </span>
+      </a>
       <nav class="nav">
         <a href="#services">Services</a>
         <a href="listings.html">Listings</a>
@@ -29,16 +33,14 @@
   <main>
     <section class="hero">
       <div class="hero-video-wrap" aria-hidden="true">
-        <video class="hero-video" id="hero-video" autoplay muted loop playsinline>
-          <source src="assets/videos/iStock-2173552718.mp4" type="video/mp4">
-          <source src="assets/videos/iStock-2173552718.mov" type="video/quicktime">
-          <source src="https://assets.mixkit.co/videos/49828/49828-720.mp4" type="video/mp4">
+        <video class="hero-video" id="hero-video" autoplay muted loop playsinline preload="metadata">
+          <source src="assets/videos/austin-skyline.mp4" type="video/mp4">
         </video>
         <div class="hero-video-overlay"></div>
       </div>
       <div class="container hero-content">
         <h1>A <em>higher standard</em> in real estate</h1>
-        <p class="hero-sub">Residential, commercial, and investment. All under one roof—direct, personal, no middlemen.</p>
+        <p class="hero-sub">Serving people with integrity, faith, and a genuine love for helping you find home</p>
         <a href="listings.html" class="btn btn-primary hero-cta-link">Browse listings</a>
         <form class="hero-cta" id="hero-form">
           <input type="email" name="email" placeholder="Email" required aria-label="Email address">
@@ -259,13 +261,16 @@
         <div class="apply-inner">
           <div class="contact-info">
             <div class="contact-details">
-              <a href="tel:+15126085246" class="contact-item">
+              <div class="contact-item">
                 <span class="contact-label">Phone</span>
-                <span class="contact-value">(512) 608-5246</span>
-              </a>
-              <a href="mailto:tracy.banks@compass.com" class="contact-item">
+                <span class="contact-value contact-phone-numbers">
+                  <a href="tel:+15126895048">512-689-5048</a>
+                  <a href="tel:+15127995156">512-799-5156</a>
+                </span>
+              </div>
+              <a href="mailto:Banksgroup@compass.com" class="contact-item">
                 <span class="contact-label">Email</span>
-                <span class="contact-value">tracy.banks@compass.com</span>
+                <span class="contact-value">Banksgroup@compass.com</span>
               </a>
               <p class="contact-item">
                 <span class="contact-label">Office</span>
@@ -290,7 +295,7 @@
               </a>
             </div>
           </div>
-          <!-- Recipients: add tracy.banks@compass.com and banksgroup@compass.com in Formspree → form settings → notifications -->
+          <!-- Recipients: add Banksgroup@compass.com in Formspree → form settings → notifications -->
           <form class="contact-form" id="contact-form" action="https://formspree.io/f/mjgpwdjj" method="POST">
             <label for="name">Name</label>
             <input type="text" id="name" name="name" required placeholder="Your name">
@@ -319,7 +324,12 @@
   <footer class="footer">
     <div class="container footer-inner">
       <div class="footer-brand">
-        <a href="#" class="logo">The Banks Group</a>
+        <a href="index.html" class="footer-logo-link">
+          <span class="logo-crop logo-crop--footer">
+            <img src="assets/images/logo.png" alt="The Banks Group" class="logo-img" width="1008" height="558" loading="lazy">
+          </span>
+        </a>
+        <p class="footer-brand-name">The Banks Group</p>
         <p class="footer-tagline">Residential • Commercial • Personal Service</p>
       </div>
       <nav class="footer-nav">
@@ -338,8 +348,9 @@
         </div>
       </nav>
       <div class="footer-contact">
-        <a href="tel:+15126085246">(512) 608-5246</a>
-        <a href="mailto:tracy.banks@compass.com">tracy.banks@compass.com</a>
+        <a href="tel:+15126895048">512-689-5048</a>
+        <a href="tel:+15127995156">512-799-5156</a>
+        <a href="mailto:Banksgroup@compass.com">Banksgroup@compass.com</a>
       </div>
     </div>
     <p class="footer-legal">© The Banks Group. All rights reserved.</p>

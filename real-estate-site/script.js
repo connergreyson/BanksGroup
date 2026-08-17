@@ -1,13 +1,61 @@
 (function () {
   'use strict';
 
-  // Hero video: slow playback
+  // Hero: browsers need H.264/AAC MP4. ProRes does not decode. Fallback if local file missing/bad codec.
+  var HERO_FALLBACK =
+    'https://assets.mixkit.co/videos/49828/49828-720.mp4';
   var heroVideo = document.getElementById('hero-video');
   if (heroVideo) {
-    heroVideo.addEventListener('loadedmetadata', function () {
+    function applyHeroSlowMotion() {
       heroVideo.playbackRate = 0.75;
+    }
+
+    function tryHeroPlay() {
+      var playAttempt = heroVideo.play();
+      if (playAttempt && typeof playAttempt.catch === 'function') {
+        playAttempt.catch(function (err) {
+          console.error('Hero video play failed:', err);
+        });
+      }
+    }
+
+    function switchToHeroFallback() {
+      if (heroVideo.dataset.heroFallback === '1') {
+        return;
+      }
+      heroVideo.dataset.heroFallback = '1';
+      console.warn(
+        'Hero local video failed (export H.264/AAC MP4, not ProRes). Using fallback clip.'
+      );
+      while (heroVideo.firstChild) {
+        heroVideo.removeChild(heroVideo.firstChild);
+      }
+      heroVideo.removeAttribute('src');
+      heroVideo.src = HERO_FALLBACK;
+      heroVideo.load();
+      heroVideo.addEventListener(
+        'loadedmetadata',
+        function onFbMeta() {
+          heroVideo.removeEventListener('loadedmetadata', onFbMeta);
+          applyHeroSlowMotion();
+          tryHeroPlay();
+        },
+        false
+      );
+      tryHeroPlay();
+    }
+
+    heroVideo.addEventListener('loadedmetadata', function () {
+      applyHeroSlowMotion();
     });
-    heroVideo.playbackRate = 0.75;
+    applyHeroSlowMotion();
+
+    heroVideo.addEventListener('error', switchToHeroFallback);
+    if (heroVideo.error) {
+      switchToHeroFallback();
+    }
+
+    tryHeroPlay();
   }
 
   // Mobile menu
