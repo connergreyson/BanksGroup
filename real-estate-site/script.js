@@ -201,39 +201,15 @@
   var blogPrev = document.getElementById('blog-prev');
   var blogNext = document.getElementById('blog-next');
 
-  if (blogCarousel && window.BLOGS && window.renderBlogCard) {
-    blogCarousel.innerHTML = BLOGS.map(function (blog) {
-      return renderBlogCard(blog);
-    }).join('');
-
-    function updateBlogNavButtons() {
-      if (!blogPrev || !blogNext) return;
-      var maxScroll = blogCarousel.scrollWidth - blogCarousel.clientWidth;
-      blogPrev.disabled = blogCarousel.scrollLeft <= 4;
-      blogNext.disabled = blogCarousel.scrollLeft >= maxScroll - 4;
-    }
-
-    function scrollBlogCarousel(direction) {
-      var card = blogCarousel.querySelector('.blog-card');
-      var scrollAmount = card ? card.offsetWidth + 24 : 360;
-      blogCarousel.scrollBy({ left: direction * scrollAmount, behavior: 'smooth' });
-    }
-
-    if (blogPrev) {
-      blogPrev.addEventListener('click', function () {
-        scrollBlogCarousel(-1);
+  if (blogCarousel && window.loadBlogs && window.initBlogCarousel) {
+    loadBlogs()
+      .then(function (blogs) {
+        initBlogCarousel(blogCarousel, blogPrev, blogNext, blogs);
+      })
+      .catch(function (err) {
+        console.error('Homepage blog preview failed:', err);
+        blogCarousel.innerHTML = '<p class="blog-empty">Blog posts are temporarily unavailable.</p>';
       });
-    }
-
-    if (blogNext) {
-      blogNext.addEventListener('click', function () {
-        scrollBlogCarousel(1);
-      });
-    }
-
-    blogCarousel.addEventListener('scroll', updateBlogNavButtons, { passive: true });
-    window.addEventListener('resize', updateBlogNavButtons);
-    updateBlogNavButtons();
   }
 
   // Contact form: POST to Formspree, show success/error without leaving page

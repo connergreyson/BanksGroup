@@ -41,7 +41,9 @@
 
     <section class="blog-grid-section" aria-label="Blog posts">
       <div class="container">
-        <div id="blog-grid" class="blog-grid"></div>
+        <div id="blog-loading" class="blog-loading" aria-live="polite">Loading blog posts…</div>
+        <div id="blog-error" class="blog-error" role="alert" hidden></div>
+        <div id="blog-grid" class="blog-grid" hidden></div>
       </div>
     </section>
   </main>
@@ -88,11 +90,30 @@
     (function () {
       'use strict';
       var grid = document.getElementById('blog-grid');
-      if (grid && window.BLOGS) {
-        grid.innerHTML = BLOGS.map(function (blog) {
-          return renderBlogCard(blog);
-        }).join('');
+      var loading = document.getElementById('blog-loading');
+      var error = document.getElementById('blog-error');
+
+      function showError(msg) {
+        if (loading) loading.hidden = true;
+        if (grid) grid.hidden = true;
+        if (error) {
+          error.textContent = msg;
+          error.hidden = false;
+        }
       }
+
+      loadBlogs()
+        .then(function (blogs) {
+          if (loading) loading.hidden = true;
+          if (error) error.hidden = true;
+          if (grid) {
+            renderBlogGrid(grid, blogs);
+            grid.hidden = false;
+          }
+        })
+        .catch(function () {
+          showError('Unable to load blog posts. Please try again later.');
+        });
     })();
   </script>
 </body>

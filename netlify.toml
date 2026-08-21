@@ -2,3 +2,9 @@
 # so automated listing-cache commits update the live site.
 [build]
   publish = "real-estate-site"
+  command = "python3 scripts/build-blogs.py"
+
+[[redirects]]
+  from = "/admin/*"
+  to = "/admin/index.html"
+  status = 200

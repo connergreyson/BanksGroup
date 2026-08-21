@@ -98,22 +98,28 @@
         return;
       }
 
-      var blog = getBlogById(id);
-      if (!blog) {
-        showError('Article not found. It may have been removed.');
-        return;
-      }
+      loadBlogs()
+        .then(function () {
+          var blog = getBlogById(id);
+          if (!blog) {
+            showError('Article not found. It may have been removed.');
+            return;
+          }
 
-      if (loading) loading.hidden = true;
-      if (error) error.hidden = true;
-      detail.innerHTML = renderBlogDetail(blog);
-      detail.hidden = false;
-      document.title = blog.title + ' | The Banks Group';
+          if (loading) loading.hidden = true;
+          if (error) error.hidden = true;
+          detail.innerHTML = renderBlogDetail(blog);
+          detail.hidden = false;
+          document.title = blog.title + ' | The Banks Group';
 
-      var metaDesc = document.querySelector('meta[name="description"]');
-      if (metaDesc) {
-        metaDesc.setAttribute('content', blog.excerpt);
-      }
+          var metaDesc = document.querySelector('meta[name="description"]');
+          if (metaDesc) {
+            metaDesc.setAttribute('content', blog.excerpt);
+          }
+        })
+        .catch(function () {
+          showError('Unable to load this article. Please try again later.');
+        });
     })();
   </script>
 </body>

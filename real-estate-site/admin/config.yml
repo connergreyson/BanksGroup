@@ -1,0 +1,64 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: real-estate-site/assets/images/blog
+public_folder: /assets/images/blog
+
+publish_mode: simple
+
+collections:
+  - name: blogs
+    label: Blog Posts
+    label_singular: Blog Post
+    folder: real-estate-site/content/blogs
+    create: true
+    slug: "{{fields.id}}"
+    extension: json
+    format: json
+    summary: "{{title}} — {{category}} ({{date}})"
+    sortable_fields: [date, title, category]
+    fields:
+      - label: URL Slug
+        name: id
+        widget: string
+        hint: Lowercase letters, numbers, and dashes only (example first-time-buyer-guide)
+        pattern: ["^[a-z0-9-]+$", "Use lowercase letters, numbers, and dashes only"]
+      - label: Title
+        name: title
+        widget: string
+      - label: Publish Date
+        name: date
+        widget: datetime
+        date_format: YYYY-MM-DD
+        time_format: false
+        default: ""
+      - label: Category
+        name: category
+        widget: select
+        options:
+          - Buyer
+          - Seller
+          - Home Owner
+          - Investor
+        default: Buyer
+      - label: Short Summary
+        name: excerpt
+        widget: text
+        hint: One or two sentences shown on the blog card
+      - label: Cover Photo
+        name: image
+        widget: image
+        allow_multiple: false
+        required: false
+      - label: Read Time (minutes)
+        name: readTime
+        widget: number
+        value_type: int
+        min: 1
+        max: 30
+        default: 4
+      - label: Article
+        name: body
+        widget: markdown
+        hint: Write your article here. Press Enter twice to start a new paragraph.
