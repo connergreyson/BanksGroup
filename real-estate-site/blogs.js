@@ -20,26 +20,22 @@
 
   function renderBlogCard(blog, options) {
     var opts = options || {};
-    var cardClass = 'blog-card' + (opts.featured ? ' blog-card--featured' : '');
+    var cardClass = 'blog-story-card';
+    if (opts.compact) cardClass += ' blog-story-card--compact';
     var href = 'blog-detail.html?id=' + encodeURIComponent(blog.id);
+    var excerpt = escapeHtml(blog.excerpt).replace(/\s+$/, '');
 
     return (
       '<article class="' + cardClass + '">' +
-        '<a href="' + href + '" class="blog-card-link" aria-label="Read: ' + escapeHtml(blog.title) + '">' +
-          '<div class="blog-card-image">' +
-            '<img src="' + escapeHtml(blog.image) + '" alt="" class="blog-card-img" width="400" height="260" loading="lazy">' +
-          '</div>' +
-          '<div class="blog-card-body">' +
-            '<span class="blog-card-category">' + escapeHtml(blog.category) + '</span>' +
-            '<h3 class="blog-card-title">' + escapeHtml(blog.title) + '</h3>' +
-            '<p class="blog-card-excerpt">' + escapeHtml(blog.excerpt) + '</p>' +
-            '<p class="blog-card-meta">' +
-              '<time datetime="' + escapeHtml(blog.date) + '">' + formatBlogDate(blog.date) + '</time>' +
-              '<span aria-hidden="true"> · </span>' +
-              '<span>' + blog.readTime + ' min read</span>' +
-            '</p>' +
-            '<span class="blog-card-more">Read more</span>' +
-          '</div>' +
+        '<a href="' + href + '" class="blog-story-link" aria-label="Read: ' + escapeHtml(blog.title) + '">' +
+          '<h3 class="blog-story-title">' + escapeHtml(blog.title) + '</h3>' +
+          '<p class="blog-story-excerpt">' + excerpt + ' <span class="blog-story-more">...more</span></p>' +
+          '<p class="blog-story-category">' + escapeHtml(blog.category) + '</p>' +
+          '<p class="blog-story-meta">' +
+            '<time datetime="' + escapeHtml(blog.date) + '">' + formatBlogDate(blog.date) + '</time>' +
+            '<span aria-hidden="true"> • </span>' +
+            '<span>' + blog.readTime + ' min read</span>' +
+          '</p>' +
         '</a>' +
       '</article>'
     );
@@ -49,22 +45,25 @@
     var paragraphs = blog.content.map(function (p) {
       return '<p>' + escapeHtml(p) + '</p>';
     }).join('');
+    var imageHtml = blog.image
+      ? '<div class="blog-detail-image">' +
+          '<img src="' + escapeHtml(blog.image) + '" alt="" class="blog-detail-img" width="1120" height="560">' +
+        '</div>'
+      : '';
 
     return (
       '<div class="container blog-detail-inner">' +
         '<a href="blog.html" class="blog-detail-back">← All stories</a>' +
         '<header class="blog-detail-header">' +
-          '<span class="blog-card-category">' + escapeHtml(blog.category) + '</span>' +
+          '<p class="blog-story-category">' + escapeHtml(blog.category) + '</p>' +
           '<h1>' + escapeHtml(blog.title) + '</h1>' +
           '<p class="blog-detail-meta">' +
             '<time datetime="' + escapeHtml(blog.date) + '">' + formatBlogDate(blog.date) + '</time>' +
-            '<span aria-hidden="true"> · </span>' +
+            '<span aria-hidden="true"> • </span>' +
             '<span>' + blog.readTime + ' min read</span>' +
           '</p>' +
         '</header>' +
-        '<div class="blog-detail-image">' +
-          '<img src="' + escapeHtml(blog.image) + '" alt="" class="blog-detail-img" width="1120" height="560">' +
-        '</div>' +
+        imageHtml +
         '<div class="blog-detail-content">' + paragraphs + '</div>' +
         '<div class="blog-detail-cta">' +
           '<p>Have questions about buying or selling in Austin?</p>' +
@@ -121,41 +120,49 @@
     }).join('');
   }
 
-  function initBlogCarousel(blogCarousel, blogPrev, blogNext, blogs) {
-    if (!blogCarousel || !blogs.length) return;
+  function filterBlogs(blogs, category, query) {
+    var filtered = blogs.slice();
 
-    blogCarousel.innerHTML = blogs.map(function (blog) {
-      return renderBlogCard(blog);
+    if (category && category !== 'all') {
+      filtered = filtered.filter(function (blog) {
+        return blog.category === category;
+      });
+    }
+
+    if (query) {
+      var needle = query.toLowerCase();
+      filtered = filtered.filter(function (blog) {
+        return (
+          blog.title.toLowerCase().indexOf(needle) !== -1 ||
+          blog.excerpt.toLowerCase().indexOf(needle) !== -1 ||
+          blog.category.toLowerCase().indexOf(needle) !== -1
+        );
+      });
+    }
+
+    return filtered;
+  }
+
+  function getBlogCategories(blogs) {
+    var categories = [];
+    blogs.forEach(function (blog) {
+      if (categories.indexOf(blog.category) === -1) {
+        categories.push(blog.category);
+      }
+    });
+    return categories.sort();
+  }
+
+  function initBlogCarousel(blogCarousel, blogs, options) {
+    var opts = options || {};
+    var limit = opts.limit || blogs.length;
+    var subset = blogs.slice(0, limit);
+
+    if (!blogCarousel || !subset.length) return;
+
+    blogCarousel.innerHTML = subset.map(function (blog) {
+      return renderBlogCard(blog, { compact: true });
     }).join('');
-
-    function updateBlogNavButtons() {
-      if (!blogPrev || !blogNext) return;
-      var maxScroll = blogCarousel.scrollWidth - blogCarousel.clientWidth;
-      blogPrev.disabled = blogCarousel.scrollLeft <= 4;
-      blogNext.disabled = blogCarousel.scrollLeft >= maxScroll - 4;
-    }
-
-    function scrollBlogCarousel(direction) {
-      var card = blogCarousel.querySelector('.blog-card');
-      var scrollAmount = card ? card.offsetWidth + 24 : 360;
-      blogCarousel.scrollBy({ left: direction * scrollAmount, behavior: 'smooth' });
-    }
-
-    if (blogPrev) {
-      blogPrev.addEventListener('click', function () {
-        scrollBlogCarousel(-1);
-      });
-    }
-
-    if (blogNext) {
-      blogNext.addEventListener('click', function () {
-        scrollBlogCarousel(1);
-      });
-    }
-
-    blogCarousel.addEventListener('scroll', updateBlogNavButtons, { passive: true });
-    window.addEventListener('resize', updateBlogNavButtons);
-    updateBlogNavButtons();
   }
 
   window.loadBlogs = loadBlogs;
@@ -164,5 +171,7 @@
   window.renderBlogDetail = renderBlogDetail;
   window.renderBlogGrid = renderBlogGrid;
   window.initBlogCarousel = initBlogCarousel;
+  window.filterBlogs = filterBlogs;
+  window.getBlogCategories = getBlogCategories;
   window.formatBlogDate = formatBlogDate;
 })();

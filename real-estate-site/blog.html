@@ -34,16 +34,29 @@
   <main class="blog-main">
     <section class="blog-hero">
       <div class="container">
-        <h1>Real estate <em>stories</em></h1>
-        <p class="section-intro">Practical advice for buyers, sellers, and investors in the Austin market.</p>
+        <h1>Insights from <em>The Banks Group</em>.</h1>
+        <p class="section-intro">Market updates, buying and selling guides, and honest advice for every step of your real estate journey in Central Texas.</p>
       </div>
     </section>
 
-    <section class="blog-grid-section" aria-label="Blog posts">
+    <section class="blog-toolbar-section">
+      <div class="container">
+        <div class="blog-toolbar">
+          <div class="blog-filters" id="blog-filters" role="tablist" aria-label="Filter blog posts by category"></div>
+          <label class="blog-search-wrap">
+            <span class="visually-hidden">Search blog posts</span>
+            <input type="search" id="blog-search" class="blog-search" placeholder="Search" aria-label="Search blog posts">
+          </label>
+        </div>
+      </div>
+    </section>
+
+    <section class="blog-list-section" aria-label="Blog posts">
       <div class="container">
         <div id="blog-loading" class="blog-loading" aria-live="polite">Loading blog posts…</div>
         <div id="blog-error" class="blog-error" role="alert" hidden></div>
-        <div id="blog-grid" class="blog-grid" hidden></div>
+        <div id="blog-list" class="blog-list" hidden></div>
+        <p id="blog-no-results" class="blog-empty" hidden>No posts match your search.</p>
       </div>
     </section>
   </main>
@@ -89,26 +102,78 @@
   <script>
     (function () {
       'use strict';
-      var grid = document.getElementById('blog-grid');
+
+      var list = document.getElementById('blog-list');
       var loading = document.getElementById('blog-loading');
       var error = document.getElementById('blog-error');
+      var noResults = document.getElementById('blog-no-results');
+      var filters = document.getElementById('blog-filters');
+      var searchInput = document.getElementById('blog-search');
+      var allBlogs = [];
+      var activeCategory = 'all';
 
       function showError(msg) {
         if (loading) loading.hidden = true;
-        if (grid) grid.hidden = true;
+        if (list) list.hidden = true;
         if (error) {
           error.textContent = msg;
           error.hidden = false;
         }
       }
 
+      function renderFilters(categories) {
+        if (!filters) return;
+
+        var buttons = ['<button type="button" class="blog-filter blog-filter-active" data-category="all" aria-pressed="true">All</button>'];
+        categories.forEach(function (category) {
+          buttons.push(
+            '<button type="button" class="blog-filter" data-category="' + category + '" aria-pressed="false">' + category + '</button>'
+          );
+        });
+        filters.innerHTML = buttons.join('');
+
+        filters.addEventListener('click', function (event) {
+          var button = event.target.closest('.blog-filter');
+          if (!button) return;
+
+          activeCategory = button.getAttribute('data-category') || 'all';
+          filters.querySelectorAll('.blog-filter').forEach(function (item) {
+            var isActive = item === button;
+            item.classList.toggle('blog-filter-active', isActive);
+            item.setAttribute('aria-pressed', String(isActive));
+          });
+          updateList();
+        });
+      }
+
+      function updateList() {
+        if (!list) return;
+
+        var query = searchInput ? searchInput.value.trim() : '';
+        var filtered = filterBlogs(allBlogs, activeCategory, query);
+
+        if (!filtered.length) {
+          list.innerHTML = '';
+          list.hidden = true;
+          if (noResults) noResults.hidden = false;
+          return;
+        }
+
+        if (noResults) noResults.hidden = true;
+        renderBlogGrid(list, filtered);
+        list.hidden = false;
+      }
+
       loadBlogs()
         .then(function (blogs) {
+          allBlogs = blogs;
           if (loading) loading.hidden = true;
           if (error) error.hidden = true;
-          if (grid) {
-            renderBlogGrid(grid, blogs);
-            grid.hidden = false;
+          renderFilters(getBlogCategories(blogs));
+          updateList();
+
+          if (searchInput) {
+            searchInput.addEventListener('input', updateList);
           }
         })
         .catch(function () {

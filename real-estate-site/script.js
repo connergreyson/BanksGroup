@@ -196,15 +196,13 @@
     statsValue.textContent = targetValue;
   }
 
-  // Blog carousel on homepage
+  // Blog carousel on homepage (latest 3 stories, T. Kerr style)
   var blogCarousel = document.getElementById('blog-carousel');
-  var blogPrev = document.getElementById('blog-prev');
-  var blogNext = document.getElementById('blog-next');
 
   if (blogCarousel && window.loadBlogs && window.initBlogCarousel) {
     loadBlogs()
       .then(function (blogs) {
-        initBlogCarousel(blogCarousel, blogPrev, blogNext, blogs);
+        initBlogCarousel(blogCarousel, blogs, { limit: 3 });
       })
       .catch(function (err) {
         console.error('Homepage blog preview failed:', err);

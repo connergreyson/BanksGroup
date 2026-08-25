@@ -1,78 +1,70 @@
 # Blog publishing for Marty & Tracy
 
-Your parents can write and publish blog posts from a simple admin page—no code required. Published posts appear automatically on the **Blogs** page that customers reach from the top menu.
+Your parents can write and publish blog posts from a simple admin page—no code required. Posts appear on the **Blogs** page (same style as professional real estate sites like T. Kerr Property Group).
 
-## Customer experience
+## What customers see
 
-1. Visitor clicks **Blogs** in the top navigation
-2. They see all published posts on `blog.html`
-3. Clicking a post opens the full article
+1. Click **Blogs** in the top menu
+2. Browse posts with title, summary, category, and date
+3. Click any post to read the full article
 
-## One-time setup (you do this once in Netlify)
+The homepage also shows the **3 latest posts** with a **More stories** button.
 
-These steps connect the admin login to your website:
+## One-time Netlify setup (you do this once)
 
-1. Open [Netlify](https://app.netlify.com) and select the Banks Group site
-2. Go to **Site configuration → Identity** and click **Enable Identity**
-3. Under Identity, open **Services → Git Gateway** and click **Enable Git Gateway**
-4. Go to **Identity → Invite users** and invite Marty and Tracy’s email addresses
-5. They will receive an email to set a password
+Your site must be connected to Netlify from GitHub first. Then:
 
-After this, the admin page is ready at:
+1. Open your site in [Netlify](https://app.netlify.com)
+2. Go to **Project configuration → Identity** → **Enable Identity**
+3. Under Identity, open **Services → Git Gateway** → **Enable Git Gateway**
+4. Go to **Identity → Invite users** and invite Marty and Tracy’s emails
 
-**`https://YOUR-SITE-URL/admin`**
+Admin URL (where Marty and Tracy write posts):
 
-Replace `YOUR-SITE-URL` with your live Netlify domain (for example `banksgroup.netlify.app` or your custom domain).
+**https://thebanks.group/admin**
 
-## How Marty & Tracy publish a weekly blog
+Public site (what customers see):
 
-1. Go to **`https://YOUR-SITE-URL/admin`**
-2. Log in with the email and password from the invite
+**https://thebanks.group**
+
+## How Marty & Tracy publish each week
+
+1. Go to **`/admin`** on the website
+2. Log in with their invited email and password
 3. Click **Blog Posts → New Blog Post**
-4. Fill in the form:
-   - **URL Slug** — short name for the link (example: `spring-market-update`)
-   - **Title** — headline customers will see
-   - **Publish Date** — when the post should show
-   - **Category** — Buyer, Seller, Home Owner, or Investor
-   - **Short Summary** — one or two sentences for the preview card
-   - **Cover Photo** — optional; upload a photo or leave blank
-   - **Read Time** — estimated minutes to read (usually 3–5)
-   - **Article** — the full blog text (press Enter twice between paragraphs)
+4. Fill in:
+   - **URL Slug** — short link name (example: `spring-market-update`)
+   - **Title** — headline customers see
+   - **Publish Date** — when the post should appear
+   - **Category** — Buyer, Seller, Home Owner, Investor, or Education
+   - **Short Summary** — 1–2 sentences shown on the card (like T. Kerr’s preview text)
+   - **Cover Photo** — optional (shows on the full article page only)
+   - **Read Time** — estimated minutes (usually 3–5)
+   - **Article** — full blog text. Press **Enter twice** between paragraphs.
 5. Click **Publish**
-6. Wait about 1–2 minutes for the site to rebuild; the new post will appear on the Blogs page
+6. Wait 1–2 minutes for the site to rebuild — the post appears under **Blogs**
 
-## Editing or removing a post
+## Editing or deleting a post
 
 1. Log in at `/admin`
 2. Click **Blog Posts**
-3. Select the post to edit or delete
-4. Click **Publish** again after saving changes
+3. Select the post
+4. Edit or delete, then click **Publish** again
 
-## Where content is stored
+## Tips for writing (like T. Kerr’s blog)
 
-| What | Location |
-|------|----------|
-| Blog source files (what the CMS edits) | `real-estate-site/content/blogs/*.json` |
-| Built file the website reads | `real-estate-site/blogs.json` (auto-generated on deploy) |
-| Uploaded photos | `real-estate-site/assets/images/blog/` |
-| Admin editor | `real-estate-site/admin/` |
-
-When a post is published in the admin, Netlify saves the JSON file to GitHub and runs the build script, which updates `blogs.json` on the live site.
-
-## Tips for writing posts
-
-- Use a clear, helpful title (questions work well, e.g. “What Should I Know Before Making an Offer?”)
-- Keep the summary to 1–2 sentences
+- Use question-style titles: “How Do I Know What My Home Is Worth?”
+- Keep summaries short and local: mention Austin or Central Texas when relevant
+- Pick the right category so customers can filter on the Blogs page
 - Separate paragraphs with a blank line in the Article field
-- Use categories consistently so readers can scan by topic
 
 ## Troubleshooting
 
-**“Failed to load” on the admin page**  
-Make sure Identity and Git Gateway are both enabled in Netlify.
+**Admin page won’t load or login fails**  
+Enable both Identity and Git Gateway in Netlify.
 
-**Post published but not on the website**  
-Wait 2–3 minutes for the deploy to finish, then hard-refresh the page (`Cmd+Shift+R` on Mac).
+**Post published but not visible**  
+Wait 2–3 minutes, then hard-refresh (`Cmd+Shift+R` on Mac).
 
 **Need help adding a post manually**  
-Send the title, summary, category, date, and article text; it can be added to `content/blogs/` as a JSON file.
+Send the title, summary, category, date, and article text — it can be added to `content/blogs/` as a JSON file.
