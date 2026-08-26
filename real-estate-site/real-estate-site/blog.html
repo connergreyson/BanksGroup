@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blogs | The Banks Group</title>
+  <meta name="description" content="Real estate insights from The Banks Group in Austin, Texas.">
+  <link rel="stylesheet" href="styles.css?v=20260825c">
+  <link rel="stylesheet" href="blog.css?v=20260825b">
+</head>
+<body>
+  <header class="header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo logo-lockup">
+        <span class="logo-crop">
+          <img src="assets/images/logo.png" alt="The Banks Group" class="logo-img" width="1008" height="558">
+        </span>
+      </a>
+      <nav class="nav">
+        <a href="index.html#services">Services</a>
+        <a href="listings.html">Listings</a>
+        <a href="blog.html">Blogs</a>
+        <a href="index.html#about">About</a>
+        <a href="index.html#contact" class="nav-cta">Get Started</a>
+      </nav>
+      <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main class="blog-main">
+    <div class="blog-ambient" aria-hidden="true">
+      <div class="blog-ambient__layer blog-ambient__orb blog-ambient__orb--1" data-parallax="0.16">
+        <span class="blog-ambient__orb-shape"></span>
+      </div>
+      <div class="blog-ambient__layer blog-ambient__orb blog-ambient__orb--2" data-parallax="-0.09">
+        <span class="blog-ambient__orb-shape"></span>
+      </div>
+      <div class="blog-ambient__layer blog-ambient__orb blog-ambient__orb--3" data-parallax="0.22">
+        <span class="blog-ambient__orb-shape"></span>
+      </div>
+      <div class="blog-ambient__layer blog-ambient__lines" data-parallax="0.07"></div>
+      <div class="blog-ambient__layer blog-ambient__grain"></div>
+    </div>
+
+    <div class="blog-main__inner">
+    <section class="blog-intro blog-hero" aria-label="Blog intro">
+      <div class="container">
+        <h1><em>Blogs</em></h1>
+        <p class="section-intro">Market updates, buying and selling guides, and honest advice for every step of your real estate journey in Central Texas.</p>
+        <div class="blog-intro__toolbar">
+          <div class="blog-toolbar">
+            <div class="blog-filters" id="blog-filters" aria-label="Filter blog posts by category"></div>
+            <label class="blog-search-wrap">
+              <span class="visually-hidden">Search blog posts</span>
+              <input type="search" id="blog-search" class="blog-search" placeholder="Search" aria-label="Search blog posts">
+            </label>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="blog-list-section" aria-label="Blog posts">
+      <div class="container">
+        <div id="blog-loading" class="blog-loading" aria-live="polite">Loading blog posts…</div>
+        <div id="blog-error" class="blog-error" role="alert" hidden></div>
+        <div id="blog-list" class="blog-list blog-grid" hidden></div>
+        <p id="blog-no-results" class="blog-empty" hidden>No posts match your search.</p>
+      </div>
+    </section>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="index.html" class="footer-logo-link">
+          <span class="logo-crop logo-crop--footer">
+            <img src="assets/images/logo.png" alt="The Banks Group" class="logo-img" width="1008" height="558" loading="lazy">
+          </span>
+        </a>
+        <p class="footer-brand-name">The Banks Group</p>
+        <p class="footer-tagline">Residential • Commercial • Personal Service</p>
+      </div>
+      <nav class="footer-nav">
+        <div class="footer-col">
+          <span class="footer-col-title">Company</span>
+          <a href="index.html#about">About</a>
+          <a href="index.html#services">Services</a>
+          <a href="listings.html">Listings</a>
+          <a href="blog.html">Blogs</a>
+          <a href="index.html#contact">Contact</a>
+        </div>
+        <div class="footer-col">
+          <span class="footer-col-title">Services</span>
+          <a href="index.html#contact">Residential</a>
+          <a href="index.html#contact">Commercial</a>
+          <a href="index.html#contact">Other</a>
+        </div>
+      </nav>
+      <div class="footer-contact">
+        <a href="tel:+15126895048">512-689-5048</a>
+        <a href="tel:+15127995156">512-799-5156</a>
+        <a href="mailto:Banksgroup@compass.com">Banksgroup@compass.com</a>
+      </div>
+    </div>
+    <p class="footer-legal">© The Banks Group. All rights reserved.</p>
+  </footer>
+
+  <script src="blogs.js"></script>
+  <script src="blog-ambient.js"></script>
+  <script src="script.js"></script>
+  <script>
+    (function () {
+      'use strict';
+      var list = document.getElementById('blog-list');
+      var loading = document.getElementById('blog-loading');
+      var error = document.getElementById('blog-error');
+      var noResults = document.getElementById('blog-no-results');
+      var filters = document.getElementById('blog-filters');
+      var searchInput = document.getElementById('blog-search');
+      var allBlogs = [];
+      var activeCategory = 'all';
+
+      function showError(msg) {
+        if (loading) loading.hidden = true;
+        if (list) list.hidden = true;
+        if (error) {
+          error.textContent = msg;
+          error.hidden = false;
+        }
+      }
+
+      function renderFilters(categories) {
+        if (!filters) return;
+        var preferred = ['Seller', 'Buyer', 'Investor', 'Home Owner', 'Education'];
+        var ordered = preferred.filter(function (cat) {
+          return categories.indexOf(cat) !== -1;
+        });
+        categories.forEach(function (cat) {
+          if (ordered.indexOf(cat) === -1) ordered.push(cat);
+        });
+
+        var html = ['<button type="button" class="blog-filter blog-filter-active" data-category="all">All</button>'];
+        ordered.forEach(function (category) {
+          html.push('<button type="button" class="blog-filter" data-category="' + category + '">' + category + '</button>');
+        });
+        filters.innerHTML = html.join('');
+        filters.addEventListener('click', function (event) {
+          var button = event.target.closest('.blog-filter');
+          if (!button) return;
+          activeCategory = button.getAttribute('data-category') || 'all';
+          filters.querySelectorAll('.blog-filter').forEach(function (item) {
+            item.classList.toggle('blog-filter-active', item === button);
+          });
+          updateList();
+        });
+      }
+
+      function updateList() {
+        var query = searchInput ? searchInput.value.trim() : '';
+        var filtered = filterBlogs(allBlogs, activeCategory, query);
+        if (!filtered.length) {
+          if (list) {
+            list.innerHTML = '';
+            list.hidden = true;
+          }
+          if (noResults) noResults.hidden = false;
+          return;
+        }
+        if (noResults) noResults.hidden = true;
+        renderBlogGrid(list, filtered);
+        if (list) list.hidden = false;
+      }
+
+      loadBlogs()
+        .then(function (blogs) {
+          allBlogs = blogs;
+          if (loading) loading.hidden = true;
+          renderFilters(getBlogCategories(blogs));
+          updateList();
+          if (searchInput) searchInput.addEventListener('input', updateList);
+        })
+        .catch(function () {
+          showError('Unable to load blog posts. Please try again later.');
+        });
+    })();
+  </script>
+</body>
+</html>

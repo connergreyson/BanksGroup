@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Property Details | The Banks Group</title>
+  <meta name="description" content="Property details and contact information.">
+  <link rel="stylesheet" href="styles.css?v=20260825c">
+</head>
+<body>
+  <header class="header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo logo-lockup">
+        <span class="logo-crop">
+          <img src="assets/images/logo.png" alt="The Banks Group" class="logo-img" width="1008" height="558">
+        </span>
+      </a>
+      <nav class="nav">
+        <a href="index.html#services">Services</a>
+        <a href="listings.html">Listings</a>
+        <a href="blog.html">Blogs</a>
+        <a href="index.html#about">About</a>
+        <a href="index.html#contact" class="nav-cta">Get Started</a>
+      </nav>
+      <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main class="listing-detail-main">
+    <div id="listing-loading" class="listing-detail-loading" aria-live="polite">Loading property…</div>
+    <div id="listing-error" class="listing-detail-error" role="alert" hidden></div>
+    <article id="listing-detail" class="listing-detail" hidden aria-label="Property details"></article>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="index.html" class="footer-logo-link">
+          <span class="logo-crop logo-crop--footer">
+            <img src="assets/images/logo.png" alt="The Banks Group" class="logo-img" width="1008" height="558" loading="lazy">
+          </span>
+        </a>
+        <p class="footer-brand-name">The Banks Group</p>
+        <p class="footer-tagline">Residential • Commercial • Personal Service</p>
+      </div>
+      <nav class="footer-nav">
+        <div class="footer-col">
+          <span class="footer-col-title">Company</span>
+          <a href="index.html#about">About</a>
+          <a href="index.html#services">Services</a>
+          <a href="listings.html">Listings</a>
+          <a href="blog.html">Blogs</a>
+          <a href="index.html#contact">Contact</a>
+        </div>
+        <div class="footer-col">
+          <span class="footer-col-title">Services</span>
+          <a href="index.html#contact">Residential</a>
+          <a href="index.html#contact">Commercial</a>
+          <a href="index.html#contact">Other</a>
+        </div>
+      </nav>
+      <div class="footer-contact">
+        <a href="tel:+15126895048">512-689-5048</a>
+        <a href="tel:+15127995156">512-799-5156</a>
+        <a href="mailto:Banksgroup@compass.com">Banksgroup@compass.com</a>
+      </div>
+    </div>
+    <p class="footer-legal">© The Banks Group. All rights reserved.</p>
+  </footer>
+
+  <script src="listings.js"></script>
+  <script src="script.js"></script>
+  <script>
+    (function () {
+      'use strict';
+      var params = new URLSearchParams(window.location.search);
+      var id = params.get('id');
+      var loading = document.getElementById('listing-loading');
+      var error = document.getElementById('listing-error');
+      var detail = document.getElementById('listing-detail');
+
+      function showError(msg) {
+        if (loading) loading.hidden = true;
+        if (detail) detail.hidden = true;
+        if (error) {
+          error.textContent = msg;
+          error.hidden = false;
+        }
+      }
+
+      if (!id) {
+        showError('No property specified. Return to listings to browse.');
+        return;
+      }
+
+      function displayListing(listing) {
+        if (loading) loading.hidden = true;
+        if (error) error.hidden = true;
+        detail.innerHTML = renderListingDetail(listing);
+        detail.hidden = false;
+        document.title = (listing.formattedAddress || listing.addressLine1 || 'Property') + ' | The Banks Group';
+      }
+
+      function findAndShow(listings) {
+        return Array.isArray(listings)
+          ? listings.find(function (l) { return String(l.id) === String(id); })
+          : null;
+      }
+
+      fetchListings()
+        .then(function (listings) {
+          var listing = findAndShow(listings);
+          if (listing) {
+            displayListing(listing);
+            return;
+          }
+          return fetchSoldListings().then(function (sold) {
+            listing = findAndShow(sold);
+            if (listing) {
+              displayListing(listing);
+              return;
+            }
+            if (loading) loading.hidden = true;
+            showError('Property not found. It may have been removed from the market.');
+          });
+        })
+        .catch(function (err) {
+          console.error('Listing fetch failed:', err);
+          showError('Unable to load property. Please try again later.');
+        });
+    })();
+  </script>
+</body>
+</html>
