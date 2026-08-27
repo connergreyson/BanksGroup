@@ -18,24 +18,49 @@
     }) || null;
   }
 
-  function renderBlogCard(blog, options) {
-    var opts = options || {};
-    var cardClass = 'blog-story-card';
-    if (opts.compact) cardClass += ' blog-story-card--compact';
+  function escapeHtml(str) {
+    return String(str)
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;');
+  }
+
+  function defaultBlogImage(blog) {
+    var images = {
+      'Home Owner': 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&q=80',
+      'Buyer': 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80',
+      'Seller': 'https://images.unsplash.com/photo-1605276374101-de7982db1739?w=800&q=80',
+      'Investor': 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&q=80',
+      'Education': 'https://images.unsplash.com/photo-1560520035-3a235ff2f517?w=800&q=80'
+    };
+    if (blog.image) {
+      return blog.image;
+    }
+    return images[blog.category] || 'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&q=80';
+  }
+
+  function renderBlogCard(blog) {
     var href = 'blog-detail.html?id=' + encodeURIComponent(blog.id);
     var excerpt = escapeHtml(blog.excerpt).replace(/\s+$/, '');
+    var image = escapeHtml(defaultBlogImage(blog));
 
     return (
-      '<article class="' + cardClass + '">' +
+      '<article class="blog-story-card">' +
         '<a href="' + href + '" class="blog-story-link" aria-label="Read: ' + escapeHtml(blog.title) + '">' +
-          '<h3 class="blog-story-title">' + escapeHtml(blog.title) + '</h3>' +
-          '<p class="blog-story-excerpt">' + excerpt + ' <span class="blog-story-more">...more</span></p>' +
-          '<p class="blog-story-category">' + escapeHtml(blog.category) + '</p>' +
-          '<p class="blog-story-meta">' +
-            '<time datetime="' + escapeHtml(blog.date) + '">' + formatBlogDate(blog.date) + '</time>' +
-            '<span aria-hidden="true"> • </span>' +
-            '<span>' + blog.readTime + ' min read</span>' +
-          '</p>' +
+          '<div class="blog-story-image">' +
+            '<img src="' + image + '" alt="" width="400" height="250" loading="lazy">' +
+          '</div>' +
+          '<div class="blog-story-body">' +
+            '<h2 class="blog-story-title">' + escapeHtml(blog.title) + '</h2>' +
+            '<p class="blog-story-excerpt">' + excerpt + ' <span class="blog-story-more">...more</span></p>' +
+            '<p class="blog-story-category">' + escapeHtml(blog.category) + '</p>' +
+            '<p class="blog-story-meta">' +
+              '<time datetime="' + escapeHtml(blog.date) + '">' + formatBlogDate(blog.date) + '</time>' +
+              '<span aria-hidden="true"> • </span>' +
+              '<span>' + blog.readTime + ' min read</span>' +
+            '</p>' +
+          '</div>' +
         '</a>' +
       '</article>'
     );
@@ -45,10 +70,8 @@
     var paragraphs = blog.content.map(function (p) {
       return '<p>' + escapeHtml(p) + '</p>';
     }).join('');
-    var imageHtml = blog.image
-      ? '<div class="blog-detail-image">' +
-          '<img src="' + escapeHtml(blog.image) + '" alt="" class="blog-detail-img" width="1120" height="560">' +
-        '</div>'
+    var imageHtml = blog.image || defaultBlogImage(blog)
+      ? '<div class="blog-detail-image"><img src="' + escapeHtml(defaultBlogImage(blog)) + '" alt="" class="blog-detail-img"></div>'
       : '';
 
     return (
@@ -71,14 +94,6 @@
         '</div>' +
       '</div>'
     );
-  }
-
-  function escapeHtml(str) {
-    return String(str)
-      .replace(/&/g, '&amp;')
-      .replace(/</g, '&lt;')
-      .replace(/>/g, '&gt;')
-      .replace(/"/g, '&quot;');
   }
 
   function loadBlogs() {
@@ -115,9 +130,7 @@
       container.innerHTML = '<p class="blog-empty">No blog posts yet. Check back soon.</p>';
       return;
     }
-    container.innerHTML = blogs.map(function (blog) {
-      return renderBlogCard(blog);
-    }).join('');
+    container.innerHTML = blogs.map(renderBlogCard).join('');
   }
 
   function filterBlogs(blogs, category, query) {
@@ -153,24 +166,11 @@
     return categories.sort();
   }
 
-  function initBlogCarousel(blogCarousel, blogs, options) {
-    var opts = options || {};
-    var limit = opts.limit || blogs.length;
-    var subset = blogs.slice(0, limit);
-
-    if (!blogCarousel || !subset.length) return;
-
-    blogCarousel.innerHTML = subset.map(function (blog) {
-      return renderBlogCard(blog, { compact: true });
-    }).join('');
-  }
-
   window.loadBlogs = loadBlogs;
   window.getBlogById = getBlogById;
   window.renderBlogCard = renderBlogCard;
   window.renderBlogDetail = renderBlogDetail;
   window.renderBlogGrid = renderBlogGrid;
-  window.initBlogCarousel = initBlogCarousel;
   window.filterBlogs = filterBlogs;
   window.getBlogCategories = getBlogCategories;
   window.formatBlogDate = formatBlogDate;

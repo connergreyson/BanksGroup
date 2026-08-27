@@ -1,2 +1,0 @@
-# For Compass sold-listings scraper
-playwright>=1.40.0

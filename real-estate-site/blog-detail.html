@@ -5,10 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Article | The Banks Group</title>
   <meta name="description" content="Real estate insights from The Banks Group in Austin, Texas.">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=20260825c">
+  <link rel="stylesheet" href="blog.css?v=20260825b">
 </head>
 <body>
   <header class="header">
@@ -32,9 +30,9 @@
   </header>
 
   <main class="blog-detail-main">
-    <div id="blog-loading" class="blog-detail-loading" aria-live="polite">Loading article…</div>
-    <div id="blog-error" class="blog-detail-error" role="alert" hidden></div>
-    <article id="blog-detail" class="blog-detail" hidden aria-label="Blog article"></article>
+    <div id="blog-loading" class="blog-loading" aria-live="polite">Loading article…</div>
+    <div id="blog-error" class="blog-detail-error blog-error" role="alert" hidden></div>
+    <article id="blog-detail" class="blog-detail" hidden></article>
   </main>
 
   <footer class="footer">
@@ -94,7 +92,7 @@
       }
 
       if (!id) {
-        showError('No article specified. Return to the blog to browse stories.');
+        showError('No article specified.');
         return;
       }
 
@@ -102,23 +100,16 @@
         .then(function () {
           var blog = getBlogById(id);
           if (!blog) {
-            showError('Article not found. It may have been removed.');
+            showError('Article not found.');
             return;
           }
-
           if (loading) loading.hidden = true;
-          if (error) error.hidden = true;
           detail.innerHTML = renderBlogDetail(blog);
           detail.hidden = false;
           document.title = blog.title + ' | The Banks Group';
-
-          var metaDesc = document.querySelector('meta[name="description"]');
-          if (metaDesc) {
-            metaDesc.setAttribute('content', blog.excerpt);
-          }
         })
         .catch(function () {
-          showError('Unable to load this article. Please try again later.');
+          showError('Unable to load this article.');
         });
     })();
   </script>

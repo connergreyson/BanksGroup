@@ -3,12 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Blog | The Banks Group</title>
-  <meta name="description" content="Real estate insights, buyer tips, and market updates from The Banks Group in Austin, Texas.">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+  <title>Blogs | The Banks Group</title>
+  <meta name="description" content="Real estate insights from The Banks Group in Austin, Texas.">
+  <link rel="stylesheet" href="styles.css?v=20260825c">
+  <link rel="stylesheet" href="blog.css?v=20260825b">
 </head>
 <body>
   <header class="header">
@@ -32,21 +30,33 @@
   </header>
 
   <main class="blog-main">
-    <section class="blog-hero">
-      <div class="container">
-        <h1>Insights from <em>The Banks Group</em>.</h1>
-        <p class="section-intro">Market updates, buying and selling guides, and honest advice for every step of your real estate journey in Central Texas.</p>
+    <div class="blog-ambient" aria-hidden="true">
+      <div class="blog-ambient__layer blog-ambient__orb blog-ambient__orb--1" data-parallax="0.16">
+        <span class="blog-ambient__orb-shape"></span>
       </div>
-    </section>
+      <div class="blog-ambient__layer blog-ambient__orb blog-ambient__orb--2" data-parallax="-0.09">
+        <span class="blog-ambient__orb-shape"></span>
+      </div>
+      <div class="blog-ambient__layer blog-ambient__orb blog-ambient__orb--3" data-parallax="0.22">
+        <span class="blog-ambient__orb-shape"></span>
+      </div>
+      <div class="blog-ambient__layer blog-ambient__lines" data-parallax="0.07"></div>
+      <div class="blog-ambient__layer blog-ambient__grain"></div>
+    </div>
 
-    <section class="blog-toolbar-section">
+    <div class="blog-main__inner">
+    <section class="blog-intro blog-hero" aria-label="Blog intro">
       <div class="container">
-        <div class="blog-toolbar">
-          <div class="blog-filters" id="blog-filters" role="tablist" aria-label="Filter blog posts by category"></div>
-          <label class="blog-search-wrap">
-            <span class="visually-hidden">Search blog posts</span>
-            <input type="search" id="blog-search" class="blog-search" placeholder="Search" aria-label="Search blog posts">
-          </label>
+        <h1><em>Blogs</em></h1>
+        <p class="section-intro">Market updates, buying and selling guides, and honest advice for every step of your real estate journey in Central Texas.</p>
+        <div class="blog-intro__toolbar">
+          <div class="blog-toolbar">
+            <div class="blog-filters" id="blog-filters" aria-label="Filter blog posts by category"></div>
+            <label class="blog-search-wrap">
+              <span class="visually-hidden">Search blog posts</span>
+              <input type="search" id="blog-search" class="blog-search" placeholder="Search" aria-label="Search blog posts">
+            </label>
+          </div>
         </div>
       </div>
     </section>
@@ -55,10 +65,11 @@
       <div class="container">
         <div id="blog-loading" class="blog-loading" aria-live="polite">Loading blog posts…</div>
         <div id="blog-error" class="blog-error" role="alert" hidden></div>
-        <div id="blog-list" class="blog-list" hidden></div>
+        <div id="blog-list" class="blog-list blog-grid" hidden></div>
         <p id="blog-no-results" class="blog-empty" hidden>No posts match your search.</p>
       </div>
     </section>
+    </div>
   </main>
 
   <footer class="footer">
@@ -98,11 +109,11 @@
   </footer>
 
   <script src="blogs.js"></script>
+  <script src="blog-ambient.js"></script>
   <script src="script.js"></script>
   <script>
     (function () {
       'use strict';
-
       var list = document.getElementById('blog-list');
       var loading = document.getElementById('blog-loading');
       var error = document.getElementById('blog-error');
@@ -123,58 +134,53 @@
 
       function renderFilters(categories) {
         if (!filters) return;
-
-        var buttons = ['<button type="button" class="blog-filter blog-filter-active" data-category="all" aria-pressed="true">All</button>'];
-        categories.forEach(function (category) {
-          buttons.push(
-            '<button type="button" class="blog-filter" data-category="' + category + '" aria-pressed="false">' + category + '</button>'
-          );
+        var preferred = ['Seller', 'Buyer', 'Investor', 'Home Owner', 'Education'];
+        var ordered = preferred.filter(function (cat) {
+          return categories.indexOf(cat) !== -1;
         });
-        filters.innerHTML = buttons.join('');
+        categories.forEach(function (cat) {
+          if (ordered.indexOf(cat) === -1) ordered.push(cat);
+        });
 
+        var html = ['<button type="button" class="blog-filter blog-filter-active" data-category="all">All</button>'];
+        ordered.forEach(function (category) {
+          html.push('<button type="button" class="blog-filter" data-category="' + category + '">' + category + '</button>');
+        });
+        filters.innerHTML = html.join('');
         filters.addEventListener('click', function (event) {
           var button = event.target.closest('.blog-filter');
           if (!button) return;
-
           activeCategory = button.getAttribute('data-category') || 'all';
           filters.querySelectorAll('.blog-filter').forEach(function (item) {
-            var isActive = item === button;
-            item.classList.toggle('blog-filter-active', isActive);
-            item.setAttribute('aria-pressed', String(isActive));
+            item.classList.toggle('blog-filter-active', item === button);
           });
           updateList();
         });
       }
 
       function updateList() {
-        if (!list) return;
-
         var query = searchInput ? searchInput.value.trim() : '';
         var filtered = filterBlogs(allBlogs, activeCategory, query);
-
         if (!filtered.length) {
-          list.innerHTML = '';
-          list.hidden = true;
+          if (list) {
+            list.innerHTML = '';
+            list.hidden = true;
+          }
           if (noResults) noResults.hidden = false;
           return;
         }
-
         if (noResults) noResults.hidden = true;
         renderBlogGrid(list, filtered);
-        list.hidden = false;
+        if (list) list.hidden = false;
       }
 
       loadBlogs()
         .then(function (blogs) {
           allBlogs = blogs;
           if (loading) loading.hidden = true;
-          if (error) error.hidden = true;
           renderFilters(getBlogCategories(blogs));
           updateList();
-
-          if (searchInput) {
-            searchInput.addEventListener('input', updateList);
-          }
+          if (searchInput) searchInput.addEventListener('input', updateList);
         })
         .catch(function () {
           showError('Unable to load blog posts. Please try again later.');
