@@ -1187,6 +1187,16 @@ body.home .hero .btn-primary:hover {
   text-align: center;
 }
 
+.footer-legal a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
+}
+
+.footer-legal a:hover {
+  color: var(--color-text);
+}
+
 /* --- Listings --- */
 .listings-main {
   padding-top: 64px;
