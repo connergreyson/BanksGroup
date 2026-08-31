@@ -150,6 +150,7 @@ body.home .menu-toggle span {
 @media (max-width: 768px) {
   .logo-crop {
     height: 36px;
+    width: 36px;
   }
 
   .logo-crop .logo-img {
@@ -158,10 +159,15 @@ body.home .menu-toggle span {
 
   .logo-crop--footer {
     height: 48px;
+    width: 48px;
   }
 
   .logo-crop--footer .logo-img {
     height: 72px;
+  }
+
+  .logo-wordmark {
+    font-size: 0.8125rem;
   }
 
   body.home .nav.open {
@@ -190,9 +196,14 @@ body.home .menu-toggle span {
   height: 64px;
 }
 
-/* Align mark with bar edge; .container padding no longer indents the logo */
+.header > .container {
+  max-width: none;
+  padding-left: 0.5rem;
+  padding-right: var(--space-lg);
+}
+
 .header-inner .logo-lockup {
-  margin-left: calc(-1 * var(--space-lg));
+  margin-left: 0;
 }
 
 .logo {
@@ -207,17 +218,28 @@ body.home .menu-toggle span {
 .logo-lockup {
   display: inline-flex;
   align-items: center;
-  line-height: 0;
+  gap: 0.7rem;
+  line-height: 1;
   text-transform: none;
   letter-spacing: normal;
 }
 
-/* Stack: emblem ~top 2/3, wordmark bottom 1/3 — show emblem only */
+.logo-wordmark {
+  font-size: 0.9375rem;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+  white-space: nowrap;
+}
+
+/* Stack: emblem ~top 2/3 — crop tight to the circular B */
 .logo-crop {
   display: inline-block;
-  height: 42px;
+  height: 48px;
+  width: 48px;
   overflow: hidden;
   line-height: 0;
+  flex-shrink: 0;
 }
 
 .logo-crop .logo-img {
@@ -225,10 +247,13 @@ body.home .menu-toggle span {
   width: auto;
   display: block;
   max-width: none;
+  margin-left: 50%;
+  transform: translateX(-50%);
 }
 
 .logo-crop--footer {
   height: 56px;
+  width: 56px;
 }
 
 .logo-crop--footer .logo-img {
