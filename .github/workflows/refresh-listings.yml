@@ -1,5 +1,5 @@
 # Runs once per day at noon UTC.
-# Add RAPIDAPI_KEY + REALTOR_FULFILLMENT_ID (or REALTOR_ADVERTISER_ID + REALTOR_AGENT_LOCATION) as secrets.
+# Pulls current and sold sales from the Compass team page.
 
 name: Refresh Listings Cache
 
@@ -22,31 +22,16 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Install Playwright and scrape Compass sold listings
+      - name: Scrape Compass current and sold listings
         run: |
           cd real-estate-site
           pip install playwright
           playwright install chromium --with-deps
-          ./fetch-listings.sh --scrape-compass
-
-      - name: Fetch listings (active + sold)
-        id: fetch
-        env:
-          RAPIDAPI_KEY: ${{ secrets.RAPIDAPI_KEY }}
-          REALTOR_FULFILLMENT_ID: ${{ secrets.REALTOR_FULFILLMENT_ID }}
-          REALTOR_ADVERTISER_ID: ${{ secrets.REALTOR_ADVERTISER_ID }}
-          REALTOR_AGENT_LOCATION: ${{ vars.REALTOR_AGENT_LOCATION || 'salado, tx' }}
-        run: |
-          cd real-estate-site
-          if [ -n "$RAPIDAPI_KEY" ]; then
-            ./fetch-listings.sh
-          else
-            echo "RAPIDAPI_KEY not set; skipping active listings. Sold cache already updated from Compass scrape."
-          fi
+          python3 scrape-compass-listings.py
 
       - name: Commit and push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add real-estate-site/listings-cache.json real-estate-site/listings-sold-cache.json real-estate-site/listings-sold-manual.json real-estate-site/listings-sold-overrides.json
+          git add real-estate-site/listings-cache.json real-estate-site/listings-sold-cache.json real-estate-site/listings-sold-manual.json real-estate-site/scrape-compass-listings.py
           if git diff --staged --quiet; then echo "No changes"; else git commit -m "chore: refresh listings cache" && git push; fi

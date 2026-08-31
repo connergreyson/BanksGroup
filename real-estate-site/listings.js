@@ -2,8 +2,16 @@
 
 /**
  * Listings: fetch from cache and render.
- * Data is updated daily by GitHub Action (1 Realtor.com API call at noon).
+ * Data is updated daily by GitHub Action from the Compass team page.
  */
+
+function formatListingStatus(status) {
+  if (status == null || status === '') return '';
+  var normalized = String(status).replace(/_/g, ' ').replace(/\s+/g, ' ').trim().toLowerCase();
+  if (normalized === 'for sale' || normalized === 'active') return 'For Sale';
+  if (normalized === 'sold' || normalized === 'closed') return 'Sold';
+  return String(status).replace(/_/g, ' ');
+}
 
 function formatPrice(n) {
   if (n == null || isNaN(n)) return '—';
@@ -25,7 +33,7 @@ function renderListingCard(listing) {
   var baths = listing.bathrooms != null ? listing.bathrooms + ' ba' : '';
   var sqft = listing.squareFootage ? listing.squareFootage.toLocaleString() + ' sqft' : '';
   var type = escapeHtml(listing.propertyType || '');
-  var status = escapeHtml(listing.status || '');
+  var status = escapeHtml(formatListingStatus(listing.status));
   var detailUrl = 'listing-detail.html?id=' + encodeURIComponent(id);
   var photoUrl = listing.primaryPhoto || listing.primary_photo;
 
@@ -69,7 +77,7 @@ function renderListingDetail(listing) {
   var lotSize = listing.lotSize ? listing.lotSize.toLocaleString() : '';
   var type = escapeHtml(listing.propertyType || '');
   var yearBuilt = listing.yearBuilt || '';
-  var status = escapeHtml(listing.status || '');
+  var status = escapeHtml(formatListingStatus(listing.status));
   var daysOnMarket = listing.daysOnMarket != null ? listing.daysOnMarket : '';
   var mlsNum = escapeHtml(listing.mlsNumber || '');
   var agent = listing.listingAgent || {};
