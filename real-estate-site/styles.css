@@ -1194,7 +1194,7 @@ body.home .hero .btn-primary:hover {
   display: grid;
   grid-template-columns: auto 1fr auto;
   gap: var(--space-2xl);
-  align-items: center;
+  align-items: start;
 }
 
 @media (max-width: 768px) {
@@ -1315,7 +1315,7 @@ body.home .hero .btn-primary:hover {
 .footer-contact {
   display: flex;
   flex-direction: column;
-  gap: var(--space-xs);
+  gap: var(--space-sm);
 }
 
 .footer-contact a {
