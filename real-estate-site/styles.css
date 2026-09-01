@@ -1033,25 +1033,90 @@ body.home .hero .btn-primary:hover {
 }
 
 .social-links .contact-label {
-  margin-bottom: var(--space-sm);
+  margin-bottom: 0.35rem;
 }
 
-.social-link {
-  display: inline-flex;
-  align-items: center;
-  gap: var(--space-sm);
-  margin-right: var(--space-lg);
-  margin-bottom: var(--space-sm);
-  color: var(--color-text);
-  font-weight: 500;
-}
-
-.social-link:hover {
+.social-lead {
+  margin: 0 0 var(--space-md);
   color: var(--color-text-muted);
+  font-size: 0.95rem;
+  line-height: 1.45;
+  max-width: 22rem;
+}
+
+.social-row {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.65rem;
+  max-width: 22rem;
+}
+
+.social-card {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  min-width: 0;
+  padding: 0.85rem 0.95rem;
+  color: var(--color-text);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  transition: border-color var(--transition), box-shadow var(--transition), transform var(--transition), background var(--transition);
+}
+
+.social-card:hover {
+  color: var(--color-text);
+  border-color: var(--color-border-strong);
+  box-shadow: var(--shadow-md);
+  transform: translateY(-2px);
+}
+
+.social-card:focus-visible {
+  outline: 2px solid var(--color-text);
+  outline-offset: 3px;
+}
+
+.social-icon-wrap {
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid var(--color-border);
 }
 
 .social-icon {
-  flex-shrink: 0;
+  display: block;
+}
+
+.social-card-copy {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+  min-width: 0;
+}
+
+.social-card-name {
+  font-size: 0.9375rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.social-card-handle {
+  font-size: 0.78rem;
+  font-weight: 400;
+  color: var(--color-text-muted);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@media (max-width: 520px) {
+  .social-row {
+    max-width: none;
+  }
 }
 
 .contact-form {
