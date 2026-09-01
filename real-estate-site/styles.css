@@ -1265,9 +1265,18 @@ body.home .hero .btn-primary:hover {
 .footer-legal {
   margin: var(--space-xl) 0 0;
   padding-top: var(--space-lg);
-  font-size: 0.85rem;
+  font-size: 0.875rem;
   color: var(--color-text-soft);
   text-align: center;
+  line-height: 1.55;
+}
+
+.footer-legal-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.35rem 1.15rem;
+  margin-top: 0.55rem;
 }
 
 .footer-legal a {
