@@ -1650,28 +1650,6 @@
     "featured": false
   },
   {
-    "id": "1563011180226786297_lid",
-    "formattedAddress": "8108 Purple Aster Pass, Lago Vista, TX 78645",
-    "addressLine1": "8108 Purple Aster Pass",
-    "price": 399000,
-    "bedrooms": 4,
-    "bathrooms": 4,
-    "squareFootage": 2395,
-    "lotSize": 5662,
-    "propertyType": "single_family",
-    "status": "Sold",
-    "listingAgent": {
-      "name": null,
-      "phone": null,
-      "email": null,
-      "website": null
-    },
-    "primaryPhoto": "https://www.compass.com/m/0f3114b3da42b4307418ea977cc8684a84014966_img_0_806ab/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/8108-Purple-Aster-Pass-Lago-Vista-TX-78645/1563011180226786297_lid/",
-    "sortOrder": 76,
-    "featured": false
-  },
-  {
     "id": "1699670388718925041_lid",
     "formattedAddress": "2304 Sycamore Trail, Round Rock, TX 78664",
     "addressLine1": "2304 Sycamore Trail",
@@ -1690,6 +1668,28 @@
     },
     "primaryPhoto": "https://www.compass.com/m/947a043c2cc2b5d6ccf68343a44b4bba70c9280d_img_0_b6f97/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/2304-Sycamore-Trail-Round-Rock-TX-78664/1699670388718925041_lid/",
+    "sortOrder": 76,
+    "featured": false
+  },
+  {
+    "id": "1563011180226786297_lid",
+    "formattedAddress": "8108 Purple Aster Pass, Lago Vista, TX 78645",
+    "addressLine1": "8108 Purple Aster Pass",
+    "price": 399000,
+    "bedrooms": 4,
+    "bathrooms": 4,
+    "squareFootage": 2395,
+    "lotSize": 5662,
+    "propertyType": "single_family",
+    "status": "Sold",
+    "listingAgent": {
+      "name": null,
+      "phone": null,
+      "email": null,
+      "website": null
+    },
+    "primaryPhoto": "https://www.compass.com/m/0f3114b3da42b4307418ea977cc8684a84014966_img_0_806ab/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/8108-Purple-Aster-Pass-Lago-Vista-TX-78645/1563011180226786297_lid/",
     "sortOrder": 77,
     "featured": false
   },
@@ -2860,28 +2860,6 @@
     "featured": false
   },
   {
-    "id": "709314474808294129_lid",
-    "formattedAddress": "236 Easley Rd, Smithville, TX 78957",
-    "addressLine1": "236 Easley Rd",
-    "price": 285000,
-    "bedrooms": 4,
-    "bathrooms": 2,
-    "squareFootage": 2304,
-    "lotSize": 127630,
-    "propertyType": "single_family",
-    "status": "Sold",
-    "listingAgent": {
-      "name": null,
-      "phone": null,
-      "email": null,
-      "website": null
-    },
-    "primaryPhoto": "https://www.compass.com/m/94f5485db4219fbfaea30db4c4b3119d2e32d039_img_0_3b173/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/236-Easley-Rd-Smithville-TX-78957/709314474808294129_lid/",
-    "sortOrder": 131,
-    "featured": false
-  },
-  {
     "id": "1294222370932392137_lid",
     "formattedAddress": "536 White Steppe Way Unit 253, Georgetown, TX 78626",
     "addressLine1": "536 White Steppe Way Unit 253",
@@ -2900,6 +2878,28 @@
     },
     "primaryPhoto": "https://www.compass.com/m/1d8ae2ba15c24aa16cebd7cb2ebc317909d6279c898251eb4dcd0014ca270e8a/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/536-White-Steppe-Way-Unit-253-Georgetown-TX-78626/1294222370932392137_lid/",
+    "sortOrder": 131,
+    "featured": false
+  },
+  {
+    "id": "709314474808294129_lid",
+    "formattedAddress": "236 Easley Rd, Smithville, TX 78957",
+    "addressLine1": "236 Easley Rd",
+    "price": 285000,
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "squareFootage": 2304,
+    "lotSize": 127630,
+    "propertyType": "single_family",
+    "status": "Sold",
+    "listingAgent": {
+      "name": null,
+      "phone": null,
+      "email": null,
+      "website": null
+    },
+    "primaryPhoto": "https://www.compass.com/m/94f5485db4219fbfaea30db4c4b3119d2e32d039_img_0_3b173/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/236-Easley-Rd-Smithville-TX-78957/709314474808294129_lid/",
     "sortOrder": 132,
     "featured": false
   },
@@ -3652,28 +3652,6 @@
     "featured": false
   },
   {
-    "id": "168065317765919457_lid",
-    "formattedAddress": "801 Dew Drop Ln, Leander, TX 78641",
-    "addressLine1": "801 Dew Drop Ln",
-    "price": 179900,
-    "bedrooms": 3,
-    "bathrooms": 1,
-    "squareFootage": 1239,
-    "lotSize": 14374,
-    "propertyType": "single_family",
-    "status": "Sold",
-    "listingAgent": {
-      "name": null,
-      "phone": null,
-      "email": null,
-      "website": null
-    },
-    "primaryPhoto": "https://www.compass.com/m/ca30bc5341e2493b8e934bd9f8d04a43dc78fefb_img_0_16e34/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/801-Dew-Drop-Ln-Leander-TX-78641/168065317765919457_lid/",
-    "sortOrder": 167,
-    "featured": false
-  },
-  {
     "id": "182999121362256465_lid",
     "formattedAddress": "3008 Don Hill Ln, Taylor, TX 76574",
     "addressLine1": "3008 Don Hill Ln",
@@ -3692,6 +3670,28 @@
     },
     "primaryPhoto": "https://www.compass.com/m/ae8bc68b6b9d37688d33a8ec9883f8735d31e8f1_img_0_dd6e6/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/3008-Don-Hill-Ln-Taylor-TX-76574/182999121362256465_lid/",
+    "sortOrder": 167,
+    "featured": false
+  },
+  {
+    "id": "168065317765919457_lid",
+    "formattedAddress": "801 Dew Drop Ln, Leander, TX 78641",
+    "addressLine1": "801 Dew Drop Ln",
+    "price": 179900,
+    "bedrooms": 3,
+    "bathrooms": 1,
+    "squareFootage": 1239,
+    "lotSize": 14374,
+    "propertyType": "single_family",
+    "status": "Sold",
+    "listingAgent": {
+      "name": null,
+      "phone": null,
+      "email": null,
+      "website": null
+    },
+    "primaryPhoto": "https://www.compass.com/m/ca30bc5341e2493b8e934bd9f8d04a43dc78fefb_img_0_16e34/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/801-Dew-Drop-Ln-Leander-TX-78641/168065317765919457_lid/",
     "sortOrder": 168,
     "featured": false
   },
