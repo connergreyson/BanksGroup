@@ -814,28 +814,6 @@
     "featured": false
   },
   {
-    "id": "766046637486274153_lid",
-    "formattedAddress": "3742 Hermann St, Round Rock, TX 78681",
-    "addressLine1": "3742 Hermann St",
-    "price": 525000,
-    "bedrooms": 4,
-    "bathrooms": 4,
-    "squareFootage": 2620,
-    "lotSize": 7405,
-    "propertyType": "single_family",
-    "status": "Sold",
-    "listingAgent": {
-      "name": null,
-      "phone": null,
-      "email": null,
-      "website": null
-    },
-    "primaryPhoto": "https://www.compass.com/m/550db7971b4a2da27e9d6e1cadca372f7d36a7a8_img_0_65daf/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/3742-Hermann-St-Round-Rock-TX-78681/766046637486274153_lid/",
-    "sortOrder": 38,
-    "featured": false
-  },
-  {
     "id": "1866146411904756649_lid",
     "formattedAddress": "531 Dennis Dr, Round Rock, TX 78664",
     "addressLine1": "531 Dennis Dr",
@@ -854,6 +832,28 @@
     },
     "primaryPhoto": "https://www.compass.com/m/1dada8d252e074cfae4f8b7cd703fbed906bf449_img_0_ca091/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/531-Dennis-Dr-Round-Rock-TX-78664/1866146411904756649_lid/",
+    "sortOrder": 38,
+    "featured": false
+  },
+  {
+    "id": "766046637486274153_lid",
+    "formattedAddress": "3742 Hermann St, Round Rock, TX 78681",
+    "addressLine1": "3742 Hermann St",
+    "price": 525000,
+    "bedrooms": 4,
+    "bathrooms": 4,
+    "squareFootage": 2620,
+    "lotSize": 7405,
+    "propertyType": "single_family",
+    "status": "Sold",
+    "listingAgent": {
+      "name": null,
+      "phone": null,
+      "email": null,
+      "website": null
+    },
+    "primaryPhoto": "https://www.compass.com/m/550db7971b4a2da27e9d6e1cadca372f7d36a7a8_img_0_65daf/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/3742-Hermann-St-Round-Rock-TX-78681/766046637486274153_lid/",
     "sortOrder": 39,
     "featured": false
   },
@@ -968,14 +968,14 @@
     "featured": false
   },
   {
-    "id": "1850820535382562449_lid",
+    "id": "1829315778580478561_lid",
     "formattedAddress": "2474 Santa Barbara Loop, Round Rock, TX 78665",
     "addressLine1": "2474 Santa Barbara Loop",
     "price": 499940,
     "bedrooms": 4,
     "bathrooms": 3,
-    "squareFootage": null,
-    "lotSize": null,
+    "squareFootage": 3336,
+    "lotSize": 6534,
     "propertyType": "single_family",
     "status": "Sold",
     "listingAgent": {
@@ -984,8 +984,8 @@
       "email": null,
       "website": null
     },
-    "primaryPhoto": "https://www.compass.com/m/8cf628975027ca99617877d0ed27885b898bfc59_img_0_035c3/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/2474-Santa-Barbara-Loop-Round-Rock-TX-78665/1850820535382562449_lid/",
+    "primaryPhoto": "https://www.compass.com/m/38df7fbfa9307b34673d8e234b976314e17308c2_img_0_b4876/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/2474-Santa-Barbara-Loop-Round-Rock-TX-78665/1829315778580478561_lid/",
     "sortOrder": 45,
     "featured": false
   },
@@ -1298,28 +1298,6 @@
     "featured": false
   },
   {
-    "id": "25514437922269537_lid",
-    "formattedAddress": "107 Goose Island Dr, Georgetown, TX 78633",
-    "addressLine1": "107 Goose Island Dr",
-    "price": 450000,
-    "bedrooms": 4,
-    "bathrooms": 2,
-    "squareFootage": 2598,
-    "lotSize": 8712,
-    "propertyType": "single_family",
-    "status": "Sold",
-    "listingAgent": {
-      "name": null,
-      "phone": null,
-      "email": null,
-      "website": null
-    },
-    "primaryPhoto": "https://www.compass.com/m/eac1c19e07c5c8ba82f19c0a391dddf5455d40a72e9ae611fbd946d3d22c4a8e/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/107-Goose-Island-Dr-Georgetown-TX-78633/25514437922269537_lid/",
-    "sortOrder": 60,
-    "featured": false
-  },
-  {
     "id": "2105235659952977033_lid",
     "formattedAddress": "1902 Walsh Dr, Round Rock, TX 78681",
     "addressLine1": "1902 Walsh Dr",
@@ -1338,6 +1316,28 @@
     },
     "primaryPhoto": "https://www.compass.com/m/f1640398e3be3924a2db82078aedc9cba294f5360b884baab0ea7c39f255487c/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/1902-Walsh-Dr-Round-Rock-TX-78681/2105235659952977033_lid/",
+    "sortOrder": 60,
+    "featured": false
+  },
+  {
+    "id": "25514437922269537_lid",
+    "formattedAddress": "107 Goose Island Dr, Georgetown, TX 78633",
+    "addressLine1": "107 Goose Island Dr",
+    "price": 450000,
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "squareFootage": 2598,
+    "lotSize": 8712,
+    "propertyType": "single_family",
+    "status": "Sold",
+    "listingAgent": {
+      "name": null,
+      "phone": null,
+      "email": null,
+      "website": null
+    },
+    "primaryPhoto": "https://www.compass.com/m/eac1c19e07c5c8ba82f19c0a391dddf5455d40a72e9ae611fbd946d3d22c4a8e/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/107-Goose-Island-Dr-Georgetown-TX-78633/25514437922269537_lid/",
     "sortOrder": 61,
     "featured": false
   },
@@ -1694,28 +1694,6 @@
     "featured": false
   },
   {
-    "id": "1252372679917887297_lid",
-    "formattedAddress": "308 N 3rd St, Jarrell, TX 76537",
-    "addressLine1": "308 N 3rd St",
-    "price": 395000,
-    "bedrooms": 4,
-    "bathrooms": 2,
-    "squareFootage": 1899,
-    "lotSize": 10454,
-    "propertyType": "single_family",
-    "status": "Sold",
-    "listingAgent": {
-      "name": null,
-      "phone": null,
-      "email": null,
-      "website": null
-    },
-    "primaryPhoto": "https://www.compass.com/m/6e09883d27858ae5cbf8f30185ec1c45c4a43301_img_0_df347/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/308-N-3rd-St-Jarrell-TX-76537/1252372679917887297_lid/",
-    "sortOrder": 78,
-    "featured": false
-  },
-  {
     "id": "229673967802168033_lid",
     "formattedAddress": "505 Silver Trail, Round Rock, TX 78664",
     "addressLine1": "505 Silver Trail",
@@ -1734,6 +1712,28 @@
     },
     "primaryPhoto": "https://www.compass.com/m/0f7e2b31d6f0f319faeed1534af2e7ece55cfc24_img_0_c7da5/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/505-Silver-Trail-Round-Rock-TX-78664/229673967802168033_lid/",
+    "sortOrder": 78,
+    "featured": false
+  },
+  {
+    "id": "1252372679917887297_lid",
+    "formattedAddress": "308 N 3rd St, Jarrell, TX 76537",
+    "addressLine1": "308 N 3rd St",
+    "price": 395000,
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "squareFootage": 1899,
+    "lotSize": 10454,
+    "propertyType": "single_family",
+    "status": "Sold",
+    "listingAgent": {
+      "name": null,
+      "phone": null,
+      "email": null,
+      "website": null
+    },
+    "primaryPhoto": "https://www.compass.com/m/6e09883d27858ae5cbf8f30185ec1c45c4a43301_img_0_df347/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/308-N-3rd-St-Jarrell-TX-76537/1252372679917887297_lid/",
     "sortOrder": 79,
     "featured": false
   },
@@ -2860,28 +2860,6 @@
     "featured": false
   },
   {
-    "id": "709314474808294129_lid",
-    "formattedAddress": "236 Easley Rd, Smithville, TX 78957",
-    "addressLine1": "236 Easley Rd",
-    "price": 285000,
-    "bedrooms": 4,
-    "bathrooms": 2,
-    "squareFootage": 2304,
-    "lotSize": 127630,
-    "propertyType": "single_family",
-    "status": "Sold",
-    "listingAgent": {
-      "name": null,
-      "phone": null,
-      "email": null,
-      "website": null
-    },
-    "primaryPhoto": "https://www.compass.com/m/94f5485db4219fbfaea30db4c4b3119d2e32d039_img_0_3b173/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/236-Easley-Rd-Smithville-TX-78957/709314474808294129_lid/",
-    "sortOrder": 131,
-    "featured": false
-  },
-  {
     "id": "1294222370932392137_lid",
     "formattedAddress": "536 White Steppe Way Unit 253, Georgetown, TX 78626",
     "addressLine1": "536 White Steppe Way Unit 253",
@@ -2900,6 +2878,28 @@
     },
     "primaryPhoto": "https://www.compass.com/m/1d8ae2ba15c24aa16cebd7cb2ebc317909d6279c898251eb4dcd0014ca270e8a/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/536-White-Steppe-Way-Unit-253-Georgetown-TX-78626/1294222370932392137_lid/",
+    "sortOrder": 131,
+    "featured": false
+  },
+  {
+    "id": "709314474808294129_lid",
+    "formattedAddress": "236 Easley Rd, Smithville, TX 78957",
+    "addressLine1": "236 Easley Rd",
+    "price": 285000,
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "squareFootage": 2304,
+    "lotSize": 127630,
+    "propertyType": "single_family",
+    "status": "Sold",
+    "listingAgent": {
+      "name": null,
+      "phone": null,
+      "email": null,
+      "website": null
+    },
+    "primaryPhoto": "https://www.compass.com/m/94f5485db4219fbfaea30db4c4b3119d2e32d039_img_0_3b173/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/236-Easley-Rd-Smithville-TX-78957/709314474808294129_lid/",
     "sortOrder": 132,
     "featured": false
   },
@@ -3146,28 +3146,6 @@
     "featured": false
   },
   {
-    "id": "1501543186695938473_lid",
-    "formattedAddress": "Undisclosed, Address Jarrell, TX 76537",
-    "addressLine1": "Undisclosed",
-    "price": 255000,
-    "bedrooms": 3,
-    "bathrooms": 2,
-    "squareFootage": 1446,
-    "lotSize": 4791,
-    "propertyType": "single_family",
-    "status": "Sold",
-    "listingAgent": {
-      "name": null,
-      "phone": null,
-      "email": null,
-      "website": null
-    },
-    "primaryPhoto": "https://www.compass.com/m/5cedcd1515c2e9188835641c49dae8bdff98be1c_img_0_df390/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/Undisclosed-Address-Jarrell-TX-76537/1501543186695938473_lid/",
-    "sortOrder": 144,
-    "featured": false
-  },
-  {
     "id": "1592780436159214065_lid",
     "formattedAddress": "19008 Romano Dr, Elgin, TX 78621",
     "addressLine1": "19008 Romano Dr",
@@ -3186,6 +3164,28 @@
     },
     "primaryPhoto": "https://www.compass.com/m/c5b266ff908bd2a79d68b94d1c93db03ca77006e_img_0_931af/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/19008-Romano-Dr-Elgin-TX-78621/1592780436159214065_lid/",
+    "sortOrder": 144,
+    "featured": false
+  },
+  {
+    "id": "1501543186695938473_lid",
+    "formattedAddress": "Undisclosed, Address Jarrell, TX 76537",
+    "addressLine1": "Undisclosed",
+    "price": 255000,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "squareFootage": 1446,
+    "lotSize": 4791,
+    "propertyType": "single_family",
+    "status": "Sold",
+    "listingAgent": {
+      "name": null,
+      "phone": null,
+      "email": null,
+      "website": null
+    },
+    "primaryPhoto": "https://www.compass.com/m/5cedcd1515c2e9188835641c49dae8bdff98be1c_img_0_df390/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/Undisclosed-Address-Jarrell-TX-76537/1501543186695938473_lid/",
     "sortOrder": 145,
     "featured": false
   },
@@ -3652,28 +3652,6 @@
     "featured": false
   },
   {
-    "id": "168065317765919457_lid",
-    "formattedAddress": "801 Dew Drop Ln, Leander, TX 78641",
-    "addressLine1": "801 Dew Drop Ln",
-    "price": 179900,
-    "bedrooms": 3,
-    "bathrooms": 1,
-    "squareFootage": 1239,
-    "lotSize": 14374,
-    "propertyType": "single_family",
-    "status": "Sold",
-    "listingAgent": {
-      "name": null,
-      "phone": null,
-      "email": null,
-      "website": null
-    },
-    "primaryPhoto": "https://www.compass.com/m/ca30bc5341e2493b8e934bd9f8d04a43dc78fefb_img_0_16e34/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/801-Dew-Drop-Ln-Leander-TX-78641/168065317765919457_lid/",
-    "sortOrder": 167,
-    "featured": false
-  },
-  {
     "id": "182999121362256465_lid",
     "formattedAddress": "3008 Don Hill Ln, Taylor, TX 76574",
     "addressLine1": "3008 Don Hill Ln",
@@ -3692,6 +3670,28 @@
     },
     "primaryPhoto": "https://www.compass.com/m/ae8bc68b6b9d37688d33a8ec9883f8735d31e8f1_img_0_dd6e6/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/3008-Don-Hill-Ln-Taylor-TX-76574/182999121362256465_lid/",
+    "sortOrder": 167,
+    "featured": false
+  },
+  {
+    "id": "168065317765919457_lid",
+    "formattedAddress": "801 Dew Drop Ln, Leander, TX 78641",
+    "addressLine1": "801 Dew Drop Ln",
+    "price": 179900,
+    "bedrooms": 3,
+    "bathrooms": 1,
+    "squareFootage": 1239,
+    "lotSize": 14374,
+    "propertyType": "single_family",
+    "status": "Sold",
+    "listingAgent": {
+      "name": null,
+      "phone": null,
+      "email": null,
+      "website": null
+    },
+    "primaryPhoto": "https://www.compass.com/m/ca30bc5341e2493b8e934bd9f8d04a43dc78fefb_img_0_16e34/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/801-Dew-Drop-Ln-Leander-TX-78641/168065317765919457_lid/",
     "sortOrder": 168,
     "featured": false
   },
