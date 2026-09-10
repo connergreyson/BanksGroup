@@ -2046,3 +2046,30 @@ body.home .hero .btn-primary:hover {
   color: var(--color-text);
 }
 
+.geo-page .listings-hero .section-intro,
+.geo-page .section-intro {
+  max-width: 44rem;
+}
+
+.geo-life-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-lg);
+  margin-top: var(--space-xl);
+}
+
+.geo-page .geo-note {
+  margin-top: var(--space-lg);
+}
+
+@media (max-width: 768px) {
+  .geo-life-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .geo-page .listings-hero .section-intro,
+  .geo-page .section-intro {
+    max-width: none;
+  }
+}
+
