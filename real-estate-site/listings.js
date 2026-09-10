@@ -178,3 +178,15 @@ function fetchSoldListings() {
       return [];
     });
 }
+
+function isGeorgetownListing(listing) {
+  if (!listing) return false;
+  var hay = [
+    listing.formattedAddress,
+    listing.addressLine1,
+    listing.city,
+    listing.postalCode
+  ].filter(Boolean).join(' ').toLowerCase();
+  if (hay.indexOf('georgetown') !== -1) return true;
+  return /\b78626\b|\b78628\b|\b78633\b/.test(hay);
+}

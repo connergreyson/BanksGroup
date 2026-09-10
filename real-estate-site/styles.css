@@ -458,15 +458,11 @@ body.home .logo-lockup:hover .logo-crop .logo-img {
 }
 
 .hero h1 {
-  font-size: clamp(2.5rem, 5.6vw, 4.15rem);
+  font-size: clamp(3rem, 7vw, 4.75rem);
   font-weight: 600;
   line-height: 1.05;
   letter-spacing: -0.03em;
   margin-bottom: var(--space-md);
-}
-
-.hero h1 em {
-  display: block;
 }
 
 .hero-sub {
@@ -525,12 +521,8 @@ body.home .hero .btn-primary:hover {
 
 @media (max-width: 520px) {
   .hero h1 {
-    font-size: 2.05rem;
-    max-width: none;
-  }
-
-  .hero h1 em {
-    max-width: 8.1em;
+    font-size: 2.25rem;
+    max-width: 8.4em;
   }
 
   .hero-sub {
@@ -584,7 +576,9 @@ body.home .hero .btn-primary:hover {
 .amplified h2,
 .tools h2,
 .secure h2,
-.testimonials h2 {
+.testimonials h2,
+.geo-lead h1,
+.geo-listings h2 {
   font-size: clamp(2.5rem, 5vw, 3.5rem);
   font-weight: 600;
   letter-spacing: -0.025em;
@@ -2060,6 +2054,24 @@ body.home .hero .btn-primary:hover {
 
 .geo-page .geo-note {
   margin-top: var(--space-lg);
+}
+
+.geo-listings {
+  padding: var(--space-3xl) 0;
+  border-top: 1px solid var(--color-border);
+}
+
+.geo-listings .listings-tabs {
+  margin-top: var(--space-md);
+}
+
+.geo-listings .listings-grid {
+  padding-top: var(--space-lg);
+  padding-bottom: 0;
+}
+
+.geo-listings .listings-panel {
+  padding: 0;
 }
 
 @media (max-width: 768px) {

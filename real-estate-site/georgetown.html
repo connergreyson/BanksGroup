@@ -39,7 +39,7 @@
     "description": "Georgetown residents helping buyers and sellers throughout Georgetown and surrounding communities."
   }
   </script>
-  <link rel="stylesheet" href="styles.css?v=20260910h">
+  <link rel="stylesheet" href="styles.css?v=20260910j">
 </head>
 <body class="geo-page">
   <header class="header">
@@ -65,16 +65,9 @@
   </header>
 
   <main class="listings-main">
-    <section class="listings-hero">
+    <section class="foundation geo-lead" aria-label="Life in Georgetown">
       <div class="container">
-        <h1><em>Georgetown</em></h1>
-        <p class="section-intro">Marty and Tracy live in Georgetown. They are the neighbors who also happen to be your agents—on the Square on a weeknight, at the Red Poppy Festival in the spring, and in living rooms all over town. They help buyers and sellers across Georgetown and the surrounding communities, not only in the names that show up on a “top neighborhoods” list.</p>
-      </div>
-    </section>
-
-    <section class="foundation" aria-label="Life in Georgetown">
-      <div class="container">
-        <h2>What Georgetown feels like</h2>
+        <h1>What Georgetown feels like</h1>
         <p class="section-intro">Georgetown is Williamson County’s seat, a college town, and a place people still walk downtown. If you are relocating, this is the texture of daily life—not a brochure version of it.</p>
         <div class="geo-life-grid">
           <article class="foundation-card">
@@ -204,6 +197,27 @@
       </div>
     </section>
 
+    <section class="geo-listings" id="geo-listings" aria-label="Georgetown listings">
+      <div class="container">
+        <h2>Georgetown listings</h2>
+        <p class="section-intro">Current homes for sale and past Georgetown sales and purchases with The Banks Group.</p>
+        <div class="listings-tabs" role="tablist" aria-label="Georgetown listing type">
+          <button type="button" class="listings-tab listings-tab-active" role="tab" aria-selected="true" aria-controls="geo-current-panel" id="geo-current-tab">Current</button>
+          <button type="button" class="listings-tab" role="tab" aria-selected="false" aria-controls="geo-past-panel" id="geo-past-tab">Past</button>
+        </div>
+        <div id="geo-listings-loading" class="listings-loading" aria-live="polite">Loading Georgetown listings…</div>
+        <div id="geo-listings-error" class="listings-error" role="alert" hidden></div>
+        <div id="geo-current-panel" class="listings-panel" role="tabpanel" aria-labelledby="geo-current-tab" hidden>
+          <div id="geo-listings-grid" class="listings-grid" aria-label="Current Georgetown listings"></div>
+        </div>
+        <div id="geo-past-panel" class="listings-panel" role="tabpanel" aria-labelledby="geo-past-tab" hidden>
+          <div id="geo-sold-loading" class="listings-loading" aria-live="polite">Loading past Georgetown listings…</div>
+          <div id="geo-sold-error" class="listings-error" role="alert" hidden></div>
+          <div id="geo-sold-grid" class="listings-grid" aria-label="Past Georgetown listings"></div>
+        </div>
+      </div>
+    </section>
+
     <section class="apply" aria-label="Contact">
       <div class="container">
         <h2>Let’s talk Georgetown—or anywhere in Greater Austin</h2>
@@ -263,6 +277,84 @@
     </p>
   </footer>
 
+  <script src="listings.js"></script>
   <script src="script.js?v=20260817"></script>
+  <script>
+    (function () {
+      'use strict';
+      var loading = document.getElementById('geo-listings-loading');
+      var error = document.getElementById('geo-listings-error');
+      var grid = document.getElementById('geo-listings-grid');
+      var soldLoading = document.getElementById('geo-sold-loading');
+      var soldError = document.getElementById('geo-sold-error');
+      var soldGrid = document.getElementById('geo-sold-grid');
+      var currentPanel = document.getElementById('geo-current-panel');
+      var pastPanel = document.getElementById('geo-past-panel');
+      var currentTab = document.getElementById('geo-current-tab');
+      var pastTab = document.getElementById('geo-past-tab');
+
+      function showError(el, loadingEl, gridEl, msg) {
+        if (loadingEl) loadingEl.hidden = true;
+        if (gridEl) gridEl.hidden = true;
+        if (el) {
+          el.textContent = msg;
+          el.hidden = false;
+        }
+      }
+
+      function switchTab(toPast) {
+        if (!currentTab || !pastTab || !currentPanel || !pastPanel) return;
+        currentTab.classList.toggle('listings-tab-active', !toPast);
+        currentTab.setAttribute('aria-selected', !toPast);
+        pastTab.classList.toggle('listings-tab-active', toPast);
+        pastTab.setAttribute('aria-selected', toPast);
+        currentPanel.hidden = toPast;
+        pastPanel.hidden = !toPast;
+      }
+
+      if (currentTab) {
+        currentTab.addEventListener('click', function () { switchTab(false); });
+      }
+      if (pastTab) {
+        pastTab.addEventListener('click', function () { switchTab(true); });
+      }
+
+      fetchListings()
+        .then(function (listings) {
+          var geo = (listings || []).filter(isGeorgetownListing);
+          if (loading) loading.hidden = true;
+          if (error) error.hidden = true;
+          if (currentPanel) {
+            currentPanel.hidden = false;
+            if (grid) {
+              grid.innerHTML = renderListingGrid(geo, {
+                emptyMessage: 'No current Georgetown listings. Check back soon, or browse all listings.'
+              });
+            }
+          }
+        })
+        .catch(function (err) {
+          console.error('Georgetown listings fetch failed:', err);
+          showError(error, loading, grid, 'Unable to load Georgetown listings. Please try again later.');
+          if (currentPanel) currentPanel.hidden = false;
+        });
+
+      fetchSoldListings()
+        .then(function (listings) {
+          var geo = (listings || []).filter(isGeorgetownListing);
+          if (soldLoading) soldLoading.hidden = true;
+          if (soldError) soldError.hidden = true;
+          if (soldGrid) {
+            soldGrid.innerHTML = renderListingGrid(geo, {
+              emptyMessage: 'No past Georgetown listings yet. Check back soon.'
+            });
+          }
+        })
+        .catch(function (err) {
+          console.error('Georgetown sold listings fetch failed:', err);
+          showError(soldError, soldLoading, soldGrid, 'Unable to load past Georgetown listings. Please try again later.');
+        });
+    })();
+  </script>
 </body>
 </html>
