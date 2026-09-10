@@ -276,7 +276,7 @@ body.home .logo-lockup:hover .logo-crop .logo-img {
 .nav {
   display: flex;
   align-items: center;
-  gap: 1.75rem;
+  gap: 1.4rem;
 }
 
 .nav a {
@@ -473,7 +473,7 @@ body.home .logo-lockup:hover .logo-crop .logo-img {
   font-size: 1.1875rem;
   font-weight: 400;
   color: rgba(255, 255, 255, 0.84);
-  max-width: 32rem;
+  max-width: 36rem;
   margin: 0 0 var(--space-xl);
   line-height: 1.47059;
   letter-spacing: -0.011em;
@@ -547,6 +547,10 @@ body.home .hero .btn-primary:hover {
     flex: 1 1 100%;
     width: 100%;
     max-width: 100%;
+  }
+
+  .listings-main .section-intro {
+    max-width: 19.5rem;
   }
 }
 
@@ -629,6 +633,20 @@ body.home .hero .btn-primary:hover {
 .industry-tag:hover {
   color: var(--color-text);
   border-color: var(--color-border-strong);
+}
+
+.focus-band {
+  padding: var(--space-3xl) 0;
+  border-top: 1px solid var(--color-border);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.focus-band .section-intro {
+  max-width: 40rem;
+}
+
+.listings-main .apply .btn {
+  margin-top: var(--space-md);
 }
 
 /* --- Foundation (Services) --- */
@@ -1402,6 +1420,13 @@ body.home .hero .btn-primary:hover {
 
 .listings-hero .section-intro {
   margin-bottom: var(--space-md);
+  max-width: 42rem;
+}
+
+@media (max-width: 520px) {
+  .listings-hero .section-intro {
+    max-width: 19.5rem;
+  }
 }
 
 .listings-tabs {

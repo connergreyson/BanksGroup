@@ -89,7 +89,7 @@
         imageHtml +
         '<div class="blog-detail-content">' + paragraphs + '</div>' +
         '<div class="blog-detail-cta">' +
-          '<p>Have questions about buying or selling in Georgetown or North Austin?</p>' +
+          '<p>Have questions about buying or selling in Greater Austin?</p>' +
           '<a href="index.html#contact" class="btn btn-primary">Get in touch</a>' +
         '</div>' +
       '</div>'
