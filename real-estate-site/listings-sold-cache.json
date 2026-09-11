@@ -1,13 +1,13 @@
 [
   {
-    "id": "1961013433146125425_lid",
+    "id": "1907468925998728641_lid",
     "formattedAddress": "323 Patricia Rd, Georgetown, TX 78628",
     "addressLine1": "323 Patricia Rd",
-    "price": 2199999,
+    "price": 2089999,
     "bedrooms": 5,
     "bathrooms": 3,
-    "squareFootage": null,
-    "lotSize": null,
+    "squareFootage": 4654,
+    "lotSize": 436906,
     "propertyType": "single_family",
     "status": "Sold",
     "listingAgent": {
@@ -16,8 +16,8 @@
       "email": null,
       "website": null
     },
-    "primaryPhoto": "https://www.compass.com/m/e54aca9870b722f62d8473b07036d31ef02de62d_img_0_fb04c/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/323-Patricia-Rd-Georgetown-TX-78628/1961013433146125425_lid/",
+    "primaryPhoto": "https://www.compass.com/m/71454693ab4d0e7133a63239e495ed2e9cf9490d7d8ee8e1b6ae4a2b5da28d9c/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/323-Patricia-Rd-Georgetown-TX-78628/1907468925998728641_lid/",
     "sortOrder": 1,
     "featured": true
   },
@@ -814,28 +814,6 @@
     "featured": false
   },
   {
-    "id": "766046637486274153_lid",
-    "formattedAddress": "3742 Hermann St, Round Rock, TX 78681",
-    "addressLine1": "3742 Hermann St",
-    "price": 525000,
-    "bedrooms": 4,
-    "bathrooms": 4,
-    "squareFootage": 2620,
-    "lotSize": 7405,
-    "propertyType": "single_family",
-    "status": "Sold",
-    "listingAgent": {
-      "name": null,
-      "phone": null,
-      "email": null,
-      "website": null
-    },
-    "primaryPhoto": "https://www.compass.com/m/550db7971b4a2da27e9d6e1cadca372f7d36a7a8_img_0_65daf/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/3742-Hermann-St-Round-Rock-TX-78681/766046637486274153_lid/",
-    "sortOrder": 38,
-    "featured": false
-  },
-  {
     "id": "1866146411904756649_lid",
     "formattedAddress": "531 Dennis Dr, Round Rock, TX 78664",
     "addressLine1": "531 Dennis Dr",
@@ -854,6 +832,28 @@
     },
     "primaryPhoto": "https://www.compass.com/m/1dada8d252e074cfae4f8b7cd703fbed906bf449_img_0_ca091/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/531-Dennis-Dr-Round-Rock-TX-78664/1866146411904756649_lid/",
+    "sortOrder": 38,
+    "featured": false
+  },
+  {
+    "id": "766046637486274153_lid",
+    "formattedAddress": "3742 Hermann St, Round Rock, TX 78681",
+    "addressLine1": "3742 Hermann St",
+    "price": 525000,
+    "bedrooms": 4,
+    "bathrooms": 4,
+    "squareFootage": 2620,
+    "lotSize": 7405,
+    "propertyType": "single_family",
+    "status": "Sold",
+    "listingAgent": {
+      "name": null,
+      "phone": null,
+      "email": null,
+      "website": null
+    },
+    "primaryPhoto": "https://www.compass.com/m/550db7971b4a2da27e9d6e1cadca372f7d36a7a8_img_0_65daf/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/3742-Hermann-St-Round-Rock-TX-78681/766046637486274153_lid/",
     "sortOrder": 39,
     "featured": false
   },
@@ -968,14 +968,14 @@
     "featured": false
   },
   {
-    "id": "1850820535382562449_lid",
+    "id": "1829315778580478561_lid",
     "formattedAddress": "2474 Santa Barbara Loop, Round Rock, TX 78665",
     "addressLine1": "2474 Santa Barbara Loop",
     "price": 499940,
     "bedrooms": 4,
     "bathrooms": 3,
-    "squareFootage": null,
-    "lotSize": null,
+    "squareFootage": 3336,
+    "lotSize": 6534,
     "propertyType": "single_family",
     "status": "Sold",
     "listingAgent": {
@@ -984,8 +984,8 @@
       "email": null,
       "website": null
     },
-    "primaryPhoto": "https://www.compass.com/m/8cf628975027ca99617877d0ed27885b898bfc59_img_0_035c3/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/2474-Santa-Barbara-Loop-Round-Rock-TX-78665/1850820535382562449_lid/",
+    "primaryPhoto": "https://www.compass.com/m/38df7fbfa9307b34673d8e234b976314e17308c2_img_0_b4876/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/2474-Santa-Barbara-Loop-Round-Rock-TX-78665/1829315778580478561_lid/",
     "sortOrder": 45,
     "featured": false
   },
@@ -2002,14 +2002,14 @@
     "featured": false
   },
   {
-    "id": "2018342908631655369_lid",
-    "formattedAddress": "529 Peace Dr, Liberty Hill, TX 78642",
-    "addressLine1": "529 Peace Dr",
+    "id": "58662041124094225_lid",
+    "formattedAddress": "320 Bartlett Peak Dr, Georgetown, TX 78633",
+    "addressLine1": "320 Bartlett Peak Dr",
     "price": 365000,
-    "bedrooms": 4,
-    "bathrooms": 3,
-    "squareFootage": null,
-    "lotSize": null,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "squareFootage": 1712,
+    "lotSize": 6969,
     "propertyType": "single_family",
     "status": "Sold",
     "listingAgent": {
@@ -2018,8 +2018,8 @@
       "email": null,
       "website": null
     },
-    "primaryPhoto": "https://www.compass.com/m/33fb10be4e3233dee78636f64892d1a3d71b64d151d5bbd6bf37c4bec839de75/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/529-Peace-Dr-Liberty-Hill-TX-78642/2018342908631655369_lid/",
+    "primaryPhoto": "https://www.compass.com/m/fd1377593858ba6a8c643fa68dbcaa0cd9c75d57_img_0_f1ec3/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/320-Bartlett-Peak-Dr-Georgetown-TX-78633/58662041124094225_lid/",
     "sortOrder": 92,
     "featured": false
   },
@@ -2046,14 +2046,14 @@
     "featured": false
   },
   {
-    "id": "58662041124094225_lid",
-    "formattedAddress": "320 Bartlett Peak Dr, Georgetown, TX 78633",
-    "addressLine1": "320 Bartlett Peak Dr",
+    "id": "2018342908631655369_lid",
+    "formattedAddress": "529 Peace Dr, Liberty Hill, TX 78642",
+    "addressLine1": "529 Peace Dr",
     "price": 365000,
-    "bedrooms": 2,
-    "bathrooms": 2,
-    "squareFootage": 1712,
-    "lotSize": 6969,
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "squareFootage": null,
+    "lotSize": null,
     "propertyType": "single_family",
     "status": "Sold",
     "listingAgent": {
@@ -2062,8 +2062,8 @@
       "email": null,
       "website": null
     },
-    "primaryPhoto": "https://www.compass.com/m/fd1377593858ba6a8c643fa68dbcaa0cd9c75d57_img_0_f1ec3/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/320-Bartlett-Peak-Dr-Georgetown-TX-78633/58662041124094225_lid/",
+    "primaryPhoto": "https://www.compass.com/m/33fb10be4e3233dee78636f64892d1a3d71b64d151d5bbd6bf37c4bec839de75/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/529-Peace-Dr-Liberty-Hill-TX-78642/2018342908631655369_lid/",
     "sortOrder": 94,
     "featured": false
   },
@@ -2090,14 +2090,14 @@
     "featured": false
   },
   {
-    "id": "518118847289635857_lid",
-    "formattedAddress": "1107 Myrtle St, Austin, TX 78702",
-    "addressLine1": "1107 Myrtle St",
+    "id": "538280235459038313_lid",
+    "formattedAddress": "406 N Blue Ridge Pkwy, Cedar Park, TX 78613",
+    "addressLine1": "406 N Blue Ridge Pkwy",
     "price": 350000,
     "bedrooms": 3,
-    "bathrooms": 1,
-    "squareFootage": 890,
-    "lotSize": 4791,
+    "bathrooms": 2,
+    "squareFootage": 1967,
+    "lotSize": 8712,
     "propertyType": "single_family",
     "status": "Sold",
     "listingAgent": {
@@ -2106,8 +2106,8 @@
       "email": null,
       "website": null
     },
-    "primaryPhoto": "https://www.compass.com/m/5a9ba452b21f6400cc6fa6e57243df6ad5cdf2f6_img_0_79b8f/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/1107-Myrtle-St-Austin-TX-78702/518118847289635857_lid/",
+    "primaryPhoto": "https://www.compass.com/m/3be64ed91c53ac61575bbbc65537d91e710ff9ac_img_0_d1971/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/406-N-Blue-Ridge-Pkwy-Cedar-Park-TX-78613/538280235459038313_lid/",
     "sortOrder": 96,
     "featured": false
   },
@@ -2134,14 +2134,14 @@
     "featured": false
   },
   {
-    "id": "538280235459038313_lid",
-    "formattedAddress": "406 N Blue Ridge Pkwy, Cedar Park, TX 78613",
-    "addressLine1": "406 N Blue Ridge Pkwy",
+    "id": "518118847289635857_lid",
+    "formattedAddress": "1107 Myrtle St, Austin, TX 78702",
+    "addressLine1": "1107 Myrtle St",
     "price": 350000,
     "bedrooms": 3,
-    "bathrooms": 2,
-    "squareFootage": 1967,
-    "lotSize": 8712,
+    "bathrooms": 1,
+    "squareFootage": 890,
+    "lotSize": 4791,
     "propertyType": "single_family",
     "status": "Sold",
     "listingAgent": {
@@ -2150,8 +2150,8 @@
       "email": null,
       "website": null
     },
-    "primaryPhoto": "https://www.compass.com/m/3be64ed91c53ac61575bbbc65537d91e710ff9ac_img_0_d1971/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/406-N-Blue-Ridge-Pkwy-Cedar-Park-TX-78613/538280235459038313_lid/",
+    "primaryPhoto": "https://www.compass.com/m/5a9ba452b21f6400cc6fa6e57243df6ad5cdf2f6_img_0_79b8f/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/1107-Myrtle-St-Austin-TX-78702/518118847289635857_lid/",
     "sortOrder": 98,
     "featured": false
   },
@@ -3762,28 +3762,6 @@
     "featured": false
   },
   {
-    "id": "625748236722354681_lid",
-    "formattedAddress": "901 County Road 100 Unit LOT 1, Georgetown, TX 78626",
-    "addressLine1": "901 County Road 100 Unit LOT 1",
-    "price": 164599,
-    "bedrooms": null,
-    "bathrooms": null,
-    "squareFootage": null,
-    "lotSize": 223898,
-    "propertyType": "single_family",
-    "status": "Sold",
-    "listingAgent": {
-      "name": null,
-      "phone": null,
-      "email": null,
-      "website": null
-    },
-    "primaryPhoto": "https://www.compass.com/m/46f97b278183677d865ea946cd7d39ae7db3cbfaf76e944185fb742403ee906a/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/901-County-Road-100-Unit-LOT-1-Georgetown-TX-78626/625748236722354681_lid/",
-    "sortOrder": 172,
-    "featured": false
-  },
-  {
     "id": "625747284119951489_lid",
     "formattedAddress": "901 County Road 100 Unit LOT 1, Georgetown, TX 78626",
     "addressLine1": "901 County Road 100 Unit LOT 1",
@@ -3802,6 +3780,28 @@
     },
     "primaryPhoto": "https://www.compass.com/m/46f97b278183677d865ea946cd7d39ae7db3cbfaf76e944185fb742403ee906a/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/901-County-Road-100-Unit-LOT-1-Georgetown-TX-78626/625747284119951489_lid/",
+    "sortOrder": 172,
+    "featured": false
+  },
+  {
+    "id": "625748236722354681_lid",
+    "formattedAddress": "901 County Road 100 Unit LOT 1, Georgetown, TX 78626",
+    "addressLine1": "901 County Road 100 Unit LOT 1",
+    "price": 164599,
+    "bedrooms": null,
+    "bathrooms": null,
+    "squareFootage": null,
+    "lotSize": 223898,
+    "propertyType": "single_family",
+    "status": "Sold",
+    "listingAgent": {
+      "name": null,
+      "phone": null,
+      "email": null,
+      "website": null
+    },
+    "primaryPhoto": "https://www.compass.com/m/46f97b278183677d865ea946cd7d39ae7db3cbfaf76e944185fb742403ee906a/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/901-County-Road-100-Unit-LOT-1-Georgetown-TX-78626/625748236722354681_lid/",
     "sortOrder": 173,
     "featured": false
   },
