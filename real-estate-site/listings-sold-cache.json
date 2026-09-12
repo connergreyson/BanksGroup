@@ -814,28 +814,6 @@
     "featured": false
   },
   {
-    "id": "1866146411904756649_lid",
-    "formattedAddress": "531 Dennis Dr, Round Rock, TX 78664",
-    "addressLine1": "531 Dennis Dr",
-    "price": 525000,
-    "bedrooms": 4,
-    "bathrooms": 3,
-    "squareFootage": null,
-    "lotSize": null,
-    "propertyType": "single_family",
-    "status": "Sold",
-    "listingAgent": {
-      "name": null,
-      "phone": null,
-      "email": null,
-      "website": null
-    },
-    "primaryPhoto": "https://www.compass.com/m/1dada8d252e074cfae4f8b7cd703fbed906bf449_img_0_ca091/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/531-Dennis-Dr-Round-Rock-TX-78664/1866146411904756649_lid/",
-    "sortOrder": 38,
-    "featured": false
-  },
-  {
     "id": "766046637486274153_lid",
     "formattedAddress": "3742 Hermann St, Round Rock, TX 78681",
     "addressLine1": "3742 Hermann St",
@@ -854,6 +832,28 @@
     },
     "primaryPhoto": "https://www.compass.com/m/550db7971b4a2da27e9d6e1cadca372f7d36a7a8_img_0_65daf/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/3742-Hermann-St-Round-Rock-TX-78681/766046637486274153_lid/",
+    "sortOrder": 38,
+    "featured": false
+  },
+  {
+    "id": "1866146411904756649_lid",
+    "formattedAddress": "531 Dennis Dr, Round Rock, TX 78664",
+    "addressLine1": "531 Dennis Dr",
+    "price": 525000,
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "squareFootage": null,
+    "lotSize": null,
+    "propertyType": "single_family",
+    "status": "Sold",
+    "listingAgent": {
+      "name": null,
+      "phone": null,
+      "email": null,
+      "website": null
+    },
+    "primaryPhoto": "https://www.compass.com/m/1dada8d252e074cfae4f8b7cd703fbed906bf449_img_0_ca091/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/531-Dennis-Dr-Round-Rock-TX-78664/1866146411904756649_lid/",
     "sortOrder": 39,
     "featured": false
   },
@@ -1650,28 +1650,6 @@
     "featured": false
   },
   {
-    "id": "1563011180226786297_lid",
-    "formattedAddress": "8108 Purple Aster Pass, Lago Vista, TX 78645",
-    "addressLine1": "8108 Purple Aster Pass",
-    "price": 399000,
-    "bedrooms": 4,
-    "bathrooms": 4,
-    "squareFootage": 2395,
-    "lotSize": 5662,
-    "propertyType": "single_family",
-    "status": "Sold",
-    "listingAgent": {
-      "name": null,
-      "phone": null,
-      "email": null,
-      "website": null
-    },
-    "primaryPhoto": "https://www.compass.com/m/0f3114b3da42b4307418ea977cc8684a84014966_img_0_806ab/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/8108-Purple-Aster-Pass-Lago-Vista-TX-78645/1563011180226786297_lid/",
-    "sortOrder": 76,
-    "featured": false
-  },
-  {
     "id": "1699670388718925041_lid",
     "formattedAddress": "2304 Sycamore Trail, Round Rock, TX 78664",
     "addressLine1": "2304 Sycamore Trail",
@@ -1690,18 +1668,18 @@
     },
     "primaryPhoto": "https://www.compass.com/m/947a043c2cc2b5d6ccf68343a44b4bba70c9280d_img_0_b6f97/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/2304-Sycamore-Trail-Round-Rock-TX-78664/1699670388718925041_lid/",
-    "sortOrder": 77,
+    "sortOrder": 76,
     "featured": false
   },
   {
-    "id": "1252372679917887297_lid",
-    "formattedAddress": "308 N 3rd St, Jarrell, TX 76537",
-    "addressLine1": "308 N 3rd St",
-    "price": 395000,
+    "id": "1563011180226786297_lid",
+    "formattedAddress": "8108 Purple Aster Pass, Lago Vista, TX 78645",
+    "addressLine1": "8108 Purple Aster Pass",
+    "price": 399000,
     "bedrooms": 4,
-    "bathrooms": 2,
-    "squareFootage": 1899,
-    "lotSize": 10454,
+    "bathrooms": 4,
+    "squareFootage": 2395,
+    "lotSize": 5662,
     "propertyType": "single_family",
     "status": "Sold",
     "listingAgent": {
@@ -1710,9 +1688,9 @@
       "email": null,
       "website": null
     },
-    "primaryPhoto": "https://www.compass.com/m/6e09883d27858ae5cbf8f30185ec1c45c4a43301_img_0_df347/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/308-N-3rd-St-Jarrell-TX-76537/1252372679917887297_lid/",
-    "sortOrder": 78,
+    "primaryPhoto": "https://www.compass.com/m/0f3114b3da42b4307418ea977cc8684a84014966_img_0_806ab/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/8108-Purple-Aster-Pass-Lago-Vista-TX-78645/1563011180226786297_lid/",
+    "sortOrder": 77,
     "featured": false
   },
   {
@@ -1734,6 +1712,28 @@
     },
     "primaryPhoto": "https://www.compass.com/m/0f7e2b31d6f0f319faeed1534af2e7ece55cfc24_img_0_c7da5/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/505-Silver-Trail-Round-Rock-TX-78664/229673967802168033_lid/",
+    "sortOrder": 78,
+    "featured": false
+  },
+  {
+    "id": "1252372679917887297_lid",
+    "formattedAddress": "308 N 3rd St, Jarrell, TX 76537",
+    "addressLine1": "308 N 3rd St",
+    "price": 395000,
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "squareFootage": 1899,
+    "lotSize": 10454,
+    "propertyType": "single_family",
+    "status": "Sold",
+    "listingAgent": {
+      "name": null,
+      "phone": null,
+      "email": null,
+      "website": null
+    },
+    "primaryPhoto": "https://www.compass.com/m/6e09883d27858ae5cbf8f30185ec1c45c4a43301_img_0_df347/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/308-N-3rd-St-Jarrell-TX-76537/1252372679917887297_lid/",
     "sortOrder": 79,
     "featured": false
   },
@@ -2002,14 +2002,14 @@
     "featured": false
   },
   {
-    "id": "58662041124094225_lid",
-    "formattedAddress": "320 Bartlett Peak Dr, Georgetown, TX 78633",
-    "addressLine1": "320 Bartlett Peak Dr",
+    "id": "2018342908631655369_lid",
+    "formattedAddress": "529 Peace Dr, Liberty Hill, TX 78642",
+    "addressLine1": "529 Peace Dr",
     "price": 365000,
-    "bedrooms": 2,
-    "bathrooms": 2,
-    "squareFootage": 1712,
-    "lotSize": 6969,
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "squareFootage": null,
+    "lotSize": null,
     "propertyType": "single_family",
     "status": "Sold",
     "listingAgent": {
@@ -2018,8 +2018,8 @@
       "email": null,
       "website": null
     },
-    "primaryPhoto": "https://www.compass.com/m/fd1377593858ba6a8c643fa68dbcaa0cd9c75d57_img_0_f1ec3/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/320-Bartlett-Peak-Dr-Georgetown-TX-78633/58662041124094225_lid/",
+    "primaryPhoto": "https://www.compass.com/m/33fb10be4e3233dee78636f64892d1a3d71b64d151d5bbd6bf37c4bec839de75/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/529-Peace-Dr-Liberty-Hill-TX-78642/2018342908631655369_lid/",
     "sortOrder": 92,
     "featured": false
   },
@@ -2046,14 +2046,14 @@
     "featured": false
   },
   {
-    "id": "2018342908631655369_lid",
-    "formattedAddress": "529 Peace Dr, Liberty Hill, TX 78642",
-    "addressLine1": "529 Peace Dr",
+    "id": "58662041124094225_lid",
+    "formattedAddress": "320 Bartlett Peak Dr, Georgetown, TX 78633",
+    "addressLine1": "320 Bartlett Peak Dr",
     "price": 365000,
-    "bedrooms": 4,
-    "bathrooms": 3,
-    "squareFootage": null,
-    "lotSize": null,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "squareFootage": 1712,
+    "lotSize": 6969,
     "propertyType": "single_family",
     "status": "Sold",
     "listingAgent": {
@@ -2062,8 +2062,8 @@
       "email": null,
       "website": null
     },
-    "primaryPhoto": "https://www.compass.com/m/33fb10be4e3233dee78636f64892d1a3d71b64d151d5bbd6bf37c4bec839de75/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/529-Peace-Dr-Liberty-Hill-TX-78642/2018342908631655369_lid/",
+    "primaryPhoto": "https://www.compass.com/m/fd1377593858ba6a8c643fa68dbcaa0cd9c75d57_img_0_f1ec3/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/320-Bartlett-Peak-Dr-Georgetown-TX-78633/58662041124094225_lid/",
     "sortOrder": 94,
     "featured": false
   },
@@ -2090,28 +2090,6 @@
     "featured": false
   },
   {
-    "id": "538280235459038313_lid",
-    "formattedAddress": "406 N Blue Ridge Pkwy, Cedar Park, TX 78613",
-    "addressLine1": "406 N Blue Ridge Pkwy",
-    "price": 350000,
-    "bedrooms": 3,
-    "bathrooms": 2,
-    "squareFootage": 1967,
-    "lotSize": 8712,
-    "propertyType": "single_family",
-    "status": "Sold",
-    "listingAgent": {
-      "name": null,
-      "phone": null,
-      "email": null,
-      "website": null
-    },
-    "primaryPhoto": "https://www.compass.com/m/3be64ed91c53ac61575bbbc65537d91e710ff9ac_img_0_d1971/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/406-N-Blue-Ridge-Pkwy-Cedar-Park-TX-78613/538280235459038313_lid/",
-    "sortOrder": 96,
-    "featured": false
-  },
-  {
     "id": "401578413702460353_lid",
     "formattedAddress": "1904 Jerry Ln, Cedar Park, TX 78613",
     "addressLine1": "1904 Jerry Ln",
@@ -2130,7 +2108,7 @@
     },
     "primaryPhoto": "https://www.compass.com/m/fd50c76ad4abcb8995b034f949f90a2fa57a93c4_img_0_5d8ba/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/1904-Jerry-Ln-Cedar-Park-TX-78613/401578413702460353_lid/",
-    "sortOrder": 97,
+    "sortOrder": 96,
     "featured": false
   },
   {
@@ -2152,6 +2130,28 @@
     },
     "primaryPhoto": "https://www.compass.com/m/5a9ba452b21f6400cc6fa6e57243df6ad5cdf2f6_img_0_79b8f/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/1107-Myrtle-St-Austin-TX-78702/518118847289635857_lid/",
+    "sortOrder": 97,
+    "featured": false
+  },
+  {
+    "id": "538280235459038313_lid",
+    "formattedAddress": "406 N Blue Ridge Pkwy, Cedar Park, TX 78613",
+    "addressLine1": "406 N Blue Ridge Pkwy",
+    "price": 350000,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "squareFootage": 1967,
+    "lotSize": 8712,
+    "propertyType": "single_family",
+    "status": "Sold",
+    "listingAgent": {
+      "name": null,
+      "phone": null,
+      "email": null,
+      "website": null
+    },
+    "primaryPhoto": "https://www.compass.com/m/3be64ed91c53ac61575bbbc65537d91e710ff9ac_img_0_d1971/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/406-N-Blue-Ridge-Pkwy-Cedar-Park-TX-78613/538280235459038313_lid/",
     "sortOrder": 98,
     "featured": false
   },
@@ -3652,28 +3652,6 @@
     "featured": false
   },
   {
-    "id": "182999121362256465_lid",
-    "formattedAddress": "3008 Don Hill Ln, Taylor, TX 76574",
-    "addressLine1": "3008 Don Hill Ln",
-    "price": 179900,
-    "bedrooms": 3,
-    "bathrooms": 2,
-    "squareFootage": 1184,
-    "lotSize": 6098,
-    "propertyType": "single_family",
-    "status": "Sold",
-    "listingAgent": {
-      "name": null,
-      "phone": null,
-      "email": null,
-      "website": null
-    },
-    "primaryPhoto": "https://www.compass.com/m/ae8bc68b6b9d37688d33a8ec9883f8735d31e8f1_img_0_dd6e6/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/3008-Don-Hill-Ln-Taylor-TX-76574/182999121362256465_lid/",
-    "sortOrder": 167,
-    "featured": false
-  },
-  {
     "id": "168065317765919457_lid",
     "formattedAddress": "801 Dew Drop Ln, Leander, TX 78641",
     "addressLine1": "801 Dew Drop Ln",
@@ -3692,6 +3670,28 @@
     },
     "primaryPhoto": "https://www.compass.com/m/ca30bc5341e2493b8e934bd9f8d04a43dc78fefb_img_0_16e34/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/801-Dew-Drop-Ln-Leander-TX-78641/168065317765919457_lid/",
+    "sortOrder": 167,
+    "featured": false
+  },
+  {
+    "id": "182999121362256465_lid",
+    "formattedAddress": "3008 Don Hill Ln, Taylor, TX 76574",
+    "addressLine1": "3008 Don Hill Ln",
+    "price": 179900,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "squareFootage": 1184,
+    "lotSize": 6098,
+    "propertyType": "single_family",
+    "status": "Sold",
+    "listingAgent": {
+      "name": null,
+      "phone": null,
+      "email": null,
+      "website": null
+    },
+    "primaryPhoto": "https://www.compass.com/m/ae8bc68b6b9d37688d33a8ec9883f8735d31e8f1_img_0_dd6e6/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/3008-Don-Hill-Ln-Taylor-TX-76574/182999121362256465_lid/",
     "sortOrder": 168,
     "featured": false
   },
@@ -3762,28 +3762,6 @@
     "featured": false
   },
   {
-    "id": "625747284119951489_lid",
-    "formattedAddress": "901 County Road 100 Unit LOT 1, Georgetown, TX 78626",
-    "addressLine1": "901 County Road 100 Unit LOT 1",
-    "price": 164599,
-    "bedrooms": null,
-    "bathrooms": null,
-    "squareFootage": null,
-    "lotSize": 223898,
-    "propertyType": "single_family",
-    "status": "Sold",
-    "listingAgent": {
-      "name": null,
-      "phone": null,
-      "email": null,
-      "website": null
-    },
-    "primaryPhoto": "https://www.compass.com/m/46f97b278183677d865ea946cd7d39ae7db3cbfaf76e944185fb742403ee906a/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/901-County-Road-100-Unit-LOT-1-Georgetown-TX-78626/625747284119951489_lid/",
-    "sortOrder": 172,
-    "featured": false
-  },
-  {
     "id": "625748236722354681_lid",
     "formattedAddress": "901 County Road 100 Unit LOT 1, Georgetown, TX 78626",
     "addressLine1": "901 County Road 100 Unit LOT 1",
@@ -3802,6 +3780,28 @@
     },
     "primaryPhoto": "https://www.compass.com/m/46f97b278183677d865ea946cd7d39ae7db3cbfaf76e944185fb742403ee906a/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/901-County-Road-100-Unit-LOT-1-Georgetown-TX-78626/625748236722354681_lid/",
+    "sortOrder": 172,
+    "featured": false
+  },
+  {
+    "id": "625747284119951489_lid",
+    "formattedAddress": "901 County Road 100 Unit LOT 1, Georgetown, TX 78626",
+    "addressLine1": "901 County Road 100 Unit LOT 1",
+    "price": 164599,
+    "bedrooms": null,
+    "bathrooms": null,
+    "squareFootage": null,
+    "lotSize": 223898,
+    "propertyType": "single_family",
+    "status": "Sold",
+    "listingAgent": {
+      "name": null,
+      "phone": null,
+      "email": null,
+      "website": null
+    },
+    "primaryPhoto": "https://www.compass.com/m/46f97b278183677d865ea946cd7d39ae7db3cbfaf76e944185fb742403ee906a/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/901-County-Road-100-Unit-LOT-1-Georgetown-TX-78626/625747284119951489_lid/",
     "sortOrder": 173,
     "featured": false
   },

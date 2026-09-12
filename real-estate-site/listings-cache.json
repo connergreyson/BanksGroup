@@ -1,5 +1,27 @@
 [
   {
+    "id": "1F1TF0_pid",
+    "formattedAddress": "3200 Harris Park Ave, Austin, TX 78705",
+    "addressLine1": "3200 Harris Park Ave",
+    "price": 1350000,
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "squareFootage": 1930,
+    "lotSize": 6969,
+    "propertyType": "single_family",
+    "status": "For Sale",
+    "listingAgent": {
+      "name": null,
+      "phone": null,
+      "email": null,
+      "website": null
+    },
+    "primaryPhoto": "https://www.compass.com/m/f3887df09a5ff3cc9f77ac81e04aaad302ba15c42deda0feff648addcdedb830/origin.webp",
+    "realtorUrl": "https://www.compass.com/homedetails/3200-Harris-Park-Ave-Austin-TX-78705/1F1TF0_pid/",
+    "sortOrder": 1,
+    "featured": false
+  },
+  {
     "id": "1F0LUU_pid",
     "formattedAddress": "2903 Bryco Cove, Round Rock, TX 78681",
     "addressLine1": "2903 Bryco Cove",
@@ -18,7 +40,7 @@
     },
     "primaryPhoto": "https://www.compass.com/m/e5ceccf922a8d22b7bb94af44ffda8bd6d255b1fb8ba3d07285ec046f7dd1d57/origin.webp",
     "realtorUrl": "https://www.compass.com/homedetails/2903-Bryco-Cove-Round-Rock-TX-78681/1F0LUU_pid/",
-    "sortOrder": 1,
+    "sortOrder": 2,
     "featured": false
   },
   {
@@ -40,7 +62,7 @@
     },
     "primaryPhoto": "https://www.compass.com/m/0797f32baf09836b48f71fe0ca1b7a347c314396e0ba3e0a26e0f1385bd6555a/origin.webp",
     "realtorUrl": "https://www.compass.com/homedetails/12712-Monterey-Path-Austin-TX-78732/1FE7YF_pid/",
-    "sortOrder": 2,
+    "sortOrder": 3,
     "featured": false
   },
   {
@@ -62,7 +84,7 @@
     },
     "primaryPhoto": "https://www.compass.com/m/54ca1580300bc5cfd7254c1a895836b9e9e62c3969edf561e8f97a0a47248e16/origin.webp",
     "realtorUrl": "https://www.compass.com/homedetails/703-Parkway-St-Georgetown-TX-78628/1EWI76_pid/",
-    "sortOrder": 3,
+    "sortOrder": 4,
     "featured": false
   },
   {
@@ -84,7 +106,7 @@
     },
     "primaryPhoto": "https://www.compass.com/m/73fc594d1ecf03244fad7649b981708f714c770e60154be36dc420cfc0f58aea/origin.webp",
     "realtorUrl": "https://www.compass.com/homedetails/216-Mystic-Cyn-Ln-Georgetown-TX-78628/1D7L67_pid/",
-    "sortOrder": 4,
+    "sortOrder": 5,
     "featured": false
   },
   {
@@ -106,7 +128,7 @@
     },
     "primaryPhoto": "https://www.compass.com/m/f8650ca07b8ac325636cfadb821c26ed3acdbe462045d782a08ab4e27718673d/origin.webp",
     "realtorUrl": "https://www.compass.com/homedetails/221-Magdalene-Way-Liberty-Hill-TX-78642/1GBHWS_pid/",
-    "sortOrder": 5,
+    "sortOrder": 6,
     "featured": false
   }
 ]
