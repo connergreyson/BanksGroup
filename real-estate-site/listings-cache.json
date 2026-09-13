@@ -108,27 +108,5 @@
     "realtorUrl": "https://www.compass.com/homedetails/216-Mystic-Cyn-Ln-Georgetown-TX-78628/1D7L67_pid/",
     "sortOrder": 5,
     "featured": false
-  },
-  {
-    "id": "1GBHWS_pid",
-    "formattedAddress": "221 Magdalene Way, Liberty Hill, TX 78642",
-    "addressLine1": "221 Magdalene Way",
-    "price": 499000,
-    "bedrooms": 5,
-    "bathrooms": 4,
-    "squareFootage": 2620,
-    "lotSize": 6534,
-    "propertyType": "single_family",
-    "status": "For Sale",
-    "listingAgent": {
-      "name": null,
-      "phone": null,
-      "email": null,
-      "website": null
-    },
-    "primaryPhoto": "https://www.compass.com/m/f8650ca07b8ac325636cfadb821c26ed3acdbe462045d782a08ab4e27718673d/origin.webp",
-    "realtorUrl": "https://www.compass.com/homedetails/221-Magdalene-Way-Liberty-Hill-TX-78642/1GBHWS_pid/",
-    "sortOrder": 6,
-    "featured": false
   }
 ]
