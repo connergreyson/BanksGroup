@@ -814,6 +814,28 @@
     "featured": false
   },
   {
+    "id": "1835658329996639809_lid",
+    "formattedAddress": "531 Dennis Dr, Round Rock, TX 78664",
+    "addressLine1": "531 Dennis Dr",
+    "price": 525000,
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "squareFootage": 2839,
+    "lotSize": 11761,
+    "propertyType": "single_family",
+    "status": "Sold",
+    "listingAgent": {
+      "name": null,
+      "phone": null,
+      "email": null,
+      "website": null
+    },
+    "primaryPhoto": "https://www.compass.com/m/52b58b9efaa32e1e4a536e7fe93438cb2ae8f6f59d8bc685404c869d48c5a87d/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/531-Dennis-Dr-Round-Rock-TX-78664/1835658329996639809_lid/",
+    "sortOrder": 38,
+    "featured": false
+  },
+  {
     "id": "766046637486274153_lid",
     "formattedAddress": "3742 Hermann St, Round Rock, TX 78681",
     "addressLine1": "3742 Hermann St",
@@ -832,28 +854,6 @@
     },
     "primaryPhoto": "https://www.compass.com/m/550db7971b4a2da27e9d6e1cadca372f7d36a7a8_img_0_65daf/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/3742-Hermann-St-Round-Rock-TX-78681/766046637486274153_lid/",
-    "sortOrder": 38,
-    "featured": false
-  },
-  {
-    "id": "1866146411904756649_lid",
-    "formattedAddress": "531 Dennis Dr, Round Rock, TX 78664",
-    "addressLine1": "531 Dennis Dr",
-    "price": 525000,
-    "bedrooms": 4,
-    "bathrooms": 3,
-    "squareFootage": null,
-    "lotSize": null,
-    "propertyType": "single_family",
-    "status": "Sold",
-    "listingAgent": {
-      "name": null,
-      "phone": null,
-      "email": null,
-      "website": null
-    },
-    "primaryPhoto": "https://www.compass.com/m/1dada8d252e074cfae4f8b7cd703fbed906bf449_img_0_ca091/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/531-Dennis-Dr-Round-Rock-TX-78664/1866146411904756649_lid/",
     "sortOrder": 39,
     "featured": false
   },
@@ -1298,28 +1298,6 @@
     "featured": false
   },
   {
-    "id": "2105235659952977033_lid",
-    "formattedAddress": "1902 Walsh Dr, Round Rock, TX 78681",
-    "addressLine1": "1902 Walsh Dr",
-    "price": 450000,
-    "bedrooms": null,
-    "bathrooms": null,
-    "squareFootage": null,
-    "lotSize": 44866,
-    "propertyType": "single_family",
-    "status": "Sold",
-    "listingAgent": {
-      "name": null,
-      "phone": null,
-      "email": null,
-      "website": null
-    },
-    "primaryPhoto": "https://www.compass.com/m/f1640398e3be3924a2db82078aedc9cba294f5360b884baab0ea7c39f255487c/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/1902-Walsh-Dr-Round-Rock-TX-78681/2105235659952977033_lid/",
-    "sortOrder": 60,
-    "featured": false
-  },
-  {
     "id": "25514437922269537_lid",
     "formattedAddress": "107 Goose Island Dr, Georgetown, TX 78633",
     "addressLine1": "107 Goose Island Dr",
@@ -1338,6 +1316,28 @@
     },
     "primaryPhoto": "https://www.compass.com/m/eac1c19e07c5c8ba82f19c0a391dddf5455d40a72e9ae611fbd946d3d22c4a8e/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/107-Goose-Island-Dr-Georgetown-TX-78633/25514437922269537_lid/",
+    "sortOrder": 60,
+    "featured": false
+  },
+  {
+    "id": "2105235659952977033_lid",
+    "formattedAddress": "1902 Walsh Dr, Round Rock, TX 78681",
+    "addressLine1": "1902 Walsh Dr",
+    "price": 450000,
+    "bedrooms": null,
+    "bathrooms": null,
+    "squareFootage": null,
+    "lotSize": 44866,
+    "propertyType": "single_family",
+    "status": "Sold",
+    "listingAgent": {
+      "name": null,
+      "phone": null,
+      "email": null,
+      "website": null
+    },
+    "primaryPhoto": "https://www.compass.com/m/f1640398e3be3924a2db82078aedc9cba294f5360b884baab0ea7c39f255487c/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/1902-Walsh-Dr-Round-Rock-TX-78681/2105235659952977033_lid/",
     "sortOrder": 61,
     "featured": false
   },
@@ -2002,28 +2002,6 @@
     "featured": false
   },
   {
-    "id": "1545167829336057945_lid",
-    "formattedAddress": "306 E Castleshoals Dr, Granite Shoals, TX 78654",
-    "addressLine1": "306 E Castleshoals Dr",
-    "price": 365000,
-    "bedrooms": 3,
-    "bathrooms": 2,
-    "squareFootage": null,
-    "lotSize": null,
-    "propertyType": "single_family",
-    "status": "Sold",
-    "listingAgent": {
-      "name": null,
-      "phone": null,
-      "email": null,
-      "website": null
-    },
-    "primaryPhoto": "https://www.compass.com/m/2af5afeaf7c6f255976ca9995632e94e500e4f75_img_0_89f3d/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/306-E-Castleshoals-Dr-Granite-Shoals-TX-78654/1545167829336057945_lid/",
-    "sortOrder": 92,
-    "featured": false
-  },
-  {
     "id": "2018342908631655369_lid",
     "formattedAddress": "529 Peace Dr, Liberty Hill, TX 78642",
     "addressLine1": "529 Peace Dr",
@@ -2042,6 +2020,28 @@
     },
     "primaryPhoto": "https://www.compass.com/m/33fb10be4e3233dee78636f64892d1a3d71b64d151d5bbd6bf37c4bec839de75/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/529-Peace-Dr-Liberty-Hill-TX-78642/2018342908631655369_lid/",
+    "sortOrder": 92,
+    "featured": false
+  },
+  {
+    "id": "1545167829336057945_lid",
+    "formattedAddress": "306 E Castleshoals Dr, Granite Shoals, TX 78654",
+    "addressLine1": "306 E Castleshoals Dr",
+    "price": 365000,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "squareFootage": null,
+    "lotSize": null,
+    "propertyType": "single_family",
+    "status": "Sold",
+    "listingAgent": {
+      "name": null,
+      "phone": null,
+      "email": null,
+      "website": null
+    },
+    "primaryPhoto": "https://www.compass.com/m/2af5afeaf7c6f255976ca9995632e94e500e4f75_img_0_89f3d/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/306-E-Castleshoals-Dr-Granite-Shoals-TX-78654/1545167829336057945_lid/",
     "sortOrder": 93,
     "featured": false
   },
@@ -2860,28 +2860,6 @@
     "featured": false
   },
   {
-    "id": "1294222370932392137_lid",
-    "formattedAddress": "536 White Steppe Way Unit 253, Georgetown, TX 78626",
-    "addressLine1": "536 White Steppe Way Unit 253",
-    "price": 285000,
-    "bedrooms": 3,
-    "bathrooms": 3,
-    "squareFootage": 1406,
-    "lotSize": null,
-    "propertyType": "single_family",
-    "status": "Sold",
-    "listingAgent": {
-      "name": null,
-      "phone": null,
-      "email": null,
-      "website": null
-    },
-    "primaryPhoto": "https://www.compass.com/m/1d8ae2ba15c24aa16cebd7cb2ebc317909d6279c898251eb4dcd0014ca270e8a/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/536-White-Steppe-Way-Unit-253-Georgetown-TX-78626/1294222370932392137_lid/",
-    "sortOrder": 131,
-    "featured": false
-  },
-  {
     "id": "709314474808294129_lid",
     "formattedAddress": "236 Easley Rd, Smithville, TX 78957",
     "addressLine1": "236 Easley Rd",
@@ -2900,6 +2878,28 @@
     },
     "primaryPhoto": "https://www.compass.com/m/94f5485db4219fbfaea30db4c4b3119d2e32d039_img_0_3b173/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/236-Easley-Rd-Smithville-TX-78957/709314474808294129_lid/",
+    "sortOrder": 131,
+    "featured": false
+  },
+  {
+    "id": "1294222370932392137_lid",
+    "formattedAddress": "536 White Steppe Way Unit 253, Georgetown, TX 78626",
+    "addressLine1": "536 White Steppe Way Unit 253",
+    "price": 285000,
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "squareFootage": 1406,
+    "lotSize": null,
+    "propertyType": "single_family",
+    "status": "Sold",
+    "listingAgent": {
+      "name": null,
+      "phone": null,
+      "email": null,
+      "website": null
+    },
+    "primaryPhoto": "https://www.compass.com/m/1d8ae2ba15c24aa16cebd7cb2ebc317909d6279c898251eb4dcd0014ca270e8a/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/536-White-Steppe-Way-Unit-253-Georgetown-TX-78626/1294222370932392137_lid/",
     "sortOrder": 132,
     "featured": false
   },
@@ -3762,28 +3762,6 @@
     "featured": false
   },
   {
-    "id": "625748236722354681_lid",
-    "formattedAddress": "901 County Road 100 Unit LOT 1, Georgetown, TX 78626",
-    "addressLine1": "901 County Road 100 Unit LOT 1",
-    "price": 164599,
-    "bedrooms": null,
-    "bathrooms": null,
-    "squareFootage": null,
-    "lotSize": 223898,
-    "propertyType": "single_family",
-    "status": "Sold",
-    "listingAgent": {
-      "name": null,
-      "phone": null,
-      "email": null,
-      "website": null
-    },
-    "primaryPhoto": "https://www.compass.com/m/46f97b278183677d865ea946cd7d39ae7db3cbfaf76e944185fb742403ee906a/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/901-County-Road-100-Unit-LOT-1-Georgetown-TX-78626/625748236722354681_lid/",
-    "sortOrder": 172,
-    "featured": false
-  },
-  {
     "id": "625747284119951489_lid",
     "formattedAddress": "901 County Road 100 Unit LOT 1, Georgetown, TX 78626",
     "addressLine1": "901 County Road 100 Unit LOT 1",
@@ -3802,6 +3780,28 @@
     },
     "primaryPhoto": "https://www.compass.com/m/46f97b278183677d865ea946cd7d39ae7db3cbfaf76e944185fb742403ee906a/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/901-County-Road-100-Unit-LOT-1-Georgetown-TX-78626/625747284119951489_lid/",
+    "sortOrder": 172,
+    "featured": false
+  },
+  {
+    "id": "625748236722354681_lid",
+    "formattedAddress": "901 County Road 100 Unit LOT 1, Georgetown, TX 78626",
+    "addressLine1": "901 County Road 100 Unit LOT 1",
+    "price": 164599,
+    "bedrooms": null,
+    "bathrooms": null,
+    "squareFootage": null,
+    "lotSize": 223898,
+    "propertyType": "single_family",
+    "status": "Sold",
+    "listingAgent": {
+      "name": null,
+      "phone": null,
+      "email": null,
+      "website": null
+    },
+    "primaryPhoto": "https://www.compass.com/m/46f97b278183677d865ea946cd7d39ae7db3cbfaf76e944185fb742403ee906a/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/901-County-Road-100-Unit-LOT-1-Georgetown-TX-78626/625748236722354681_lid/",
     "sortOrder": 173,
     "featured": false
   },
