@@ -1694,28 +1694,6 @@
     "featured": false
   },
   {
-    "id": "1252372679917887297_lid",
-    "formattedAddress": "308 N 3rd St, Jarrell, TX 76537",
-    "addressLine1": "308 N 3rd St",
-    "price": 395000,
-    "bedrooms": 4,
-    "bathrooms": 2,
-    "squareFootage": 1899,
-    "lotSize": 10454,
-    "propertyType": "single_family",
-    "status": "Sold",
-    "listingAgent": {
-      "name": null,
-      "phone": null,
-      "email": null,
-      "website": null
-    },
-    "primaryPhoto": "https://www.compass.com/m/6e09883d27858ae5cbf8f30185ec1c45c4a43301_img_0_df347/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/308-N-3rd-St-Jarrell-TX-76537/1252372679917887297_lid/",
-    "sortOrder": 78,
-    "featured": false
-  },
-  {
     "id": "229673967802168033_lid",
     "formattedAddress": "505 Silver Trail, Round Rock, TX 78664",
     "addressLine1": "505 Silver Trail",
@@ -1734,6 +1712,28 @@
     },
     "primaryPhoto": "https://www.compass.com/m/0f7e2b31d6f0f319faeed1534af2e7ece55cfc24_img_0_c7da5/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/505-Silver-Trail-Round-Rock-TX-78664/229673967802168033_lid/",
+    "sortOrder": 78,
+    "featured": false
+  },
+  {
+    "id": "1252372679917887297_lid",
+    "formattedAddress": "308 N 3rd St, Jarrell, TX 76537",
+    "addressLine1": "308 N 3rd St",
+    "price": 395000,
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "squareFootage": 1899,
+    "lotSize": 10454,
+    "propertyType": "single_family",
+    "status": "Sold",
+    "listingAgent": {
+      "name": null,
+      "phone": null,
+      "email": null,
+      "website": null
+    },
+    "primaryPhoto": "https://www.compass.com/m/6e09883d27858ae5cbf8f30185ec1c45c4a43301_img_0_df347/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/308-N-3rd-St-Jarrell-TX-76537/1252372679917887297_lid/",
     "sortOrder": 79,
     "featured": false
   },
@@ -2002,28 +2002,6 @@
     "featured": false
   },
   {
-    "id": "2018342908631655369_lid",
-    "formattedAddress": "529 Peace Dr, Liberty Hill, TX 78642",
-    "addressLine1": "529 Peace Dr",
-    "price": 365000,
-    "bedrooms": 4,
-    "bathrooms": 3,
-    "squareFootage": null,
-    "lotSize": null,
-    "propertyType": "single_family",
-    "status": "Sold",
-    "listingAgent": {
-      "name": null,
-      "phone": null,
-      "email": null,
-      "website": null
-    },
-    "primaryPhoto": "https://www.compass.com/m/33fb10be4e3233dee78636f64892d1a3d71b64d151d5bbd6bf37c4bec839de75/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/529-Peace-Dr-Liberty-Hill-TX-78642/2018342908631655369_lid/",
-    "sortOrder": 92,
-    "featured": false
-  },
-  {
     "id": "1545167829336057945_lid",
     "formattedAddress": "306 E Castleshoals Dr, Granite Shoals, TX 78654",
     "addressLine1": "306 E Castleshoals Dr",
@@ -2042,6 +2020,28 @@
     },
     "primaryPhoto": "https://www.compass.com/m/2af5afeaf7c6f255976ca9995632e94e500e4f75_img_0_89f3d/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/306-E-Castleshoals-Dr-Granite-Shoals-TX-78654/1545167829336057945_lid/",
+    "sortOrder": 92,
+    "featured": false
+  },
+  {
+    "id": "2018342908631655369_lid",
+    "formattedAddress": "529 Peace Dr, Liberty Hill, TX 78642",
+    "addressLine1": "529 Peace Dr",
+    "price": 365000,
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "squareFootage": null,
+    "lotSize": null,
+    "propertyType": "single_family",
+    "status": "Sold",
+    "listingAgent": {
+      "name": null,
+      "phone": null,
+      "email": null,
+      "website": null
+    },
+    "primaryPhoto": "https://www.compass.com/m/33fb10be4e3233dee78636f64892d1a3d71b64d151d5bbd6bf37c4bec839de75/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/529-Peace-Dr-Liberty-Hill-TX-78642/2018342908631655369_lid/",
     "sortOrder": 93,
     "featured": false
   },
