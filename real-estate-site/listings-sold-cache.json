@@ -2002,28 +2002,6 @@
     "featured": false
   },
   {
-    "id": "1545167829336057945_lid",
-    "formattedAddress": "306 E Castleshoals Dr, Granite Shoals, TX 78654",
-    "addressLine1": "306 E Castleshoals Dr",
-    "price": 365000,
-    "bedrooms": 3,
-    "bathrooms": 2,
-    "squareFootage": null,
-    "lotSize": null,
-    "propertyType": "single_family",
-    "status": "Sold",
-    "listingAgent": {
-      "name": null,
-      "phone": null,
-      "email": null,
-      "website": null
-    },
-    "primaryPhoto": "https://www.compass.com/m/2af5afeaf7c6f255976ca9995632e94e500e4f75_img_0_89f3d/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/306-E-Castleshoals-Dr-Granite-Shoals-TX-78654/1545167829336057945_lid/",
-    "sortOrder": 92,
-    "featured": false
-  },
-  {
     "id": "2018342908631655369_lid",
     "formattedAddress": "529 Peace Dr, Liberty Hill, TX 78642",
     "addressLine1": "529 Peace Dr",
@@ -2042,6 +2020,28 @@
     },
     "primaryPhoto": "https://www.compass.com/m/33fb10be4e3233dee78636f64892d1a3d71b64d151d5bbd6bf37c4bec839de75/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/529-Peace-Dr-Liberty-Hill-TX-78642/2018342908631655369_lid/",
+    "sortOrder": 92,
+    "featured": false
+  },
+  {
+    "id": "1545167829336057945_lid",
+    "formattedAddress": "306 E Castleshoals Dr, Granite Shoals, TX 78654",
+    "addressLine1": "306 E Castleshoals Dr",
+    "price": 365000,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "squareFootage": null,
+    "lotSize": null,
+    "propertyType": "single_family",
+    "status": "Sold",
+    "listingAgent": {
+      "name": null,
+      "phone": null,
+      "email": null,
+      "website": null
+    },
+    "primaryPhoto": "https://www.compass.com/m/2af5afeaf7c6f255976ca9995632e94e500e4f75_img_0_89f3d/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/306-E-Castleshoals-Dr-Granite-Shoals-TX-78654/1545167829336057945_lid/",
     "sortOrder": 93,
     "featured": false
   },
@@ -3146,28 +3146,6 @@
     "featured": false
   },
   {
-    "id": "1501543186695938473_lid",
-    "formattedAddress": "Undisclosed, Address Jarrell, TX 76537",
-    "addressLine1": "Undisclosed",
-    "price": 255000,
-    "bedrooms": 3,
-    "bathrooms": 2,
-    "squareFootage": 1446,
-    "lotSize": 4791,
-    "propertyType": "single_family",
-    "status": "Sold",
-    "listingAgent": {
-      "name": null,
-      "phone": null,
-      "email": null,
-      "website": null
-    },
-    "primaryPhoto": "https://www.compass.com/m/5cedcd1515c2e9188835641c49dae8bdff98be1c_img_0_df390/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/Undisclosed-Address-Jarrell-TX-76537/1501543186695938473_lid/",
-    "sortOrder": 144,
-    "featured": false
-  },
-  {
     "id": "1592780436159214065_lid",
     "formattedAddress": "19008 Romano Dr, Elgin, TX 78621",
     "addressLine1": "19008 Romano Dr",
@@ -3186,6 +3164,28 @@
     },
     "primaryPhoto": "https://www.compass.com/m/c5b266ff908bd2a79d68b94d1c93db03ca77006e_img_0_931af/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/19008-Romano-Dr-Elgin-TX-78621/1592780436159214065_lid/",
+    "sortOrder": 144,
+    "featured": false
+  },
+  {
+    "id": "1501543186695938473_lid",
+    "formattedAddress": "Undisclosed, Address Jarrell, TX 76537",
+    "addressLine1": "Undisclosed",
+    "price": 255000,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "squareFootage": 1446,
+    "lotSize": 4791,
+    "propertyType": "single_family",
+    "status": "Sold",
+    "listingAgent": {
+      "name": null,
+      "phone": null,
+      "email": null,
+      "website": null
+    },
+    "primaryPhoto": "https://www.compass.com/m/5cedcd1515c2e9188835641c49dae8bdff98be1c_img_0_df390/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/Undisclosed-Address-Jarrell-TX-76537/1501543186695938473_lid/",
     "sortOrder": 145,
     "featured": false
   },
@@ -3762,28 +3762,6 @@
     "featured": false
   },
   {
-    "id": "625748236722354681_lid",
-    "formattedAddress": "901 County Road 100 Unit LOT 1, Georgetown, TX 78626",
-    "addressLine1": "901 County Road 100 Unit LOT 1",
-    "price": 164599,
-    "bedrooms": null,
-    "bathrooms": null,
-    "squareFootage": null,
-    "lotSize": 223898,
-    "propertyType": "single_family",
-    "status": "Sold",
-    "listingAgent": {
-      "name": null,
-      "phone": null,
-      "email": null,
-      "website": null
-    },
-    "primaryPhoto": "https://www.compass.com/m/46f97b278183677d865ea946cd7d39ae7db3cbfaf76e944185fb742403ee906a/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/901-County-Road-100-Unit-LOT-1-Georgetown-TX-78626/625748236722354681_lid/",
-    "sortOrder": 172,
-    "featured": false
-  },
-  {
     "id": "625747284119951489_lid",
     "formattedAddress": "901 County Road 100 Unit LOT 1, Georgetown, TX 78626",
     "addressLine1": "901 County Road 100 Unit LOT 1",
@@ -3802,6 +3780,28 @@
     },
     "primaryPhoto": "https://www.compass.com/m/46f97b278183677d865ea946cd7d39ae7db3cbfaf76e944185fb742403ee906a/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/901-County-Road-100-Unit-LOT-1-Georgetown-TX-78626/625747284119951489_lid/",
+    "sortOrder": 172,
+    "featured": false
+  },
+  {
+    "id": "625748236722354681_lid",
+    "formattedAddress": "901 County Road 100 Unit LOT 1, Georgetown, TX 78626",
+    "addressLine1": "901 County Road 100 Unit LOT 1",
+    "price": 164599,
+    "bedrooms": null,
+    "bathrooms": null,
+    "squareFootage": null,
+    "lotSize": 223898,
+    "propertyType": "single_family",
+    "status": "Sold",
+    "listingAgent": {
+      "name": null,
+      "phone": null,
+      "email": null,
+      "website": null
+    },
+    "primaryPhoto": "https://www.compass.com/m/46f97b278183677d865ea946cd7d39ae7db3cbfaf76e944185fb742403ee906a/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/901-County-Road-100-Unit-LOT-1-Georgetown-TX-78626/625748236722354681_lid/",
     "sortOrder": 173,
     "featured": false
   },
