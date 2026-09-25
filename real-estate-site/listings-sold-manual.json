@@ -1650,28 +1650,6 @@
     "featured": false
   },
   {
-    "id": "1563011180226786297_lid",
-    "formattedAddress": "8108 Purple Aster Pass, Lago Vista, TX 78645",
-    "addressLine1": "8108 Purple Aster Pass",
-    "price": 399000,
-    "bedrooms": 4,
-    "bathrooms": 4,
-    "squareFootage": 2395,
-    "lotSize": 5662,
-    "propertyType": "single_family",
-    "status": "Sold",
-    "listingAgent": {
-      "name": null,
-      "phone": null,
-      "email": null,
-      "website": null
-    },
-    "primaryPhoto": "https://www.compass.com/m/0f3114b3da42b4307418ea977cc8684a84014966_img_0_806ab/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/8108-Purple-Aster-Pass-Lago-Vista-TX-78645/1563011180226786297_lid/",
-    "sortOrder": 76,
-    "featured": false
-  },
-  {
     "id": "1699670388718925041_lid",
     "formattedAddress": "2304 Sycamore Trail, Round Rock, TX 78664",
     "addressLine1": "2304 Sycamore Trail",
@@ -1690,18 +1668,18 @@
     },
     "primaryPhoto": "https://www.compass.com/m/947a043c2cc2b5d6ccf68343a44b4bba70c9280d_img_0_b6f97/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/2304-Sycamore-Trail-Round-Rock-TX-78664/1699670388718925041_lid/",
-    "sortOrder": 77,
+    "sortOrder": 76,
     "featured": false
   },
   {
-    "id": "229673967802168033_lid",
-    "formattedAddress": "505 Silver Trail, Round Rock, TX 78664",
-    "addressLine1": "505 Silver Trail",
-    "price": 395000,
+    "id": "1563011180226786297_lid",
+    "formattedAddress": "8108 Purple Aster Pass, Lago Vista, TX 78645",
+    "addressLine1": "8108 Purple Aster Pass",
+    "price": 399000,
     "bedrooms": 4,
     "bathrooms": 4,
-    "squareFootage": 3246,
-    "lotSize": 8712,
+    "squareFootage": 2395,
+    "lotSize": 5662,
     "propertyType": "single_family",
     "status": "Sold",
     "listingAgent": {
@@ -1710,9 +1688,9 @@
       "email": null,
       "website": null
     },
-    "primaryPhoto": "https://www.compass.com/m/0f7e2b31d6f0f319faeed1534af2e7ece55cfc24_img_0_c7da5/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/505-Silver-Trail-Round-Rock-TX-78664/229673967802168033_lid/",
-    "sortOrder": 78,
+    "primaryPhoto": "https://www.compass.com/m/0f3114b3da42b4307418ea977cc8684a84014966_img_0_806ab/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/8108-Purple-Aster-Pass-Lago-Vista-TX-78645/1563011180226786297_lid/",
+    "sortOrder": 77,
     "featured": false
   },
   {
@@ -1734,6 +1712,28 @@
     },
     "primaryPhoto": "https://www.compass.com/m/6e09883d27858ae5cbf8f30185ec1c45c4a43301_img_0_df347/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/308-N-3rd-St-Jarrell-TX-76537/1252372679917887297_lid/",
+    "sortOrder": 78,
+    "featured": false
+  },
+  {
+    "id": "229673967802168033_lid",
+    "formattedAddress": "505 Silver Trail, Round Rock, TX 78664",
+    "addressLine1": "505 Silver Trail",
+    "price": 395000,
+    "bedrooms": 4,
+    "bathrooms": 4,
+    "squareFootage": 3246,
+    "lotSize": 8712,
+    "propertyType": "single_family",
+    "status": "Sold",
+    "listingAgent": {
+      "name": null,
+      "phone": null,
+      "email": null,
+      "website": null
+    },
+    "primaryPhoto": "https://www.compass.com/m/0f7e2b31d6f0f319faeed1534af2e7ece55cfc24_img_0_c7da5/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/505-Silver-Trail-Round-Rock-TX-78664/229673967802168033_lid/",
     "sortOrder": 79,
     "featured": false
   },
@@ -3762,28 +3762,6 @@
     "featured": false
   },
   {
-    "id": "625747284119951489_lid",
-    "formattedAddress": "901 County Road 100 Unit LOT 1, Georgetown, TX 78626",
-    "addressLine1": "901 County Road 100 Unit LOT 1",
-    "price": 164599,
-    "bedrooms": null,
-    "bathrooms": null,
-    "squareFootage": null,
-    "lotSize": 223898,
-    "propertyType": "single_family",
-    "status": "Sold",
-    "listingAgent": {
-      "name": null,
-      "phone": null,
-      "email": null,
-      "website": null
-    },
-    "primaryPhoto": "https://www.compass.com/m/46f97b278183677d865ea946cd7d39ae7db3cbfaf76e944185fb742403ee906a/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/901-County-Road-100-Unit-LOT-1-Georgetown-TX-78626/625747284119951489_lid/",
-    "sortOrder": 172,
-    "featured": false
-  },
-  {
     "id": "625748236722354681_lid",
     "formattedAddress": "901 County Road 100 Unit LOT 1, Georgetown, TX 78626",
     "addressLine1": "901 County Road 100 Unit LOT 1",
@@ -3802,6 +3780,28 @@
     },
     "primaryPhoto": "https://www.compass.com/m/46f97b278183677d865ea946cd7d39ae7db3cbfaf76e944185fb742403ee906a/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/901-County-Road-100-Unit-LOT-1-Georgetown-TX-78626/625748236722354681_lid/",
+    "sortOrder": 172,
+    "featured": false
+  },
+  {
+    "id": "625747284119951489_lid",
+    "formattedAddress": "901 County Road 100 Unit LOT 1, Georgetown, TX 78626",
+    "addressLine1": "901 County Road 100 Unit LOT 1",
+    "price": 164599,
+    "bedrooms": null,
+    "bathrooms": null,
+    "squareFootage": null,
+    "lotSize": 223898,
+    "propertyType": "single_family",
+    "status": "Sold",
+    "listingAgent": {
+      "name": null,
+      "phone": null,
+      "email": null,
+      "website": null
+    },
+    "primaryPhoto": "https://www.compass.com/m/46f97b278183677d865ea946cd7d39ae7db3cbfaf76e944185fb742403ee906a/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/901-County-Road-100-Unit-LOT-1-Georgetown-TX-78626/625747284119951489_lid/",
     "sortOrder": 173,
     "featured": false
   },
