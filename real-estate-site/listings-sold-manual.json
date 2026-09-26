@@ -1694,28 +1694,6 @@
     "featured": false
   },
   {
-    "id": "1252372679917887297_lid",
-    "formattedAddress": "308 N 3rd St, Jarrell, TX 76537",
-    "addressLine1": "308 N 3rd St",
-    "price": 395000,
-    "bedrooms": 4,
-    "bathrooms": 2,
-    "squareFootage": 1899,
-    "lotSize": 10454,
-    "propertyType": "single_family",
-    "status": "Sold",
-    "listingAgent": {
-      "name": null,
-      "phone": null,
-      "email": null,
-      "website": null
-    },
-    "primaryPhoto": "https://www.compass.com/m/6e09883d27858ae5cbf8f30185ec1c45c4a43301_img_0_df347/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/308-N-3rd-St-Jarrell-TX-76537/1252372679917887297_lid/",
-    "sortOrder": 78,
-    "featured": false
-  },
-  {
     "id": "229673967802168033_lid",
     "formattedAddress": "505 Silver Trail, Round Rock, TX 78664",
     "addressLine1": "505 Silver Trail",
@@ -1734,6 +1712,28 @@
     },
     "primaryPhoto": "https://www.compass.com/m/0f7e2b31d6f0f319faeed1534af2e7ece55cfc24_img_0_c7da5/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/505-Silver-Trail-Round-Rock-TX-78664/229673967802168033_lid/",
+    "sortOrder": 78,
+    "featured": false
+  },
+  {
+    "id": "1252372679917887297_lid",
+    "formattedAddress": "308 N 3rd St, Jarrell, TX 76537",
+    "addressLine1": "308 N 3rd St",
+    "price": 395000,
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "squareFootage": 1899,
+    "lotSize": 10454,
+    "propertyType": "single_family",
+    "status": "Sold",
+    "listingAgent": {
+      "name": null,
+      "phone": null,
+      "email": null,
+      "website": null
+    },
+    "primaryPhoto": "https://www.compass.com/m/6e09883d27858ae5cbf8f30185ec1c45c4a43301_img_0_df347/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/308-N-3rd-St-Jarrell-TX-76537/1252372679917887297_lid/",
     "sortOrder": 79,
     "featured": false
   },
@@ -2090,28 +2090,6 @@
     "featured": false
   },
   {
-    "id": "518118847289635857_lid",
-    "formattedAddress": "1107 Myrtle St, Austin, TX 78702",
-    "addressLine1": "1107 Myrtle St",
-    "price": 350000,
-    "bedrooms": 3,
-    "bathrooms": 1,
-    "squareFootage": 890,
-    "lotSize": 4791,
-    "propertyType": "single_family",
-    "status": "Sold",
-    "listingAgent": {
-      "name": null,
-      "phone": null,
-      "email": null,
-      "website": null
-    },
-    "primaryPhoto": "https://www.compass.com/m/5a9ba452b21f6400cc6fa6e57243df6ad5cdf2f6_img_0_79b8f/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/1107-Myrtle-St-Austin-TX-78702/518118847289635857_lid/",
-    "sortOrder": 96,
-    "featured": false
-  },
-  {
     "id": "401578413702460353_lid",
     "formattedAddress": "1904 Jerry Ln, Cedar Park, TX 78613",
     "addressLine1": "1904 Jerry Ln",
@@ -2130,6 +2108,28 @@
     },
     "primaryPhoto": "https://www.compass.com/m/fd50c76ad4abcb8995b034f949f90a2fa57a93c4_img_0_5d8ba/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/1904-Jerry-Ln-Cedar-Park-TX-78613/401578413702460353_lid/",
+    "sortOrder": 96,
+    "featured": false
+  },
+  {
+    "id": "518118847289635857_lid",
+    "formattedAddress": "1107 Myrtle St, Austin, TX 78702",
+    "addressLine1": "1107 Myrtle St",
+    "price": 350000,
+    "bedrooms": 3,
+    "bathrooms": 1,
+    "squareFootage": 890,
+    "lotSize": 4791,
+    "propertyType": "single_family",
+    "status": "Sold",
+    "listingAgent": {
+      "name": null,
+      "phone": null,
+      "email": null,
+      "website": null
+    },
+    "primaryPhoto": "https://www.compass.com/m/5a9ba452b21f6400cc6fa6e57243df6ad5cdf2f6_img_0_79b8f/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/1107-Myrtle-St-Austin-TX-78702/518118847289635857_lid/",
     "sortOrder": 97,
     "featured": false
   },
