@@ -484,6 +484,28 @@
     "featured": false
   },
   {
+    "id": "1654441356270328313_lid",
+    "formattedAddress": "641 Old Potato Rd, Paige, TX 78659",
+    "addressLine1": "641 Old Potato Rd",
+    "price": 650000,
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "squareFootage": 1746,
+    "lotSize": 701316,
+    "propertyType": "single_family",
+    "status": "Sold",
+    "listingAgent": {
+      "name": null,
+      "phone": null,
+      "email": null,
+      "website": null
+    },
+    "primaryPhoto": "https://www.compass.com/m/478b4e4ef6f21d50e07c248b6b6c65ad532ad7f3_img_0_373d2/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/641-Old-Potato-Rd-Paige-TX-78659/1654441356270328313_lid/",
+    "sortOrder": 23,
+    "featured": false
+  },
+  {
     "id": "306019809393132385_lid",
     "formattedAddress": "2002 Savannah Ct, Round Rock, TX 78681",
     "addressLine1": "2002 Savannah Ct",
@@ -502,7 +524,7 @@
     },
     "primaryPhoto": "https://www.compass.com/m/d344a2d3cf094eb9e70688ec1ce19181ef259761_img_0_6a95b/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/2002-Savannah-Ct-Round-Rock-TX-78681/306019809393132385_lid/",
-    "sortOrder": 23,
+    "sortOrder": 24,
     "featured": false
   },
   {
@@ -524,7 +546,7 @@
     },
     "primaryPhoto": "https://www.compass.com/m/e09bdefe003b858b7a05fed7b8be9c62305d58ad_img_0_ef588/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/2024-Ridge-Runner-Dr-Georgetown-TX-78628/1615968616605933977_lid/",
-    "sortOrder": 24,
+    "sortOrder": 25,
     "featured": false
   },
   {
@@ -546,7 +568,7 @@
     },
     "primaryPhoto": "https://www.compass.com/m/5e89c8f6344f9df664f9bf69909d03c59c807e6468bd03cd4a770cf8ff0b2d22/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/3155-County-Road-320-Granger-TX-76530/1019868209397560241_lid/",
-    "sortOrder": 25,
+    "sortOrder": 26,
     "featured": false
   },
   {
@@ -568,7 +590,7 @@
     },
     "primaryPhoto": "https://www.compass.com/m/cc874cf071a7d0d9bcff90f55c4ec207dedc8c0a_img_0_0b01d/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/9108-Spire-View-Austin-TX-78744/1019415405800064729_lid/",
-    "sortOrder": 26,
+    "sortOrder": 27,
     "featured": false
   },
   {
@@ -590,7 +612,7 @@
     },
     "primaryPhoto": "https://www.compass.com/m/cadf0c9319d6a449da04cc9dc200adeffc5da93df14c35e60f59661c96cbafb6/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/15073-Armstrong-Ests-Rd-Salado-TX-76571/2081536965189699137_lid/",
-    "sortOrder": 27,
+    "sortOrder": 28,
     "featured": false
   },
   {
@@ -612,7 +634,7 @@
     },
     "primaryPhoto": "https://www.compass.com/m/8e1504eb0f5be9167d0dc87c586397bbdd190f5d_img_0_fe379/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/121-Walnut-Creek-Dr-Cedar-Park-TX-78613/771849677338003121_lid/",
-    "sortOrder": 28,
+    "sortOrder": 29,
     "featured": false
   },
   {
@@ -634,7 +656,7 @@
     },
     "primaryPhoto": "https://www.compass.com/m/ad4caf11f67e705eb15aab09c48e61313ea5485f_img_0_bbb37/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/131-La-Venta-Loop-Liberty-Hill-TX-78642/1766074571678108689_lid/",
-    "sortOrder": 29,
+    "sortOrder": 30,
     "featured": false
   },
   {
@@ -656,7 +678,7 @@
     },
     "primaryPhoto": "https://www.compass.com/m/a3177343347eb14b4116c72331242f541af9cb91_img_0_5f9f4/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/1217-Horizon-View-Dr-Georgetown-TX-78628/1634784171873347729_lid/",
-    "sortOrder": 30,
+    "sortOrder": 31,
     "featured": false
   },
   {
@@ -678,7 +700,7 @@
     },
     "primaryPhoto": "https://www.compass.com/m/ce28179773f8ee022c2cb6f9cb294714a426288e870d52227f9ae1aa1f123113/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/15073-Armstrong-Estates-Rd-Salado-TX-76571/2080677140964791977_lid/",
-    "sortOrder": 31,
+    "sortOrder": 32,
     "featured": false
   },
   {
@@ -700,7 +722,7 @@
     },
     "primaryPhoto": "https://www.compass.com/m/6d40dc3eb0da4068b6bcd0de6c09b72f2bb6df02_img_0_b6ec3/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/132-Basketflower-Ln-Georgetown-TX-78633/1573234582985938353_lid/",
-    "sortOrder": 32,
+    "sortOrder": 33,
     "featured": false
   },
   {
@@ -722,7 +744,7 @@
     },
     "primaryPhoto": "https://www.compass.com/m/8e3ea89a20c0fe2ed68cf1f3e86f4842041c390a_img_0_20eae/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/500-Sarazen-Loop-N-Georgetown-TX-78628/375382350023742961_lid/",
-    "sortOrder": 33,
+    "sortOrder": 34,
     "featured": false
   },
   {
@@ -744,7 +766,7 @@
     },
     "primaryPhoto": "https://www.compass.com/m/84f70403a0d8bdc63cf931a93085bb5b16620e3cabf0d3ce18edf4df8a763cc1/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/860-Whitetail-Dr-Round-Rock-TX-78681/2059247292260505825_lid/",
-    "sortOrder": 34,
+    "sortOrder": 35,
     "featured": false
   },
   {
@@ -766,7 +788,7 @@
     },
     "primaryPhoto": "https://www.compass.com/m/35e724ee6760e5c1a5289710cfd82fc890f39c4d_img_0_f6100/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/1812-Cotton-Farm-Trl-Leander-TX-78641/462983171143978505_lid/",
-    "sortOrder": 35,
+    "sortOrder": 36,
     "featured": false
   },
   {
@@ -788,18 +810,18 @@
     },
     "primaryPhoto": "https://www.compass.com/m/32d8ca81b628feb48ef520ae409856e8b5a14903_img_0_f7f31/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/126-Bell-Meadows-Dr-Hutto-TX-78634/978270210401464873_lid/",
-    "sortOrder": 36,
+    "sortOrder": 37,
     "featured": false
   },
   {
-    "id": "1835658329996639809_lid",
+    "id": "1866146411904756649_lid",
     "formattedAddress": "531 Dennis Dr, Round Rock, TX 78664",
     "addressLine1": "531 Dennis Dr",
     "price": 525000,
     "bedrooms": 4,
     "bathrooms": 3,
-    "squareFootage": 2839,
-    "lotSize": 11761,
+    "squareFootage": null,
+    "lotSize": null,
     "propertyType": "single_family",
     "status": "Sold",
     "listingAgent": {
@@ -808,9 +830,9 @@
       "email": null,
       "website": null
     },
-    "primaryPhoto": "https://www.compass.com/m/52b58b9efaa32e1e4a536e7fe93438cb2ae8f6f59d8bc685404c869d48c5a87d/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/531-Dennis-Dr-Round-Rock-TX-78664/1835658329996639809_lid/",
-    "sortOrder": 37,
+    "primaryPhoto": "https://www.compass.com/m/1dada8d252e074cfae4f8b7cd703fbed906bf449_img_0_ca091/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/531-Dennis-Dr-Round-Rock-TX-78664/1866146411904756649_lid/",
+    "sortOrder": 38,
     "featured": false
   },
   {
@@ -832,7 +854,7 @@
     },
     "primaryPhoto": "https://www.compass.com/m/550db7971b4a2da27e9d6e1cadca372f7d36a7a8_img_0_65daf/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/3742-Hermann-St-Round-Rock-TX-78681/766046637486274153_lid/",
-    "sortOrder": 38,
+    "sortOrder": 39,
     "featured": false
   },
   {
@@ -854,7 +876,7 @@
     },
     "primaryPhoto": "https://www.compass.com/m/f33c95d7f3500b9947b0cdb5b0885625136bac92_img_0_e22e0/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/4303-Banister-Ln-Unit-B-Austin-TX-78745/628314192589989449_lid/",
-    "sortOrder": 39,
+    "sortOrder": 40,
     "featured": false
   },
   {
@@ -876,7 +898,7 @@
     },
     "primaryPhoto": "https://www.compass.com/m/420812936c7c04f959b83933065d72270b5bf74b_img_0_4efeb/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/104-Darlington-Ct-Liberty-Hill-TX-78642/2030012971458971257_lid/",
-    "sortOrder": 40,
+    "sortOrder": 41,
     "featured": false
   },
   {
@@ -898,7 +920,7 @@
     },
     "primaryPhoto": "https://www.compass.com/m/198b5b6af021bcb0e2e60a6f9f8f81701a0fb44f_img_0_d6117/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/4800-Vinson-Dr-Unit-B-Austin-TX-78745/583417805276579985_lid/",
-    "sortOrder": 41,
+    "sortOrder": 42,
     "featured": false
   },
   {
@@ -920,7 +942,7 @@
     },
     "primaryPhoto": "https://www.compass.com/m/6afbd10b4ed50ee0e23d0249d81f81c432d89419_img_0_85f01/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/144-Arabian-Ave-S-Liberty-Hill-TX-78642/1659419452301095305_lid/",
-    "sortOrder": 42,
+    "sortOrder": 43,
     "featured": false
   },
   {
@@ -942,18 +964,18 @@
     },
     "primaryPhoto": "https://www.compass.com/m/e44365eeda344d4baa3a33b6898caa6f406697a5_img_0_e22e0/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/4303-Banister-Ln-Unit-A-Austin-TX-78745/627404730813140905_lid/",
-    "sortOrder": 43,
+    "sortOrder": 44,
     "featured": false
   },
   {
-    "id": "1850820535382562449_lid",
+    "id": "1829315778580478561_lid",
     "formattedAddress": "2474 Santa Barbara Loop, Round Rock, TX 78665",
     "addressLine1": "2474 Santa Barbara Loop",
     "price": 499940,
     "bedrooms": 4,
     "bathrooms": 3,
-    "squareFootage": null,
-    "lotSize": null,
+    "squareFootage": 3336,
+    "lotSize": 6534,
     "propertyType": "single_family",
     "status": "Sold",
     "listingAgent": {
@@ -962,9 +984,9 @@
       "email": null,
       "website": null
     },
-    "primaryPhoto": "https://www.compass.com/m/8cf628975027ca99617877d0ed27885b898bfc59_img_0_035c3/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/2474-Santa-Barbara-Loop-Round-Rock-TX-78665/1850820535382562449_lid/",
-    "sortOrder": 44,
+    "primaryPhoto": "https://www.compass.com/m/38df7fbfa9307b34673d8e234b976314e17308c2_img_0_b4876/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/2474-Santa-Barbara-Loop-Round-Rock-TX-78665/1829315778580478561_lid/",
+    "sortOrder": 45,
     "featured": false
   },
   {
@@ -986,7 +1008,7 @@
     },
     "primaryPhoto": "https://www.compass.com/m/c7b38ffe775302589596dfacd966140ed395398e6143f927411bb013b2b09bef/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/201-W-Walter-Ave-Pflugerville-TX-78660/827504111334022601_lid/",
-    "sortOrder": 45,
+    "sortOrder": 46,
     "featured": false
   },
   {
@@ -1008,7 +1030,7 @@
     },
     "primaryPhoto": "https://www.compass.com/m/e8fc1b9d1cec36109d37ef868920f199ad793757_img_0_a4a12/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/112-Rangel-Dr-Liberty-Hill-TX-78642/841211505315522553_lid/",
-    "sortOrder": 46,
+    "sortOrder": 47,
     "featured": false
   },
   {
@@ -1030,7 +1052,7 @@
     },
     "primaryPhoto": "https://www.compass.com/m/935e1d6ab03adf7292115c3f8456dc2c78637569_img_0_b8950/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/6404-Woodhue-Dr-Austin-TX-78745/1527174636653861417_lid/",
-    "sortOrder": 47,
+    "sortOrder": 48,
     "featured": false
   },
   {
@@ -1052,7 +1074,7 @@
     },
     "primaryPhoto": "https://www.compass.com/m/a4280e62db4c74ddbbb4f7b5d0192f64e58f5d7b_img_0_fe448/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/6211-Mesa-Grande-Dr-Austin-TX-78749/23751052989899937_lid/",
-    "sortOrder": 48,
+    "sortOrder": 49,
     "featured": false
   },
   {
@@ -1074,28 +1096,6 @@
     },
     "primaryPhoto": null,
     "realtorUrl": "https://www.compass.com/homedetails/5405-Anaheim-Ave-Pflugerville-TX-78660/1727961732152524313_lid/",
-    "sortOrder": 49,
-    "featured": false
-  },
-  {
-    "id": "1674064153302045521_lid",
-    "formattedAddress": "641 Old Potato Rd, Paige, TX 78659",
-    "addressLine1": "641 Old Potato Rd",
-    "price": 477000,
-    "bedrooms": 4,
-    "bathrooms": 2,
-    "squareFootage": 1746,
-    "lotSize": 238273,
-    "propertyType": "single_family",
-    "status": "Sold",
-    "listingAgent": {
-      "name": null,
-      "phone": null,
-      "email": null,
-      "website": null
-    },
-    "primaryPhoto": "https://www.compass.com/m/ab581639b565e802986af9ce2637f693ee8e7e6b913616bc095e9d68ab03a9cc/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/641-Old-Potato-Rd-Paige-TX-78659/1674064153302045521_lid/",
     "sortOrder": 50,
     "featured": false
   },
@@ -1650,28 +1650,6 @@
     "featured": false
   },
   {
-    "id": "1563011180226786297_lid",
-    "formattedAddress": "8108 Purple Aster Pass, Lago Vista, TX 78645",
-    "addressLine1": "8108 Purple Aster Pass",
-    "price": 399000,
-    "bedrooms": 4,
-    "bathrooms": 4,
-    "squareFootage": 2395,
-    "lotSize": 5662,
-    "propertyType": "single_family",
-    "status": "Sold",
-    "listingAgent": {
-      "name": null,
-      "phone": null,
-      "email": null,
-      "website": null
-    },
-    "primaryPhoto": "https://www.compass.com/m/0f3114b3da42b4307418ea977cc8684a84014966_img_0_806ab/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/8108-Purple-Aster-Pass-Lago-Vista-TX-78645/1563011180226786297_lid/",
-    "sortOrder": 76,
-    "featured": false
-  },
-  {
     "id": "1699670388718925041_lid",
     "formattedAddress": "2304 Sycamore Trail, Round Rock, TX 78664",
     "addressLine1": "2304 Sycamore Trail",
@@ -1690,6 +1668,28 @@
     },
     "primaryPhoto": "https://www.compass.com/m/947a043c2cc2b5d6ccf68343a44b4bba70c9280d_img_0_b6f97/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/2304-Sycamore-Trail-Round-Rock-TX-78664/1699670388718925041_lid/",
+    "sortOrder": 76,
+    "featured": false
+  },
+  {
+    "id": "1563011180226786297_lid",
+    "formattedAddress": "8108 Purple Aster Pass, Lago Vista, TX 78645",
+    "addressLine1": "8108 Purple Aster Pass",
+    "price": 399000,
+    "bedrooms": 4,
+    "bathrooms": 4,
+    "squareFootage": 2395,
+    "lotSize": 5662,
+    "propertyType": "single_family",
+    "status": "Sold",
+    "listingAgent": {
+      "name": null,
+      "phone": null,
+      "email": null,
+      "website": null
+    },
+    "primaryPhoto": "https://www.compass.com/m/0f3114b3da42b4307418ea977cc8684a84014966_img_0_806ab/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/8108-Purple-Aster-Pass-Lago-Vista-TX-78645/1563011180226786297_lid/",
     "sortOrder": 77,
     "featured": false
   },
@@ -2024,28 +2024,6 @@
     "featured": false
   },
   {
-    "id": "58662041124094225_lid",
-    "formattedAddress": "320 Bartlett Peak Dr, Georgetown, TX 78633",
-    "addressLine1": "320 Bartlett Peak Dr",
-    "price": 365000,
-    "bedrooms": 2,
-    "bathrooms": 2,
-    "squareFootage": 1712,
-    "lotSize": 6969,
-    "propertyType": "single_family",
-    "status": "Sold",
-    "listingAgent": {
-      "name": null,
-      "phone": null,
-      "email": null,
-      "website": null
-    },
-    "primaryPhoto": "https://www.compass.com/m/fd1377593858ba6a8c643fa68dbcaa0cd9c75d57_img_0_f1ec3/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/320-Bartlett-Peak-Dr-Georgetown-TX-78633/58662041124094225_lid/",
-    "sortOrder": 93,
-    "featured": false
-  },
-  {
     "id": "1545167829336057945_lid",
     "formattedAddress": "306 E Castleshoals Dr, Granite Shoals, TX 78654",
     "addressLine1": "306 E Castleshoals Dr",
@@ -2064,6 +2042,28 @@
     },
     "primaryPhoto": "https://www.compass.com/m/2af5afeaf7c6f255976ca9995632e94e500e4f75_img_0_89f3d/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/306-E-Castleshoals-Dr-Granite-Shoals-TX-78654/1545167829336057945_lid/",
+    "sortOrder": 93,
+    "featured": false
+  },
+  {
+    "id": "58662041124094225_lid",
+    "formattedAddress": "320 Bartlett Peak Dr, Georgetown, TX 78633",
+    "addressLine1": "320 Bartlett Peak Dr",
+    "price": 365000,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "squareFootage": 1712,
+    "lotSize": 6969,
+    "propertyType": "single_family",
+    "status": "Sold",
+    "listingAgent": {
+      "name": null,
+      "phone": null,
+      "email": null,
+      "website": null
+    },
+    "primaryPhoto": "https://www.compass.com/m/fd1377593858ba6a8c643fa68dbcaa0cd9c75d57_img_0_f1ec3/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/320-Bartlett-Peak-Dr-Georgetown-TX-78633/58662041124094225_lid/",
     "sortOrder": 94,
     "featured": false
   },
@@ -2860,28 +2860,6 @@
     "featured": false
   },
   {
-    "id": "709314474808294129_lid",
-    "formattedAddress": "236 Easley Rd, Smithville, TX 78957",
-    "addressLine1": "236 Easley Rd",
-    "price": 285000,
-    "bedrooms": 4,
-    "bathrooms": 2,
-    "squareFootage": 2304,
-    "lotSize": 127630,
-    "propertyType": "single_family",
-    "status": "Sold",
-    "listingAgent": {
-      "name": null,
-      "phone": null,
-      "email": null,
-      "website": null
-    },
-    "primaryPhoto": "https://www.compass.com/m/94f5485db4219fbfaea30db4c4b3119d2e32d039_img_0_3b173/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/236-Easley-Rd-Smithville-TX-78957/709314474808294129_lid/",
-    "sortOrder": 131,
-    "featured": false
-  },
-  {
     "id": "1294222370932392137_lid",
     "formattedAddress": "536 White Steppe Way Unit 253, Georgetown, TX 78626",
     "addressLine1": "536 White Steppe Way Unit 253",
@@ -2900,6 +2878,28 @@
     },
     "primaryPhoto": "https://www.compass.com/m/1d8ae2ba15c24aa16cebd7cb2ebc317909d6279c898251eb4dcd0014ca270e8a/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/536-White-Steppe-Way-Unit-253-Georgetown-TX-78626/1294222370932392137_lid/",
+    "sortOrder": 131,
+    "featured": false
+  },
+  {
+    "id": "709314474808294129_lid",
+    "formattedAddress": "236 Easley Rd, Smithville, TX 78957",
+    "addressLine1": "236 Easley Rd",
+    "price": 285000,
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "squareFootage": 2304,
+    "lotSize": 127630,
+    "propertyType": "single_family",
+    "status": "Sold",
+    "listingAgent": {
+      "name": null,
+      "phone": null,
+      "email": null,
+      "website": null
+    },
+    "primaryPhoto": "https://www.compass.com/m/94f5485db4219fbfaea30db4c4b3119d2e32d039_img_0_3b173/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/236-Easley-Rd-Smithville-TX-78957/709314474808294129_lid/",
     "sortOrder": 132,
     "featured": false
   },
@@ -3146,28 +3146,6 @@
     "featured": false
   },
   {
-    "id": "1592780436159214065_lid",
-    "formattedAddress": "19008 Romano Dr, Elgin, TX 78621",
-    "addressLine1": "19008 Romano Dr",
-    "price": 255000,
-    "bedrooms": 3,
-    "bathrooms": 2,
-    "squareFootage": 1296,
-    "lotSize": 4791,
-    "propertyType": "single_family",
-    "status": "Sold",
-    "listingAgent": {
-      "name": null,
-      "phone": null,
-      "email": null,
-      "website": null
-    },
-    "primaryPhoto": "https://www.compass.com/m/c5b266ff908bd2a79d68b94d1c93db03ca77006e_img_0_931af/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/19008-Romano-Dr-Elgin-TX-78621/1592780436159214065_lid/",
-    "sortOrder": 144,
-    "featured": false
-  },
-  {
     "id": "1501543186695938473_lid",
     "formattedAddress": "Undisclosed, Address Jarrell, TX 76537",
     "addressLine1": "Undisclosed",
@@ -3186,6 +3164,28 @@
     },
     "primaryPhoto": "https://www.compass.com/m/5cedcd1515c2e9188835641c49dae8bdff98be1c_img_0_df390/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/Undisclosed-Address-Jarrell-TX-76537/1501543186695938473_lid/",
+    "sortOrder": 144,
+    "featured": false
+  },
+  {
+    "id": "1592780436159214065_lid",
+    "formattedAddress": "19008 Romano Dr, Elgin, TX 78621",
+    "addressLine1": "19008 Romano Dr",
+    "price": 255000,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "squareFootage": 1296,
+    "lotSize": 4791,
+    "propertyType": "single_family",
+    "status": "Sold",
+    "listingAgent": {
+      "name": null,
+      "phone": null,
+      "email": null,
+      "website": null
+    },
+    "primaryPhoto": "https://www.compass.com/m/c5b266ff908bd2a79d68b94d1c93db03ca77006e_img_0_931af/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/19008-Romano-Dr-Elgin-TX-78621/1592780436159214065_lid/",
     "sortOrder": 145,
     "featured": false
   },
