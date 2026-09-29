@@ -814,28 +814,6 @@
     "featured": false
   },
   {
-    "id": "1866146411904756649_lid",
-    "formattedAddress": "531 Dennis Dr, Round Rock, TX 78664",
-    "addressLine1": "531 Dennis Dr",
-    "price": 525000,
-    "bedrooms": 4,
-    "bathrooms": 3,
-    "squareFootage": null,
-    "lotSize": null,
-    "propertyType": "single_family",
-    "status": "Sold",
-    "listingAgent": {
-      "name": null,
-      "phone": null,
-      "email": null,
-      "website": null
-    },
-    "primaryPhoto": "https://www.compass.com/m/1dada8d252e074cfae4f8b7cd703fbed906bf449_img_0_ca091/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/531-Dennis-Dr-Round-Rock-TX-78664/1866146411904756649_lid/",
-    "sortOrder": 38,
-    "featured": false
-  },
-  {
     "id": "766046637486274153_lid",
     "formattedAddress": "3742 Hermann St, Round Rock, TX 78681",
     "addressLine1": "3742 Hermann St",
@@ -854,6 +832,28 @@
     },
     "primaryPhoto": "https://www.compass.com/m/550db7971b4a2da27e9d6e1cadca372f7d36a7a8_img_0_65daf/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/3742-Hermann-St-Round-Rock-TX-78681/766046637486274153_lid/",
+    "sortOrder": 38,
+    "featured": false
+  },
+  {
+    "id": "1866146411904756649_lid",
+    "formattedAddress": "531 Dennis Dr, Round Rock, TX 78664",
+    "addressLine1": "531 Dennis Dr",
+    "price": 525000,
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "squareFootage": null,
+    "lotSize": null,
+    "propertyType": "single_family",
+    "status": "Sold",
+    "listingAgent": {
+      "name": null,
+      "phone": null,
+      "email": null,
+      "website": null
+    },
+    "primaryPhoto": "https://www.compass.com/m/1dada8d252e074cfae4f8b7cd703fbed906bf449_img_0_ca091/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/531-Dennis-Dr-Round-Rock-TX-78664/1866146411904756649_lid/",
     "sortOrder": 39,
     "featured": false
   },
@@ -1650,28 +1650,6 @@
     "featured": false
   },
   {
-    "id": "1699670388718925041_lid",
-    "formattedAddress": "2304 Sycamore Trail, Round Rock, TX 78664",
-    "addressLine1": "2304 Sycamore Trail",
-    "price": 399000,
-    "bedrooms": 3,
-    "bathrooms": 2,
-    "squareFootage": 1722,
-    "lotSize": 6969,
-    "propertyType": "single_family",
-    "status": "Sold",
-    "listingAgent": {
-      "name": null,
-      "phone": null,
-      "email": null,
-      "website": null
-    },
-    "primaryPhoto": "https://www.compass.com/m/947a043c2cc2b5d6ccf68343a44b4bba70c9280d_img_0_b6f97/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/2304-Sycamore-Trail-Round-Rock-TX-78664/1699670388718925041_lid/",
-    "sortOrder": 76,
-    "featured": false
-  },
-  {
     "id": "1563011180226786297_lid",
     "formattedAddress": "8108 Purple Aster Pass, Lago Vista, TX 78645",
     "addressLine1": "8108 Purple Aster Pass",
@@ -1690,6 +1668,28 @@
     },
     "primaryPhoto": "https://www.compass.com/m/0f3114b3da42b4307418ea977cc8684a84014966_img_0_806ab/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/8108-Purple-Aster-Pass-Lago-Vista-TX-78645/1563011180226786297_lid/",
+    "sortOrder": 76,
+    "featured": false
+  },
+  {
+    "id": "1699670388718925041_lid",
+    "formattedAddress": "2304 Sycamore Trail, Round Rock, TX 78664",
+    "addressLine1": "2304 Sycamore Trail",
+    "price": 399000,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "squareFootage": 1722,
+    "lotSize": 6969,
+    "propertyType": "single_family",
+    "status": "Sold",
+    "listingAgent": {
+      "name": null,
+      "phone": null,
+      "email": null,
+      "website": null
+    },
+    "primaryPhoto": "https://www.compass.com/m/947a043c2cc2b5d6ccf68343a44b4bba70c9280d_img_0_b6f97/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/2304-Sycamore-Trail-Round-Rock-TX-78664/1699670388718925041_lid/",
     "sortOrder": 77,
     "featured": false
   },
@@ -2002,28 +2002,6 @@
     "featured": false
   },
   {
-    "id": "2018342908631655369_lid",
-    "formattedAddress": "529 Peace Dr, Liberty Hill, TX 78642",
-    "addressLine1": "529 Peace Dr",
-    "price": 365000,
-    "bedrooms": 4,
-    "bathrooms": 3,
-    "squareFootage": null,
-    "lotSize": null,
-    "propertyType": "single_family",
-    "status": "Sold",
-    "listingAgent": {
-      "name": null,
-      "phone": null,
-      "email": null,
-      "website": null
-    },
-    "primaryPhoto": "https://www.compass.com/m/33fb10be4e3233dee78636f64892d1a3d71b64d151d5bbd6bf37c4bec839de75/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/529-Peace-Dr-Liberty-Hill-TX-78642/2018342908631655369_lid/",
-    "sortOrder": 92,
-    "featured": false
-  },
-  {
     "id": "1545167829336057945_lid",
     "formattedAddress": "306 E Castleshoals Dr, Granite Shoals, TX 78654",
     "addressLine1": "306 E Castleshoals Dr",
@@ -2042,6 +2020,28 @@
     },
     "primaryPhoto": "https://www.compass.com/m/2af5afeaf7c6f255976ca9995632e94e500e4f75_img_0_89f3d/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/306-E-Castleshoals-Dr-Granite-Shoals-TX-78654/1545167829336057945_lid/",
+    "sortOrder": 92,
+    "featured": false
+  },
+  {
+    "id": "2018342908631655369_lid",
+    "formattedAddress": "529 Peace Dr, Liberty Hill, TX 78642",
+    "addressLine1": "529 Peace Dr",
+    "price": 365000,
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "squareFootage": null,
+    "lotSize": null,
+    "propertyType": "single_family",
+    "status": "Sold",
+    "listingAgent": {
+      "name": null,
+      "phone": null,
+      "email": null,
+      "website": null
+    },
+    "primaryPhoto": "https://www.compass.com/m/33fb10be4e3233dee78636f64892d1a3d71b64d151d5bbd6bf37c4bec839de75/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/529-Peace-Dr-Liberty-Hill-TX-78642/2018342908631655369_lid/",
     "sortOrder": 93,
     "featured": false
   },
@@ -3652,28 +3652,6 @@
     "featured": false
   },
   {
-    "id": "168065317765919457_lid",
-    "formattedAddress": "801 Dew Drop Ln, Leander, TX 78641",
-    "addressLine1": "801 Dew Drop Ln",
-    "price": 179900,
-    "bedrooms": 3,
-    "bathrooms": 1,
-    "squareFootage": 1239,
-    "lotSize": 14374,
-    "propertyType": "single_family",
-    "status": "Sold",
-    "listingAgent": {
-      "name": null,
-      "phone": null,
-      "email": null,
-      "website": null
-    },
-    "primaryPhoto": "https://www.compass.com/m/ca30bc5341e2493b8e934bd9f8d04a43dc78fefb_img_0_16e34/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/801-Dew-Drop-Ln-Leander-TX-78641/168065317765919457_lid/",
-    "sortOrder": 167,
-    "featured": false
-  },
-  {
     "id": "182999121362256465_lid",
     "formattedAddress": "3008 Don Hill Ln, Taylor, TX 76574",
     "addressLine1": "3008 Don Hill Ln",
@@ -3692,6 +3670,28 @@
     },
     "primaryPhoto": "https://www.compass.com/m/ae8bc68b6b9d37688d33a8ec9883f8735d31e8f1_img_0_dd6e6/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/3008-Don-Hill-Ln-Taylor-TX-76574/182999121362256465_lid/",
+    "sortOrder": 167,
+    "featured": false
+  },
+  {
+    "id": "168065317765919457_lid",
+    "formattedAddress": "801 Dew Drop Ln, Leander, TX 78641",
+    "addressLine1": "801 Dew Drop Ln",
+    "price": 179900,
+    "bedrooms": 3,
+    "bathrooms": 1,
+    "squareFootage": 1239,
+    "lotSize": 14374,
+    "propertyType": "single_family",
+    "status": "Sold",
+    "listingAgent": {
+      "name": null,
+      "phone": null,
+      "email": null,
+      "website": null
+    },
+    "primaryPhoto": "https://www.compass.com/m/ca30bc5341e2493b8e934bd9f8d04a43dc78fefb_img_0_16e34/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/801-Dew-Drop-Ln-Leander-TX-78641/168065317765919457_lid/",
     "sortOrder": 168,
     "featured": false
   },
