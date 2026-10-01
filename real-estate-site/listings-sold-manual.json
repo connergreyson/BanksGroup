@@ -1232,28 +1232,6 @@
     "featured": false
   },
   {
-    "id": "733352999672308497_lid",
-    "formattedAddress": "2716 Santa Cruz St, Round Rock, TX 78665",
-    "addressLine1": "2716 Santa Cruz St",
-    "price": 455000,
-    "bedrooms": 4,
-    "bathrooms": 2,
-    "squareFootage": 2311,
-    "lotSize": 6534,
-    "propertyType": "single_family",
-    "status": "Sold",
-    "listingAgent": {
-      "name": null,
-      "phone": null,
-      "email": null,
-      "website": null
-    },
-    "primaryPhoto": "https://www.compass.com/m/4e0b2c1e8a504402c32d8e7f30a04995579c4ccc_img_0_21b1a/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/2716-Santa-Cruz-St-Round-Rock-TX-78665/733352999672308497_lid/",
-    "sortOrder": 57,
-    "featured": false
-  },
-  {
     "id": "192521846959239745_lid",
     "formattedAddress": "150 N Arabian Ave, Liberty Hill, TX 78642",
     "addressLine1": "150 N Arabian Ave",
@@ -1272,6 +1250,28 @@
     },
     "primaryPhoto": "https://www.compass.com/m/d988ffa3ba1d7202ab5a02aacdfb723e7e650ea4d6634d63051f716da9fff090/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/150-N-Arabian-Ave-Liberty-Hill-TX-78642/192521846959239745_lid/",
+    "sortOrder": 57,
+    "featured": false
+  },
+  {
+    "id": "733352999672308497_lid",
+    "formattedAddress": "2716 Santa Cruz St, Round Rock, TX 78665",
+    "addressLine1": "2716 Santa Cruz St",
+    "price": 455000,
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "squareFootage": 2311,
+    "lotSize": 6534,
+    "propertyType": "single_family",
+    "status": "Sold",
+    "listingAgent": {
+      "name": null,
+      "phone": null,
+      "email": null,
+      "website": null
+    },
+    "primaryPhoto": "https://www.compass.com/m/4e0b2c1e8a504402c32d8e7f30a04995579c4ccc_img_0_21b1a/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/2716-Santa-Cruz-St-Round-Rock-TX-78665/733352999672308497_lid/",
     "sortOrder": 58,
     "featured": false
   },
@@ -2002,28 +2002,6 @@
     "featured": false
   },
   {
-    "id": "2018342908631655369_lid",
-    "formattedAddress": "529 Peace Dr, Liberty Hill, TX 78642",
-    "addressLine1": "529 Peace Dr",
-    "price": 365000,
-    "bedrooms": 4,
-    "bathrooms": 3,
-    "squareFootage": null,
-    "lotSize": null,
-    "propertyType": "single_family",
-    "status": "Sold",
-    "listingAgent": {
-      "name": null,
-      "phone": null,
-      "email": null,
-      "website": null
-    },
-    "primaryPhoto": "https://www.compass.com/m/33fb10be4e3233dee78636f64892d1a3d71b64d151d5bbd6bf37c4bec839de75/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/529-Peace-Dr-Liberty-Hill-TX-78642/2018342908631655369_lid/",
-    "sortOrder": 92,
-    "featured": false
-  },
-  {
     "id": "1545167829336057945_lid",
     "formattedAddress": "306 E Castleshoals Dr, Granite Shoals, TX 78654",
     "addressLine1": "306 E Castleshoals Dr",
@@ -2042,6 +2020,28 @@
     },
     "primaryPhoto": "https://www.compass.com/m/2af5afeaf7c6f255976ca9995632e94e500e4f75_img_0_89f3d/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/306-E-Castleshoals-Dr-Granite-Shoals-TX-78654/1545167829336057945_lid/",
+    "sortOrder": 92,
+    "featured": false
+  },
+  {
+    "id": "2018342908631655369_lid",
+    "formattedAddress": "529 Peace Dr, Liberty Hill, TX 78642",
+    "addressLine1": "529 Peace Dr",
+    "price": 365000,
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "squareFootage": null,
+    "lotSize": null,
+    "propertyType": "single_family",
+    "status": "Sold",
+    "listingAgent": {
+      "name": null,
+      "phone": null,
+      "email": null,
+      "website": null
+    },
+    "primaryPhoto": "https://www.compass.com/m/33fb10be4e3233dee78636f64892d1a3d71b64d151d5bbd6bf37c4bec839de75/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/529-Peace-Dr-Liberty-Hill-TX-78642/2018342908631655369_lid/",
     "sortOrder": 93,
     "featured": false
   },
@@ -2112,28 +2112,6 @@
     "featured": false
   },
   {
-    "id": "518118847289635857_lid",
-    "formattedAddress": "1107 Myrtle St, Austin, TX 78702",
-    "addressLine1": "1107 Myrtle St",
-    "price": 350000,
-    "bedrooms": 3,
-    "bathrooms": 1,
-    "squareFootage": 890,
-    "lotSize": 4791,
-    "propertyType": "single_family",
-    "status": "Sold",
-    "listingAgent": {
-      "name": null,
-      "phone": null,
-      "email": null,
-      "website": null
-    },
-    "primaryPhoto": "https://www.compass.com/m/5a9ba452b21f6400cc6fa6e57243df6ad5cdf2f6_img_0_79b8f/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/1107-Myrtle-St-Austin-TX-78702/518118847289635857_lid/",
-    "sortOrder": 97,
-    "featured": false
-  },
-  {
     "id": "538280235459038313_lid",
     "formattedAddress": "406 N Blue Ridge Pkwy, Cedar Park, TX 78613",
     "addressLine1": "406 N Blue Ridge Pkwy",
@@ -2152,6 +2130,28 @@
     },
     "primaryPhoto": "https://www.compass.com/m/3be64ed91c53ac61575bbbc65537d91e710ff9ac_img_0_d1971/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/406-N-Blue-Ridge-Pkwy-Cedar-Park-TX-78613/538280235459038313_lid/",
+    "sortOrder": 97,
+    "featured": false
+  },
+  {
+    "id": "518118847289635857_lid",
+    "formattedAddress": "1107 Myrtle St, Austin, TX 78702",
+    "addressLine1": "1107 Myrtle St",
+    "price": 350000,
+    "bedrooms": 3,
+    "bathrooms": 1,
+    "squareFootage": 890,
+    "lotSize": 4791,
+    "propertyType": "single_family",
+    "status": "Sold",
+    "listingAgent": {
+      "name": null,
+      "phone": null,
+      "email": null,
+      "website": null
+    },
+    "primaryPhoto": "https://www.compass.com/m/5a9ba452b21f6400cc6fa6e57243df6ad5cdf2f6_img_0_79b8f/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/1107-Myrtle-St-Austin-TX-78702/518118847289635857_lid/",
     "sortOrder": 98,
     "featured": false
   },
@@ -2860,28 +2860,6 @@
     "featured": false
   },
   {
-    "id": "1294222370932392137_lid",
-    "formattedAddress": "536 White Steppe Way Unit 253, Georgetown, TX 78626",
-    "addressLine1": "536 White Steppe Way Unit 253",
-    "price": 285000,
-    "bedrooms": 3,
-    "bathrooms": 3,
-    "squareFootage": 1406,
-    "lotSize": null,
-    "propertyType": "single_family",
-    "status": "Sold",
-    "listingAgent": {
-      "name": null,
-      "phone": null,
-      "email": null,
-      "website": null
-    },
-    "primaryPhoto": "https://www.compass.com/m/1d8ae2ba15c24aa16cebd7cb2ebc317909d6279c898251eb4dcd0014ca270e8a/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/536-White-Steppe-Way-Unit-253-Georgetown-TX-78626/1294222370932392137_lid/",
-    "sortOrder": 131,
-    "featured": false
-  },
-  {
     "id": "709314474808294129_lid",
     "formattedAddress": "236 Easley Rd, Smithville, TX 78957",
     "addressLine1": "236 Easley Rd",
@@ -2900,6 +2878,28 @@
     },
     "primaryPhoto": "https://www.compass.com/m/94f5485db4219fbfaea30db4c4b3119d2e32d039_img_0_3b173/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/236-Easley-Rd-Smithville-TX-78957/709314474808294129_lid/",
+    "sortOrder": 131,
+    "featured": false
+  },
+  {
+    "id": "1294222370932392137_lid",
+    "formattedAddress": "536 White Steppe Way Unit 253, Georgetown, TX 78626",
+    "addressLine1": "536 White Steppe Way Unit 253",
+    "price": 285000,
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "squareFootage": 1406,
+    "lotSize": null,
+    "propertyType": "single_family",
+    "status": "Sold",
+    "listingAgent": {
+      "name": null,
+      "phone": null,
+      "email": null,
+      "website": null
+    },
+    "primaryPhoto": "https://www.compass.com/m/1d8ae2ba15c24aa16cebd7cb2ebc317909d6279c898251eb4dcd0014ca270e8a/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/536-White-Steppe-Way-Unit-253-Georgetown-TX-78626/1294222370932392137_lid/",
     "sortOrder": 132,
     "featured": false
   },
@@ -3014,28 +3014,6 @@
     "featured": false
   },
   {
-    "id": "118893726398483393_lid",
-    "formattedAddress": "10502 Walnut Bend Dr, Austin, TX 78753",
-    "addressLine1": "10502 Walnut Bend Dr",
-    "price": 269900,
-    "bedrooms": 3,
-    "bathrooms": 2,
-    "squareFootage": 2261,
-    "lotSize": 13068,
-    "propertyType": "single_family",
-    "status": "Sold",
-    "listingAgent": {
-      "name": null,
-      "phone": null,
-      "email": null,
-      "website": null
-    },
-    "primaryPhoto": "https://www.compass.com/m/01f023879fcf821b63a96e64e2d90a8fc812548d_img_0_f8b48/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/10502-Walnut-Bend-Dr-Austin-TX-78753/118893726398483393_lid/",
-    "sortOrder": 138,
-    "featured": false
-  },
-  {
     "id": "25514425708535937_lid",
     "formattedAddress": "18605 Jana Patrice Dr, Pflugerville, TX 78660",
     "addressLine1": "18605 Jana Patrice Dr",
@@ -3054,6 +3032,28 @@
     },
     "primaryPhoto": "https://www.compass.com/m/8f6096077ca86953cd0f3f9f3e3501076af90b1f051bd4117257af1c233ce46f/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/18605-Jana-Patrice-Dr-Pflugerville-TX-78660/25514425708535937_lid/",
+    "sortOrder": 138,
+    "featured": false
+  },
+  {
+    "id": "118893726398483393_lid",
+    "formattedAddress": "10502 Walnut Bend Dr, Austin, TX 78753",
+    "addressLine1": "10502 Walnut Bend Dr",
+    "price": 269900,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "squareFootage": 2261,
+    "lotSize": 13068,
+    "propertyType": "single_family",
+    "status": "Sold",
+    "listingAgent": {
+      "name": null,
+      "phone": null,
+      "email": null,
+      "website": null
+    },
+    "primaryPhoto": "https://www.compass.com/m/01f023879fcf821b63a96e64e2d90a8fc812548d_img_0_f8b48/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/10502-Walnut-Bend-Dr-Austin-TX-78753/118893726398483393_lid/",
     "sortOrder": 139,
     "featured": false
   },
@@ -3146,28 +3146,6 @@
     "featured": false
   },
   {
-    "id": "1592780436159214065_lid",
-    "formattedAddress": "19008 Romano Dr, Elgin, TX 78621",
-    "addressLine1": "19008 Romano Dr",
-    "price": 255000,
-    "bedrooms": 3,
-    "bathrooms": 2,
-    "squareFootage": 1296,
-    "lotSize": 4791,
-    "propertyType": "single_family",
-    "status": "Sold",
-    "listingAgent": {
-      "name": null,
-      "phone": null,
-      "email": null,
-      "website": null
-    },
-    "primaryPhoto": "https://www.compass.com/m/c5b266ff908bd2a79d68b94d1c93db03ca77006e_img_0_931af/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/19008-Romano-Dr-Elgin-TX-78621/1592780436159214065_lid/",
-    "sortOrder": 144,
-    "featured": false
-  },
-  {
     "id": "1501543186695938473_lid",
     "formattedAddress": "Undisclosed, Address Jarrell, TX 76537",
     "addressLine1": "Undisclosed",
@@ -3186,6 +3164,28 @@
     },
     "primaryPhoto": "https://www.compass.com/m/5cedcd1515c2e9188835641c49dae8bdff98be1c_img_0_df390/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/Undisclosed-Address-Jarrell-TX-76537/1501543186695938473_lid/",
+    "sortOrder": 144,
+    "featured": false
+  },
+  {
+    "id": "1592780436159214065_lid",
+    "formattedAddress": "19008 Romano Dr, Elgin, TX 78621",
+    "addressLine1": "19008 Romano Dr",
+    "price": 255000,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "squareFootage": 1296,
+    "lotSize": 4791,
+    "propertyType": "single_family",
+    "status": "Sold",
+    "listingAgent": {
+      "name": null,
+      "phone": null,
+      "email": null,
+      "website": null
+    },
+    "primaryPhoto": "https://www.compass.com/m/c5b266ff908bd2a79d68b94d1c93db03ca77006e_img_0_931af/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/19008-Romano-Dr-Elgin-TX-78621/1592780436159214065_lid/",
     "sortOrder": 145,
     "featured": false
   },
@@ -3652,28 +3652,6 @@
     "featured": false
   },
   {
-    "id": "168065317765919457_lid",
-    "formattedAddress": "801 Dew Drop Ln, Leander, TX 78641",
-    "addressLine1": "801 Dew Drop Ln",
-    "price": 179900,
-    "bedrooms": 3,
-    "bathrooms": 1,
-    "squareFootage": 1239,
-    "lotSize": 14374,
-    "propertyType": "single_family",
-    "status": "Sold",
-    "listingAgent": {
-      "name": null,
-      "phone": null,
-      "email": null,
-      "website": null
-    },
-    "primaryPhoto": "https://www.compass.com/m/ca30bc5341e2493b8e934bd9f8d04a43dc78fefb_img_0_16e34/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/801-Dew-Drop-Ln-Leander-TX-78641/168065317765919457_lid/",
-    "sortOrder": 167,
-    "featured": false
-  },
-  {
     "id": "182999121362256465_lid",
     "formattedAddress": "3008 Don Hill Ln, Taylor, TX 76574",
     "addressLine1": "3008 Don Hill Ln",
@@ -3692,6 +3670,28 @@
     },
     "primaryPhoto": "https://www.compass.com/m/ae8bc68b6b9d37688d33a8ec9883f8735d31e8f1_img_0_dd6e6/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/3008-Don-Hill-Ln-Taylor-TX-76574/182999121362256465_lid/",
+    "sortOrder": 167,
+    "featured": false
+  },
+  {
+    "id": "168065317765919457_lid",
+    "formattedAddress": "801 Dew Drop Ln, Leander, TX 78641",
+    "addressLine1": "801 Dew Drop Ln",
+    "price": 179900,
+    "bedrooms": 3,
+    "bathrooms": 1,
+    "squareFootage": 1239,
+    "lotSize": 14374,
+    "propertyType": "single_family",
+    "status": "Sold",
+    "listingAgent": {
+      "name": null,
+      "phone": null,
+      "email": null,
+      "website": null
+    },
+    "primaryPhoto": "https://www.compass.com/m/ca30bc5341e2493b8e934bd9f8d04a43dc78fefb_img_0_16e34/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/801-Dew-Drop-Ln-Leander-TX-78641/168065317765919457_lid/",
     "sortOrder": 168,
     "featured": false
   },
