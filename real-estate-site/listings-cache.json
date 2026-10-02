@@ -22,28 +22,6 @@
     "featured": false
   },
   {
-    "id": "1F0LUU_pid",
-    "formattedAddress": "2903 Bryco Cove, Round Rock, TX 78681",
-    "addressLine1": "2903 Bryco Cove",
-    "price": 748000,
-    "bedrooms": 4,
-    "bathrooms": 4,
-    "squareFootage": 3499,
-    "lotSize": 11761,
-    "propertyType": "single_family",
-    "status": "For Sale",
-    "listingAgent": {
-      "name": null,
-      "phone": null,
-      "email": null,
-      "website": null
-    },
-    "primaryPhoto": "https://www.compass.com/m/e5ceccf922a8d22b7bb94af44ffda8bd6d255b1fb8ba3d07285ec046f7dd1d57/origin.webp",
-    "realtorUrl": "https://www.compass.com/homedetails/2903-Bryco-Cove-Round-Rock-TX-78681/1F0LUU_pid/",
-    "sortOrder": 2,
-    "featured": false
-  },
-  {
     "id": "1FE7YF_pid",
     "formattedAddress": "12712 Monterey Path, Austin, TX 78732",
     "addressLine1": "12712 Monterey Path",
@@ -62,7 +40,7 @@
     },
     "primaryPhoto": "https://www.compass.com/m/0797f32baf09836b48f71fe0ca1b7a347c314396e0ba3e0a26e0f1385bd6555a/origin.webp",
     "realtorUrl": "https://www.compass.com/homedetails/12712-Monterey-Path-Austin-TX-78732/1FE7YF_pid/",
-    "sortOrder": 3,
+    "sortOrder": 2,
     "featured": false
   },
   {
@@ -84,7 +62,7 @@
     },
     "primaryPhoto": "https://www.compass.com/m/54ca1580300bc5cfd7254c1a895836b9e9e62c3969edf561e8f97a0a47248e16/origin.webp",
     "realtorUrl": "https://www.compass.com/homedetails/703-Parkway-St-Georgetown-TX-78628/1EWI76_pid/",
-    "sortOrder": 4,
+    "sortOrder": 3,
     "featured": false
   },
   {
@@ -106,6 +84,28 @@
     },
     "primaryPhoto": "https://www.compass.com/m/73fc594d1ecf03244fad7649b981708f714c770e60154be36dc420cfc0f58aea/origin.webp",
     "realtorUrl": "https://www.compass.com/homedetails/216-Mystic-Cyn-Ln-Georgetown-TX-78628/1D7L67_pid/",
+    "sortOrder": 4,
+    "featured": false
+  },
+  {
+    "id": "1907468925998728641_lid",
+    "formattedAddress": "323 Patricia Rd, Georgetown, TX 78628",
+    "addressLine1": "323 Patricia Rd",
+    "price": 2089999,
+    "bedrooms": 5,
+    "bathrooms": 3,
+    "squareFootage": 4654,
+    "lotSize": 436906,
+    "propertyType": "single_family",
+    "status": "For Sale",
+    "listingAgent": {
+      "name": null,
+      "phone": null,
+      "email": null,
+      "website": null
+    },
+    "primaryPhoto": "https://www.compass.com/m/71454693ab4d0e7133a63239e495ed2e9cf9490d7d8ee8e1b6ae4a2b5da28d9c/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/323-Patricia-Rd-Georgetown-TX-78628/1907468925998728641_lid/",
     "sortOrder": 5,
     "featured": false
   }

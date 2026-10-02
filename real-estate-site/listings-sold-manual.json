@@ -1782,28 +1782,6 @@
     "featured": false
   },
   {
-    "id": "1039822592950941121_lid",
-    "formattedAddress": "301 Pheasant Cove, Hutto, TX 78634",
-    "addressLine1": "301 Pheasant Cove",
-    "price": 389000,
-    "bedrooms": 3,
-    "bathrooms": 3,
-    "squareFootage": 1848,
-    "lotSize": 8712,
-    "propertyType": "single_family",
-    "status": "Sold",
-    "listingAgent": {
-      "name": null,
-      "phone": null,
-      "email": null,
-      "website": null
-    },
-    "primaryPhoto": "https://www.compass.com/m/83114b54dbad9928898c990e2245ba8e4cfa8ef1_img_0_16efc/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/301-Pheasant-Cove-Hutto-TX-78634/1039822592950941121_lid/",
-    "sortOrder": 82,
-    "featured": false
-  },
-  {
     "id": "1360407367989050889_lid",
     "formattedAddress": "1115 Sussex Pl, Round Rock, TX 78665",
     "addressLine1": "1115 Sussex Pl",
@@ -1822,6 +1800,28 @@
     },
     "primaryPhoto": "https://www.compass.com/m/2ecc5bb916f3ed450f8c1f81bb658f9e12b50a1b_img_0_f80ef/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/1115-Sussex-Pl-Round-Rock-TX-78665/1360407367989050889_lid/",
+    "sortOrder": 82,
+    "featured": false
+  },
+  {
+    "id": "1039822592950941121_lid",
+    "formattedAddress": "301 Pheasant Cove, Hutto, TX 78634",
+    "addressLine1": "301 Pheasant Cove",
+    "price": 389000,
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "squareFootage": 1848,
+    "lotSize": 8712,
+    "propertyType": "single_family",
+    "status": "Sold",
+    "listingAgent": {
+      "name": null,
+      "phone": null,
+      "email": null,
+      "website": null
+    },
+    "primaryPhoto": "https://www.compass.com/m/83114b54dbad9928898c990e2245ba8e4cfa8ef1_img_0_16efc/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/301-Pheasant-Cove-Hutto-TX-78634/1039822592950941121_lid/",
     "sortOrder": 83,
     "featured": false
   },
@@ -2090,6 +2090,28 @@
     "featured": false
   },
   {
+    "id": "518118847289635857_lid",
+    "formattedAddress": "1107 Myrtle St, Austin, TX 78702",
+    "addressLine1": "1107 Myrtle St",
+    "price": 350000,
+    "bedrooms": 3,
+    "bathrooms": 1,
+    "squareFootage": 890,
+    "lotSize": 4791,
+    "propertyType": "single_family",
+    "status": "Sold",
+    "listingAgent": {
+      "name": null,
+      "phone": null,
+      "email": null,
+      "website": null
+    },
+    "primaryPhoto": "https://www.compass.com/m/5a9ba452b21f6400cc6fa6e57243df6ad5cdf2f6_img_0_79b8f/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/1107-Myrtle-St-Austin-TX-78702/518118847289635857_lid/",
+    "sortOrder": 96,
+    "featured": false
+  },
+  {
     "id": "401578413702460353_lid",
     "formattedAddress": "1904 Jerry Ln, Cedar Park, TX 78613",
     "addressLine1": "1904 Jerry Ln",
@@ -2108,7 +2130,7 @@
     },
     "primaryPhoto": "https://www.compass.com/m/fd50c76ad4abcb8995b034f949f90a2fa57a93c4_img_0_5d8ba/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/1904-Jerry-Ln-Cedar-Park-TX-78613/401578413702460353_lid/",
-    "sortOrder": 96,
+    "sortOrder": 97,
     "featured": false
   },
   {
@@ -2130,28 +2152,6 @@
     },
     "primaryPhoto": "https://www.compass.com/m/3be64ed91c53ac61575bbbc65537d91e710ff9ac_img_0_d1971/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/406-N-Blue-Ridge-Pkwy-Cedar-Park-TX-78613/538280235459038313_lid/",
-    "sortOrder": 97,
-    "featured": false
-  },
-  {
-    "id": "518118847289635857_lid",
-    "formattedAddress": "1107 Myrtle St, Austin, TX 78702",
-    "addressLine1": "1107 Myrtle St",
-    "price": 350000,
-    "bedrooms": 3,
-    "bathrooms": 1,
-    "squareFootage": 890,
-    "lotSize": 4791,
-    "propertyType": "single_family",
-    "status": "Sold",
-    "listingAgent": {
-      "name": null,
-      "phone": null,
-      "email": null,
-      "website": null
-    },
-    "primaryPhoto": "https://www.compass.com/m/5a9ba452b21f6400cc6fa6e57243df6ad5cdf2f6_img_0_79b8f/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/1107-Myrtle-St-Austin-TX-78702/518118847289635857_lid/",
     "sortOrder": 98,
     "featured": false
   },
@@ -3014,28 +3014,6 @@
     "featured": false
   },
   {
-    "id": "25514425708535937_lid",
-    "formattedAddress": "18605 Jana Patrice Dr, Pflugerville, TX 78660",
-    "addressLine1": "18605 Jana Patrice Dr",
-    "price": 269900,
-    "bedrooms": 3,
-    "bathrooms": 2,
-    "squareFootage": 2263,
-    "lotSize": 9147,
-    "propertyType": "single_family",
-    "status": "Sold",
-    "listingAgent": {
-      "name": null,
-      "phone": null,
-      "email": null,
-      "website": null
-    },
-    "primaryPhoto": "https://www.compass.com/m/8f6096077ca86953cd0f3f9f3e3501076af90b1f051bd4117257af1c233ce46f/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/18605-Jana-Patrice-Dr-Pflugerville-TX-78660/25514425708535937_lid/",
-    "sortOrder": 138,
-    "featured": false
-  },
-  {
     "id": "118893726398483393_lid",
     "formattedAddress": "10502 Walnut Bend Dr, Austin, TX 78753",
     "addressLine1": "10502 Walnut Bend Dr",
@@ -3054,6 +3032,28 @@
     },
     "primaryPhoto": "https://www.compass.com/m/01f023879fcf821b63a96e64e2d90a8fc812548d_img_0_f8b48/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/10502-Walnut-Bend-Dr-Austin-TX-78753/118893726398483393_lid/",
+    "sortOrder": 138,
+    "featured": false
+  },
+  {
+    "id": "25514425708535937_lid",
+    "formattedAddress": "18605 Jana Patrice Dr, Pflugerville, TX 78660",
+    "addressLine1": "18605 Jana Patrice Dr",
+    "price": 269900,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "squareFootage": 2263,
+    "lotSize": 9147,
+    "propertyType": "single_family",
+    "status": "Sold",
+    "listingAgent": {
+      "name": null,
+      "phone": null,
+      "email": null,
+      "website": null
+    },
+    "primaryPhoto": "https://www.compass.com/m/8f6096077ca86953cd0f3f9f3e3501076af90b1f051bd4117257af1c233ce46f/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/18605-Jana-Patrice-Dr-Pflugerville-TX-78660/25514425708535937_lid/",
     "sortOrder": 139,
     "featured": false
   },
@@ -3784,28 +3784,6 @@
     "featured": false
   },
   {
-    "id": "625747284119951489_lid",
-    "formattedAddress": "901 County Road 100 Unit LOT 1, Georgetown, TX 78626",
-    "addressLine1": "901 County Road 100 Unit LOT 1",
-    "price": 164599,
-    "bedrooms": null,
-    "bathrooms": null,
-    "squareFootage": null,
-    "lotSize": 223898,
-    "propertyType": "single_family",
-    "status": "Sold",
-    "listingAgent": {
-      "name": null,
-      "phone": null,
-      "email": null,
-      "website": null
-    },
-    "primaryPhoto": "https://www.compass.com/m/46f97b278183677d865ea946cd7d39ae7db3cbfaf76e944185fb742403ee906a/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/901-County-Road-100-Unit-LOT-1-Georgetown-TX-78626/625747284119951489_lid/",
-    "sortOrder": 173,
-    "featured": false
-  },
-  {
     "id": "964477126965348961_lid",
     "formattedAddress": "Undisclosed, Address Killeen, TX 76542",
     "addressLine1": "Undisclosed",
@@ -3824,7 +3802,7 @@
     },
     "primaryPhoto": "https://www.compass.com/m/311d518d4d34ca9ab74a5a5ac1eaa57d32dd0793_img_0_b54d6/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/Undisclosed-Address-Killeen-TX-76542/964477126965348961_lid/",
-    "sortOrder": 174,
+    "sortOrder": 173,
     "featured": false
   },
   {
@@ -3846,7 +3824,7 @@
     },
     "primaryPhoto": "https://www.compass.com/m/abf4485c0d8c1a8c8eaa294ff361b32d04c80bfe_img_0_ca559/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/206-S-Donohoe-St-Granger-TX-76530/1712509649138046689_lid/",
-    "sortOrder": 175,
+    "sortOrder": 174,
     "featured": false
   },
   {
@@ -3868,7 +3846,7 @@
     },
     "primaryPhoto": "https://www.compass.com/m/bca0c73eefb0a2b423827c9143d437bcc9f3e462_img_0_42718/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/100-Live-Oak-Dr-Bertram-TX-78605/23730587562979473_lid/",
-    "sortOrder": 176,
+    "sortOrder": 175,
     "featured": false
   },
   {
@@ -3890,7 +3868,7 @@
     },
     "primaryPhoto": "https://www.compass.com/m/91fc1c9ce78cfc4d7515987617aad1d00c7e6e22_img_0_a4bac/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/615-Farm-To-Market-1466-Coupland-TX-78615/608674737469852409_lid/",
-    "sortOrder": 177,
+    "sortOrder": 176,
     "featured": false
   },
   {
@@ -3912,7 +3890,7 @@
     },
     "primaryPhoto": "https://www.compass.com/m/92c04fa8e8c0b2d3f3f4ad9b1286182c738560c2_img_0_4c796/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/121-Jackson-St-Elgin-TX-78621/505027443967794849_lid/",
-    "sortOrder": 178,
+    "sortOrder": 177,
     "featured": false
   },
   {
@@ -3934,7 +3912,7 @@
     },
     "primaryPhoto": "https://www.compass.com/m/7ae8d5cb072c3c555e0b0887bdd9155684a2af1a_img_0_4317f/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/3809-Cr-384-Bartlett-Tx-76511-Bartlett-TX-76511/633325159757026377_lid/",
-    "sortOrder": 179,
+    "sortOrder": 178,
     "featured": false
   },
   {
@@ -3956,7 +3934,7 @@
     },
     "primaryPhoto": "https://www.compass.com/m/e318dbb69f7515726d497a81125fbfa38c4ad13d_img_0_97cc2/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/1032-Private-Road-1339-Giddings-TX-78942/1179943602164144121_lid/",
-    "sortOrder": 180,
+    "sortOrder": 179,
     "featured": false
   },
   {
@@ -3978,7 +3956,7 @@
     },
     "primaryPhoto": "https://www.compass.com/m/5d77a06cf1198d79ebcbe489a944bcd5d7e719ba_img_0_5c2da/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/1412-Opal-Rd-Killeen-TX-76543/452058532737736417_lid/",
-    "sortOrder": 181,
+    "sortOrder": 180,
     "featured": false
   },
   {
@@ -4000,7 +3978,7 @@
     },
     "primaryPhoto": "https://www.compass.com/m/82c3b3219b3e31d23eeb5afa44f01b4c51c50440_img_0_ae060/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/Lot-10-Sunview-Dr-Bertram-TX-78605/749488028065656225_lid/",
-    "sortOrder": 182,
+    "sortOrder": 181,
     "featured": false
   },
   {
@@ -4022,7 +4000,7 @@
     },
     "primaryPhoto": "https://www.compass.com/m/ac163022415210e5e71f343810df35b5c9b7f1dc89520515948ba8a743947496/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/Lot-46-Daniel-Dr-Bertram-TX-78605/662631933756786321_lid/",
-    "sortOrder": 183,
+    "sortOrder": 182,
     "featured": false
   }
 ]
