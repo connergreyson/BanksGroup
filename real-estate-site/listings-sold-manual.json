@@ -1672,28 +1672,6 @@
     "featured": false
   },
   {
-    "id": "1699670388718925041_lid",
-    "formattedAddress": "2304 Sycamore Trail, Round Rock, TX 78664",
-    "addressLine1": "2304 Sycamore Trail",
-    "price": 399000,
-    "bedrooms": 3,
-    "bathrooms": 2,
-    "squareFootage": 1722,
-    "lotSize": 6969,
-    "propertyType": "single_family",
-    "status": "Sold",
-    "listingAgent": {
-      "name": null,
-      "phone": null,
-      "email": null,
-      "website": null
-    },
-    "primaryPhoto": "https://www.compass.com/m/947a043c2cc2b5d6ccf68343a44b4bba70c9280d_img_0_b6f97/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/2304-Sycamore-Trail-Round-Rock-TX-78664/1699670388718925041_lid/",
-    "sortOrder": 77,
-    "featured": false
-  },
-  {
     "id": "1563011180226786297_lid",
     "formattedAddress": "8108 Purple Aster Pass, Lago Vista, TX 78645",
     "addressLine1": "8108 Purple Aster Pass",
@@ -1712,6 +1690,28 @@
     },
     "primaryPhoto": "https://www.compass.com/m/0f3114b3da42b4307418ea977cc8684a84014966_img_0_806ab/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/8108-Purple-Aster-Pass-Lago-Vista-TX-78645/1563011180226786297_lid/",
+    "sortOrder": 77,
+    "featured": false
+  },
+  {
+    "id": "1699670388718925041_lid",
+    "formattedAddress": "2304 Sycamore Trail, Round Rock, TX 78664",
+    "addressLine1": "2304 Sycamore Trail",
+    "price": 399000,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "squareFootage": 1722,
+    "lotSize": 6969,
+    "propertyType": "single_family",
+    "status": "Sold",
+    "listingAgent": {
+      "name": null,
+      "phone": null,
+      "email": null,
+      "website": null
+    },
+    "primaryPhoto": "https://www.compass.com/m/947a043c2cc2b5d6ccf68343a44b4bba70c9280d_img_0_b6f97/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/2304-Sycamore-Trail-Round-Rock-TX-78664/1699670388718925041_lid/",
     "sortOrder": 78,
     "featured": false
   },
