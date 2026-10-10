@@ -836,28 +836,6 @@
     "featured": false
   },
   {
-    "id": "766046637486274153_lid",
-    "formattedAddress": "3742 Hermann St, Round Rock, TX 78681",
-    "addressLine1": "3742 Hermann St",
-    "price": 525000,
-    "bedrooms": 4,
-    "bathrooms": 4,
-    "squareFootage": 2620,
-    "lotSize": 7405,
-    "propertyType": "single_family",
-    "status": "Sold",
-    "listingAgent": {
-      "name": null,
-      "phone": null,
-      "email": null,
-      "website": null
-    },
-    "primaryPhoto": "https://www.compass.com/m/550db7971b4a2da27e9d6e1cadca372f7d36a7a8_img_0_65daf/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/3742-Hermann-St-Round-Rock-TX-78681/766046637486274153_lid/",
-    "sortOrder": 39,
-    "featured": false
-  },
-  {
     "id": "1866146411904756649_lid",
     "formattedAddress": "531 Dennis Dr, Round Rock, TX 78664",
     "addressLine1": "531 Dennis Dr",
@@ -876,6 +854,28 @@
     },
     "primaryPhoto": "https://www.compass.com/m/1dada8d252e074cfae4f8b7cd703fbed906bf449_img_0_ca091/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/531-Dennis-Dr-Round-Rock-TX-78664/1866146411904756649_lid/",
+    "sortOrder": 39,
+    "featured": false
+  },
+  {
+    "id": "766046637486274153_lid",
+    "formattedAddress": "3742 Hermann St, Round Rock, TX 78681",
+    "addressLine1": "3742 Hermann St",
+    "price": 525000,
+    "bedrooms": 4,
+    "bathrooms": 4,
+    "squareFootage": 2620,
+    "lotSize": 7405,
+    "propertyType": "single_family",
+    "status": "Sold",
+    "listingAgent": {
+      "name": null,
+      "phone": null,
+      "email": null,
+      "website": null
+    },
+    "primaryPhoto": "https://www.compass.com/m/550db7971b4a2da27e9d6e1cadca372f7d36a7a8_img_0_65daf/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/3742-Hermann-St-Round-Rock-TX-78681/766046637486274153_lid/",
     "sortOrder": 40,
     "featured": false
   },
@@ -1804,28 +1804,6 @@
     "featured": false
   },
   {
-    "id": "1039822592950941121_lid",
-    "formattedAddress": "301 Pheasant Cove, Hutto, TX 78634",
-    "addressLine1": "301 Pheasant Cove",
-    "price": 389000,
-    "bedrooms": 3,
-    "bathrooms": 3,
-    "squareFootage": 1848,
-    "lotSize": 8712,
-    "propertyType": "single_family",
-    "status": "Sold",
-    "listingAgent": {
-      "name": null,
-      "phone": null,
-      "email": null,
-      "website": null
-    },
-    "primaryPhoto": "https://www.compass.com/m/83114b54dbad9928898c990e2245ba8e4cfa8ef1_img_0_16efc/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/301-Pheasant-Cove-Hutto-TX-78634/1039822592950941121_lid/",
-    "sortOrder": 83,
-    "featured": false
-  },
-  {
     "id": "1360407367989050889_lid",
     "formattedAddress": "1115 Sussex Pl, Round Rock, TX 78665",
     "addressLine1": "1115 Sussex Pl",
@@ -1844,6 +1822,28 @@
     },
     "primaryPhoto": "https://www.compass.com/m/2ecc5bb916f3ed450f8c1f81bb658f9e12b50a1b_img_0_f80ef/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/1115-Sussex-Pl-Round-Rock-TX-78665/1360407367989050889_lid/",
+    "sortOrder": 83,
+    "featured": false
+  },
+  {
+    "id": "1039822592950941121_lid",
+    "formattedAddress": "301 Pheasant Cove, Hutto, TX 78634",
+    "addressLine1": "301 Pheasant Cove",
+    "price": 389000,
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "squareFootage": 1848,
+    "lotSize": 8712,
+    "propertyType": "single_family",
+    "status": "Sold",
+    "listingAgent": {
+      "name": null,
+      "phone": null,
+      "email": null,
+      "website": null
+    },
+    "primaryPhoto": "https://www.compass.com/m/83114b54dbad9928898c990e2245ba8e4cfa8ef1_img_0_16efc/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/301-Pheasant-Cove-Hutto-TX-78634/1039822592950941121_lid/",
     "sortOrder": 84,
     "featured": false
   },
@@ -2112,28 +2112,6 @@
     "featured": false
   },
   {
-    "id": "538280235459038313_lid",
-    "formattedAddress": "406 N Blue Ridge Pkwy, Cedar Park, TX 78613",
-    "addressLine1": "406 N Blue Ridge Pkwy",
-    "price": 350000,
-    "bedrooms": 3,
-    "bathrooms": 2,
-    "squareFootage": 1967,
-    "lotSize": 8712,
-    "propertyType": "single_family",
-    "status": "Sold",
-    "listingAgent": {
-      "name": null,
-      "phone": null,
-      "email": null,
-      "website": null
-    },
-    "primaryPhoto": "https://www.compass.com/m/3be64ed91c53ac61575bbbc65537d91e710ff9ac_img_0_d1971/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/406-N-Blue-Ridge-Pkwy-Cedar-Park-TX-78613/538280235459038313_lid/",
-    "sortOrder": 97,
-    "featured": false
-  },
-  {
     "id": "401578413702460353_lid",
     "formattedAddress": "1904 Jerry Ln, Cedar Park, TX 78613",
     "addressLine1": "1904 Jerry Ln",
@@ -2152,7 +2130,7 @@
     },
     "primaryPhoto": "https://www.compass.com/m/fd50c76ad4abcb8995b034f949f90a2fa57a93c4_img_0_5d8ba/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/1904-Jerry-Ln-Cedar-Park-TX-78613/401578413702460353_lid/",
-    "sortOrder": 98,
+    "sortOrder": 97,
     "featured": false
   },
   {
@@ -2174,6 +2152,28 @@
     },
     "primaryPhoto": "https://www.compass.com/m/5a9ba452b21f6400cc6fa6e57243df6ad5cdf2f6_img_0_79b8f/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/1107-Myrtle-St-Austin-TX-78702/518118847289635857_lid/",
+    "sortOrder": 98,
+    "featured": false
+  },
+  {
+    "id": "538280235459038313_lid",
+    "formattedAddress": "406 N Blue Ridge Pkwy, Cedar Park, TX 78613",
+    "addressLine1": "406 N Blue Ridge Pkwy",
+    "price": 350000,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "squareFootage": 1967,
+    "lotSize": 8712,
+    "propertyType": "single_family",
+    "status": "Sold",
+    "listingAgent": {
+      "name": null,
+      "phone": null,
+      "email": null,
+      "website": null
+    },
+    "primaryPhoto": "https://www.compass.com/m/3be64ed91c53ac61575bbbc65537d91e710ff9ac_img_0_d1971/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/406-N-Blue-Ridge-Pkwy-Cedar-Park-TX-78613/538280235459038313_lid/",
     "sortOrder": 99,
     "featured": false
   },
@@ -2882,28 +2882,6 @@
     "featured": false
   },
   {
-    "id": "1294222370932392137_lid",
-    "formattedAddress": "536 White Steppe Way Unit 253, Georgetown, TX 78626",
-    "addressLine1": "536 White Steppe Way Unit 253",
-    "price": 285000,
-    "bedrooms": 3,
-    "bathrooms": 3,
-    "squareFootage": 1406,
-    "lotSize": null,
-    "propertyType": "single_family",
-    "status": "Sold",
-    "listingAgent": {
-      "name": null,
-      "phone": null,
-      "email": null,
-      "website": null
-    },
-    "primaryPhoto": "https://www.compass.com/m/1d8ae2ba15c24aa16cebd7cb2ebc317909d6279c898251eb4dcd0014ca270e8a/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/536-White-Steppe-Way-Unit-253-Georgetown-TX-78626/1294222370932392137_lid/",
-    "sortOrder": 132,
-    "featured": false
-  },
-  {
     "id": "709314474808294129_lid",
     "formattedAddress": "236 Easley Rd, Smithville, TX 78957",
     "addressLine1": "236 Easley Rd",
@@ -2922,6 +2900,28 @@
     },
     "primaryPhoto": "https://www.compass.com/m/94f5485db4219fbfaea30db4c4b3119d2e32d039_img_0_3b173/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/236-Easley-Rd-Smithville-TX-78957/709314474808294129_lid/",
+    "sortOrder": 132,
+    "featured": false
+  },
+  {
+    "id": "1294222370932392137_lid",
+    "formattedAddress": "536 White Steppe Way Unit 253, Georgetown, TX 78626",
+    "addressLine1": "536 White Steppe Way Unit 253",
+    "price": 285000,
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "squareFootage": 1406,
+    "lotSize": null,
+    "propertyType": "single_family",
+    "status": "Sold",
+    "listingAgent": {
+      "name": null,
+      "phone": null,
+      "email": null,
+      "website": null
+    },
+    "primaryPhoto": "https://www.compass.com/m/1d8ae2ba15c24aa16cebd7cb2ebc317909d6279c898251eb4dcd0014ca270e8a/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/536-White-Steppe-Way-Unit-253-Georgetown-TX-78626/1294222370932392137_lid/",
     "sortOrder": 133,
     "featured": false
   },
@@ -3036,28 +3036,6 @@
     "featured": false
   },
   {
-    "id": "118893726398483393_lid",
-    "formattedAddress": "10502 Walnut Bend Dr, Austin, TX 78753",
-    "addressLine1": "10502 Walnut Bend Dr",
-    "price": 269900,
-    "bedrooms": 3,
-    "bathrooms": 2,
-    "squareFootage": 2261,
-    "lotSize": 13068,
-    "propertyType": "single_family",
-    "status": "Sold",
-    "listingAgent": {
-      "name": null,
-      "phone": null,
-      "email": null,
-      "website": null
-    },
-    "primaryPhoto": "https://www.compass.com/m/01f023879fcf821b63a96e64e2d90a8fc812548d_img_0_f8b48/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/10502-Walnut-Bend-Dr-Austin-TX-78753/118893726398483393_lid/",
-    "sortOrder": 139,
-    "featured": false
-  },
-  {
     "id": "25514425708535937_lid",
     "formattedAddress": "18605 Jana Patrice Dr, Pflugerville, TX 78660",
     "addressLine1": "18605 Jana Patrice Dr",
@@ -3076,6 +3054,28 @@
     },
     "primaryPhoto": "https://www.compass.com/m/8f6096077ca86953cd0f3f9f3e3501076af90b1f051bd4117257af1c233ce46f/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/18605-Jana-Patrice-Dr-Pflugerville-TX-78660/25514425708535937_lid/",
+    "sortOrder": 139,
+    "featured": false
+  },
+  {
+    "id": "118893726398483393_lid",
+    "formattedAddress": "10502 Walnut Bend Dr, Austin, TX 78753",
+    "addressLine1": "10502 Walnut Bend Dr",
+    "price": 269900,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "squareFootage": 2261,
+    "lotSize": 13068,
+    "propertyType": "single_family",
+    "status": "Sold",
+    "listingAgent": {
+      "name": null,
+      "phone": null,
+      "email": null,
+      "website": null
+    },
+    "primaryPhoto": "https://www.compass.com/m/01f023879fcf821b63a96e64e2d90a8fc812548d_img_0_f8b48/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/10502-Walnut-Bend-Dr-Austin-TX-78753/118893726398483393_lid/",
     "sortOrder": 140,
     "featured": false
   },

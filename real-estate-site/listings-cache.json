@@ -44,6 +44,28 @@
     "featured": false
   },
   {
+    "id": "1FN94H_pid",
+    "formattedAddress": "1604 County Road 204, Liberty Hill, TX 78642",
+    "addressLine1": "1604 County Road 204",
+    "price": 525000,
+    "bedrooms": null,
+    "bathrooms": null,
+    "squareFootage": null,
+    "lotSize": 561052,
+    "propertyType": "single_family",
+    "status": "For Sale",
+    "listingAgent": {
+      "name": null,
+      "phone": null,
+      "email": null,
+      "website": null
+    },
+    "primaryPhoto": "https://www.compass.com/m/be7372d416cccbb372132bfabc0e303144eac5f7664579f2387856e5b5761304/origin.webp",
+    "realtorUrl": "https://www.compass.com/homedetails/1604-County-Road-204-Liberty-Hill-TX-78642/1FN94H_pid/",
+    "sortOrder": 3,
+    "featured": false
+  },
+  {
     "id": "1EWI76_pid",
     "formattedAddress": "703 Parkway St, Georgetown, TX 78628",
     "addressLine1": "703 Parkway St",
@@ -62,7 +84,7 @@
     },
     "primaryPhoto": "https://www.compass.com/m/54ca1580300bc5cfd7254c1a895836b9e9e62c3969edf561e8f97a0a47248e16/origin.webp",
     "realtorUrl": "https://www.compass.com/homedetails/703-Parkway-St-Georgetown-TX-78628/1EWI76_pid/",
-    "sortOrder": 3,
+    "sortOrder": 4,
     "featured": false
   },
   {
@@ -84,28 +106,6 @@
     },
     "primaryPhoto": "https://www.compass.com/m/73fc594d1ecf03244fad7649b981708f714c770e60154be36dc420cfc0f58aea/origin.webp",
     "realtorUrl": "https://www.compass.com/homedetails/216-Mystic-Cyn-Ln-Georgetown-TX-78628/1D7L67_pid/",
-    "sortOrder": 4,
-    "featured": false
-  },
-  {
-    "id": "1907468925998728641_lid",
-    "formattedAddress": "323 Patricia Rd, Georgetown, TX 78628",
-    "addressLine1": "323 Patricia Rd",
-    "price": 2089999,
-    "bedrooms": 5,
-    "bathrooms": 3,
-    "squareFootage": 4654,
-    "lotSize": 436906,
-    "propertyType": "single_family",
-    "status": "For Sale",
-    "listingAgent": {
-      "name": null,
-      "phone": null,
-      "email": null,
-      "website": null
-    },
-    "primaryPhoto": "https://www.compass.com/m/71454693ab4d0e7133a63239e495ed2e9cf9490d7d8ee8e1b6ae4a2b5da28d9c/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/323-Patricia-Rd-Georgetown-TX-78628/1907468925998728641_lid/",
     "sortOrder": 5,
     "featured": false
   }
