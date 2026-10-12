@@ -1672,28 +1672,6 @@
     "featured": false
   },
   {
-    "id": "1699670388718925041_lid",
-    "formattedAddress": "2304 Sycamore Trail, Round Rock, TX 78664",
-    "addressLine1": "2304 Sycamore Trail",
-    "price": 399000,
-    "bedrooms": 3,
-    "bathrooms": 2,
-    "squareFootage": 1722,
-    "lotSize": 6969,
-    "propertyType": "single_family",
-    "status": "Sold",
-    "listingAgent": {
-      "name": null,
-      "phone": null,
-      "email": null,
-      "website": null
-    },
-    "primaryPhoto": "https://www.compass.com/m/947a043c2cc2b5d6ccf68343a44b4bba70c9280d_img_0_b6f97/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/2304-Sycamore-Trail-Round-Rock-TX-78664/1699670388718925041_lid/",
-    "sortOrder": 77,
-    "featured": false
-  },
-  {
     "id": "1563011180226786297_lid",
     "formattedAddress": "8108 Purple Aster Pass, Lago Vista, TX 78645",
     "addressLine1": "8108 Purple Aster Pass",
@@ -1712,6 +1690,28 @@
     },
     "primaryPhoto": "https://www.compass.com/m/0f3114b3da42b4307418ea977cc8684a84014966_img_0_806ab/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/8108-Purple-Aster-Pass-Lago-Vista-TX-78645/1563011180226786297_lid/",
+    "sortOrder": 77,
+    "featured": false
+  },
+  {
+    "id": "1699670388718925041_lid",
+    "formattedAddress": "2304 Sycamore Trail, Round Rock, TX 78664",
+    "addressLine1": "2304 Sycamore Trail",
+    "price": 399000,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "squareFootage": 1722,
+    "lotSize": 6969,
+    "propertyType": "single_family",
+    "status": "Sold",
+    "listingAgent": {
+      "name": null,
+      "phone": null,
+      "email": null,
+      "website": null
+    },
+    "primaryPhoto": "https://www.compass.com/m/947a043c2cc2b5d6ccf68343a44b4bba70c9280d_img_0_b6f97/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/2304-Sycamore-Trail-Round-Rock-TX-78664/1699670388718925041_lid/",
     "sortOrder": 78,
     "featured": false
   },
@@ -1804,28 +1804,6 @@
     "featured": false
   },
   {
-    "id": "1039822592950941121_lid",
-    "formattedAddress": "301 Pheasant Cove, Hutto, TX 78634",
-    "addressLine1": "301 Pheasant Cove",
-    "price": 389000,
-    "bedrooms": 3,
-    "bathrooms": 3,
-    "squareFootage": 1848,
-    "lotSize": 8712,
-    "propertyType": "single_family",
-    "status": "Sold",
-    "listingAgent": {
-      "name": null,
-      "phone": null,
-      "email": null,
-      "website": null
-    },
-    "primaryPhoto": "https://www.compass.com/m/83114b54dbad9928898c990e2245ba8e4cfa8ef1_img_0_16efc/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/301-Pheasant-Cove-Hutto-TX-78634/1039822592950941121_lid/",
-    "sortOrder": 83,
-    "featured": false
-  },
-  {
     "id": "1360407367989050889_lid",
     "formattedAddress": "1115 Sussex Pl, Round Rock, TX 78665",
     "addressLine1": "1115 Sussex Pl",
@@ -1844,6 +1822,28 @@
     },
     "primaryPhoto": "https://www.compass.com/m/2ecc5bb916f3ed450f8c1f81bb658f9e12b50a1b_img_0_f80ef/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/1115-Sussex-Pl-Round-Rock-TX-78665/1360407367989050889_lid/",
+    "sortOrder": 83,
+    "featured": false
+  },
+  {
+    "id": "1039822592950941121_lid",
+    "formattedAddress": "301 Pheasant Cove, Hutto, TX 78634",
+    "addressLine1": "301 Pheasant Cove",
+    "price": 389000,
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "squareFootage": 1848,
+    "lotSize": 8712,
+    "propertyType": "single_family",
+    "status": "Sold",
+    "listingAgent": {
+      "name": null,
+      "phone": null,
+      "email": null,
+      "website": null
+    },
+    "primaryPhoto": "https://www.compass.com/m/83114b54dbad9928898c990e2245ba8e4cfa8ef1_img_0_16efc/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/301-Pheasant-Cove-Hutto-TX-78634/1039822592950941121_lid/",
     "sortOrder": 84,
     "featured": false
   },
@@ -3168,28 +3168,6 @@
     "featured": false
   },
   {
-    "id": "1501543186695938473_lid",
-    "formattedAddress": "Undisclosed, Address Jarrell, TX 76537",
-    "addressLine1": "Undisclosed",
-    "price": 255000,
-    "bedrooms": 3,
-    "bathrooms": 2,
-    "squareFootage": 1446,
-    "lotSize": 4791,
-    "propertyType": "single_family",
-    "status": "Sold",
-    "listingAgent": {
-      "name": null,
-      "phone": null,
-      "email": null,
-      "website": null
-    },
-    "primaryPhoto": "https://www.compass.com/m/5cedcd1515c2e9188835641c49dae8bdff98be1c_img_0_df390/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/Undisclosed-Address-Jarrell-TX-76537/1501543186695938473_lid/",
-    "sortOrder": 145,
-    "featured": false
-  },
-  {
     "id": "1592780436159214065_lid",
     "formattedAddress": "19008 Romano Dr, Elgin, TX 78621",
     "addressLine1": "19008 Romano Dr",
@@ -3208,6 +3186,28 @@
     },
     "primaryPhoto": "https://www.compass.com/m/c5b266ff908bd2a79d68b94d1c93db03ca77006e_img_0_931af/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/19008-Romano-Dr-Elgin-TX-78621/1592780436159214065_lid/",
+    "sortOrder": 145,
+    "featured": false
+  },
+  {
+    "id": "1501543186695938473_lid",
+    "formattedAddress": "Undisclosed, Address Jarrell, TX 76537",
+    "addressLine1": "Undisclosed",
+    "price": 255000,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "squareFootage": 1446,
+    "lotSize": 4791,
+    "propertyType": "single_family",
+    "status": "Sold",
+    "listingAgent": {
+      "name": null,
+      "phone": null,
+      "email": null,
+      "website": null
+    },
+    "primaryPhoto": "https://www.compass.com/m/5cedcd1515c2e9188835641c49dae8bdff98be1c_img_0_df390/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/Undisclosed-Address-Jarrell-TX-76537/1501543186695938473_lid/",
     "sortOrder": 146,
     "featured": false
   },
@@ -3388,28 +3388,6 @@
     "featured": false
   },
   {
-    "id": "106542705420579921_lid",
-    "formattedAddress": "5460 Farm To Market Road 973, Taylor, TX 76574",
-    "addressLine1": "5460 Farm To Market Road 973",
-    "price": 225000,
-    "bedrooms": 3,
-    "bathrooms": 2,
-    "squareFootage": 1336,
-    "lotSize": 21780,
-    "propertyType": "single_family",
-    "status": "Sold",
-    "listingAgent": {
-      "name": null,
-      "phone": null,
-      "email": null,
-      "website": null
-    },
-    "primaryPhoto": "https://www.compass.com/m/8231813df5dc656670a21880cf6cbb39af7f16ad_img_0_0806c/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/5460-Farm-To-Market-Road-973-Taylor-TX-76574/106542705420579921_lid/",
-    "sortOrder": 155,
-    "featured": false
-  },
-  {
     "id": "25525813948550737_lid",
     "formattedAddress": "2021 Bluebonnet Ln Unit 109, Austin, TX 78704",
     "addressLine1": "2021 Bluebonnet Ln Unit 109",
@@ -3428,6 +3406,28 @@
     },
     "primaryPhoto": "https://www.compass.com/m/18bfee6e553bd9a31135bc34a0e6483488b571ec_img_0_f595b/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/2021-Bluebonnet-Ln-Unit-109-Austin-TX-78704/25525813948550737_lid/",
+    "sortOrder": 155,
+    "featured": false
+  },
+  {
+    "id": "106542705420579921_lid",
+    "formattedAddress": "5460 Farm To Market Road 973, Taylor, TX 76574",
+    "addressLine1": "5460 Farm To Market Road 973",
+    "price": 225000,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "squareFootage": 1336,
+    "lotSize": 21780,
+    "propertyType": "single_family",
+    "status": "Sold",
+    "listingAgent": {
+      "name": null,
+      "phone": null,
+      "email": null,
+      "website": null
+    },
+    "primaryPhoto": "https://www.compass.com/m/8231813df5dc656670a21880cf6cbb39af7f16ad_img_0_0806c/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/5460-Farm-To-Market-Road-973-Taylor-TX-76574/106542705420579921_lid/",
     "sortOrder": 156,
     "featured": false
   },
@@ -3674,28 +3674,6 @@
     "featured": false
   },
   {
-    "id": "168065317765919457_lid",
-    "formattedAddress": "801 Dew Drop Ln, Leander, TX 78641",
-    "addressLine1": "801 Dew Drop Ln",
-    "price": 179900,
-    "bedrooms": 3,
-    "bathrooms": 1,
-    "squareFootage": 1239,
-    "lotSize": 14374,
-    "propertyType": "single_family",
-    "status": "Sold",
-    "listingAgent": {
-      "name": null,
-      "phone": null,
-      "email": null,
-      "website": null
-    },
-    "primaryPhoto": "https://www.compass.com/m/ca30bc5341e2493b8e934bd9f8d04a43dc78fefb_img_0_16e34/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/801-Dew-Drop-Ln-Leander-TX-78641/168065317765919457_lid/",
-    "sortOrder": 168,
-    "featured": false
-  },
-  {
     "id": "182999121362256465_lid",
     "formattedAddress": "3008 Don Hill Ln, Taylor, TX 76574",
     "addressLine1": "3008 Don Hill Ln",
@@ -3714,6 +3692,28 @@
     },
     "primaryPhoto": "https://www.compass.com/m/ae8bc68b6b9d37688d33a8ec9883f8735d31e8f1_img_0_dd6e6/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/3008-Don-Hill-Ln-Taylor-TX-76574/182999121362256465_lid/",
+    "sortOrder": 168,
+    "featured": false
+  },
+  {
+    "id": "168065317765919457_lid",
+    "formattedAddress": "801 Dew Drop Ln, Leander, TX 78641",
+    "addressLine1": "801 Dew Drop Ln",
+    "price": 179900,
+    "bedrooms": 3,
+    "bathrooms": 1,
+    "squareFootage": 1239,
+    "lotSize": 14374,
+    "propertyType": "single_family",
+    "status": "Sold",
+    "listingAgent": {
+      "name": null,
+      "phone": null,
+      "email": null,
+      "website": null
+    },
+    "primaryPhoto": "https://www.compass.com/m/ca30bc5341e2493b8e934bd9f8d04a43dc78fefb_img_0_16e34/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/801-Dew-Drop-Ln-Leander-TX-78641/168065317765919457_lid/",
     "sortOrder": 169,
     "featured": false
   },
