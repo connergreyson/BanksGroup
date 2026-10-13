@@ -1,13 +1,13 @@
 [
   {
-    "id": "1907468925998728641_lid",
+    "id": "1961013433146125425_lid",
     "formattedAddress": "323 Patricia Rd, Georgetown, TX 78628",
     "addressLine1": "323 Patricia Rd",
-    "price": 2089999,
+    "price": 2199999,
     "bedrooms": 5,
     "bathrooms": 3,
-    "squareFootage": 4654,
-    "lotSize": 436906,
+    "squareFootage": null,
+    "lotSize": null,
     "propertyType": "single_family",
     "status": "Sold",
     "listingAgent": {
@@ -16,8 +16,8 @@
       "email": null,
       "website": null
     },
-    "primaryPhoto": "https://www.compass.com/m/71454693ab4d0e7133a63239e495ed2e9cf9490d7d8ee8e1b6ae4a2b5da28d9c/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/323-Patricia-Rd-Georgetown-TX-78628/1907468925998728641_lid/",
+    "primaryPhoto": "https://www.compass.com/m/e54aca9870b722f62d8473b07036d31ef02de62d_img_0_fb04c/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/323-Patricia-Rd-Georgetown-TX-78628/1961013433146125425_lid/",
     "sortOrder": 1,
     "featured": true
   },
@@ -1254,28 +1254,6 @@
     "featured": false
   },
   {
-    "id": "192521846959239745_lid",
-    "formattedAddress": "150 N Arabian Ave, Liberty Hill, TX 78642",
-    "addressLine1": "150 N Arabian Ave",
-    "price": 455000,
-    "bedrooms": 3,
-    "bathrooms": 3,
-    "squareFootage": 3042,
-    "lotSize": 183823,
-    "propertyType": "single_family",
-    "status": "Sold",
-    "listingAgent": {
-      "name": null,
-      "phone": null,
-      "email": null,
-      "website": null
-    },
-    "primaryPhoto": "https://www.compass.com/m/d988ffa3ba1d7202ab5a02aacdfb723e7e650ea4d6634d63051f716da9fff090/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/150-N-Arabian-Ave-Liberty-Hill-TX-78642/192521846959239745_lid/",
-    "sortOrder": 58,
-    "featured": false
-  },
-  {
     "id": "733352999672308497_lid",
     "formattedAddress": "2716 Santa Cruz St, Round Rock, TX 78665",
     "addressLine1": "2716 Santa Cruz St",
@@ -1294,6 +1272,28 @@
     },
     "primaryPhoto": "https://www.compass.com/m/4e0b2c1e8a504402c32d8e7f30a04995579c4ccc_img_0_21b1a/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/2716-Santa-Cruz-St-Round-Rock-TX-78665/733352999672308497_lid/",
+    "sortOrder": 58,
+    "featured": false
+  },
+  {
+    "id": "192521846959239745_lid",
+    "formattedAddress": "150 N Arabian Ave, Liberty Hill, TX 78642",
+    "addressLine1": "150 N Arabian Ave",
+    "price": 455000,
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "squareFootage": 3042,
+    "lotSize": 183823,
+    "propertyType": "single_family",
+    "status": "Sold",
+    "listingAgent": {
+      "name": null,
+      "phone": null,
+      "email": null,
+      "website": null
+    },
+    "primaryPhoto": "https://www.compass.com/m/d988ffa3ba1d7202ab5a02aacdfb723e7e650ea4d6634d63051f716da9fff090/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/150-N-Arabian-Ave-Liberty-Hill-TX-78642/192521846959239745_lid/",
     "sortOrder": 59,
     "featured": false
   },
@@ -1320,28 +1320,6 @@
     "featured": false
   },
   {
-    "id": "2105235659952977033_lid",
-    "formattedAddress": "1902 Walsh Dr, Round Rock, TX 78681",
-    "addressLine1": "1902 Walsh Dr",
-    "price": 450000,
-    "bedrooms": null,
-    "bathrooms": null,
-    "squareFootage": null,
-    "lotSize": 44866,
-    "propertyType": "single_family",
-    "status": "Sold",
-    "listingAgent": {
-      "name": null,
-      "phone": null,
-      "email": null,
-      "website": null
-    },
-    "primaryPhoto": "https://www.compass.com/m/f1640398e3be3924a2db82078aedc9cba294f5360b884baab0ea7c39f255487c/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/1902-Walsh-Dr-Round-Rock-TX-78681/2105235659952977033_lid/",
-    "sortOrder": 61,
-    "featured": false
-  },
-  {
     "id": "25514437922269537_lid",
     "formattedAddress": "107 Goose Island Dr, Georgetown, TX 78633",
     "addressLine1": "107 Goose Island Dr",
@@ -1360,6 +1338,28 @@
     },
     "primaryPhoto": "https://www.compass.com/m/eac1c19e07c5c8ba82f19c0a391dddf5455d40a72e9ae611fbd946d3d22c4a8e/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/107-Goose-Island-Dr-Georgetown-TX-78633/25514437922269537_lid/",
+    "sortOrder": 61,
+    "featured": false
+  },
+  {
+    "id": "2105235659952977033_lid",
+    "formattedAddress": "1902 Walsh Dr, Round Rock, TX 78681",
+    "addressLine1": "1902 Walsh Dr",
+    "price": 450000,
+    "bedrooms": null,
+    "bathrooms": null,
+    "squareFootage": null,
+    "lotSize": 44866,
+    "propertyType": "single_family",
+    "status": "Sold",
+    "listingAgent": {
+      "name": null,
+      "phone": null,
+      "email": null,
+      "website": null
+    },
+    "primaryPhoto": "https://www.compass.com/m/f1640398e3be3924a2db82078aedc9cba294f5360b884baab0ea7c39f255487c/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/1902-Walsh-Dr-Round-Rock-TX-78681/2105235659952977033_lid/",
     "sortOrder": 62,
     "featured": false
   },
@@ -1804,28 +1804,6 @@
     "featured": false
   },
   {
-    "id": "1360407367989050889_lid",
-    "formattedAddress": "1115 Sussex Pl, Round Rock, TX 78665",
-    "addressLine1": "1115 Sussex Pl",
-    "price": 389000,
-    "bedrooms": 3,
-    "bathrooms": 2,
-    "squareFootage": 1742,
-    "lotSize": 8712,
-    "propertyType": "single_family",
-    "status": "Sold",
-    "listingAgent": {
-      "name": null,
-      "phone": null,
-      "email": null,
-      "website": null
-    },
-    "primaryPhoto": "https://www.compass.com/m/2ecc5bb916f3ed450f8c1f81bb658f9e12b50a1b_img_0_f80ef/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/1115-Sussex-Pl-Round-Rock-TX-78665/1360407367989050889_lid/",
-    "sortOrder": 83,
-    "featured": false
-  },
-  {
     "id": "1039822592950941121_lid",
     "formattedAddress": "301 Pheasant Cove, Hutto, TX 78634",
     "addressLine1": "301 Pheasant Cove",
@@ -1844,6 +1822,28 @@
     },
     "primaryPhoto": "https://www.compass.com/m/83114b54dbad9928898c990e2245ba8e4cfa8ef1_img_0_16efc/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/301-Pheasant-Cove-Hutto-TX-78634/1039822592950941121_lid/",
+    "sortOrder": 83,
+    "featured": false
+  },
+  {
+    "id": "1360407367989050889_lid",
+    "formattedAddress": "1115 Sussex Pl, Round Rock, TX 78665",
+    "addressLine1": "1115 Sussex Pl",
+    "price": 389000,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "squareFootage": 1742,
+    "lotSize": 8712,
+    "propertyType": "single_family",
+    "status": "Sold",
+    "listingAgent": {
+      "name": null,
+      "phone": null,
+      "email": null,
+      "website": null
+    },
+    "primaryPhoto": "https://www.compass.com/m/2ecc5bb916f3ed450f8c1f81bb658f9e12b50a1b_img_0_f80ef/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/1115-Sussex-Pl-Round-Rock-TX-78665/1360407367989050889_lid/",
     "sortOrder": 84,
     "featured": false
   },
@@ -2024,28 +2024,6 @@
     "featured": false
   },
   {
-    "id": "2018342908631655369_lid",
-    "formattedAddress": "529 Peace Dr, Liberty Hill, TX 78642",
-    "addressLine1": "529 Peace Dr",
-    "price": 365000,
-    "bedrooms": 4,
-    "bathrooms": 3,
-    "squareFootage": null,
-    "lotSize": null,
-    "propertyType": "single_family",
-    "status": "Sold",
-    "listingAgent": {
-      "name": null,
-      "phone": null,
-      "email": null,
-      "website": null
-    },
-    "primaryPhoto": "https://www.compass.com/m/33fb10be4e3233dee78636f64892d1a3d71b64d151d5bbd6bf37c4bec839de75/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/529-Peace-Dr-Liberty-Hill-TX-78642/2018342908631655369_lid/",
-    "sortOrder": 93,
-    "featured": false
-  },
-  {
     "id": "1545167829336057945_lid",
     "formattedAddress": "306 E Castleshoals Dr, Granite Shoals, TX 78654",
     "addressLine1": "306 E Castleshoals Dr",
@@ -2064,6 +2042,28 @@
     },
     "primaryPhoto": "https://www.compass.com/m/2af5afeaf7c6f255976ca9995632e94e500e4f75_img_0_89f3d/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/306-E-Castleshoals-Dr-Granite-Shoals-TX-78654/1545167829336057945_lid/",
+    "sortOrder": 93,
+    "featured": false
+  },
+  {
+    "id": "2018342908631655369_lid",
+    "formattedAddress": "529 Peace Dr, Liberty Hill, TX 78642",
+    "addressLine1": "529 Peace Dr",
+    "price": 365000,
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "squareFootage": null,
+    "lotSize": null,
+    "propertyType": "single_family",
+    "status": "Sold",
+    "listingAgent": {
+      "name": null,
+      "phone": null,
+      "email": null,
+      "website": null
+    },
+    "primaryPhoto": "https://www.compass.com/m/33fb10be4e3233dee78636f64892d1a3d71b64d151d5bbd6bf37c4bec839de75/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/529-Peace-Dr-Liberty-Hill-TX-78642/2018342908631655369_lid/",
     "sortOrder": 94,
     "featured": false
   },
@@ -2882,28 +2882,6 @@
     "featured": false
   },
   {
-    "id": "1294222370932392137_lid",
-    "formattedAddress": "536 White Steppe Way Unit 253, Georgetown, TX 78626",
-    "addressLine1": "536 White Steppe Way Unit 253",
-    "price": 285000,
-    "bedrooms": 3,
-    "bathrooms": 3,
-    "squareFootage": 1406,
-    "lotSize": null,
-    "propertyType": "single_family",
-    "status": "Sold",
-    "listingAgent": {
-      "name": null,
-      "phone": null,
-      "email": null,
-      "website": null
-    },
-    "primaryPhoto": "https://www.compass.com/m/1d8ae2ba15c24aa16cebd7cb2ebc317909d6279c898251eb4dcd0014ca270e8a/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/536-White-Steppe-Way-Unit-253-Georgetown-TX-78626/1294222370932392137_lid/",
-    "sortOrder": 132,
-    "featured": false
-  },
-  {
     "id": "709314474808294129_lid",
     "formattedAddress": "236 Easley Rd, Smithville, TX 78957",
     "addressLine1": "236 Easley Rd",
@@ -2922,6 +2900,28 @@
     },
     "primaryPhoto": "https://www.compass.com/m/94f5485db4219fbfaea30db4c4b3119d2e32d039_img_0_3b173/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/236-Easley-Rd-Smithville-TX-78957/709314474808294129_lid/",
+    "sortOrder": 132,
+    "featured": false
+  },
+  {
+    "id": "1294222370932392137_lid",
+    "formattedAddress": "536 White Steppe Way Unit 253, Georgetown, TX 78626",
+    "addressLine1": "536 White Steppe Way Unit 253",
+    "price": 285000,
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "squareFootage": 1406,
+    "lotSize": null,
+    "propertyType": "single_family",
+    "status": "Sold",
+    "listingAgent": {
+      "name": null,
+      "phone": null,
+      "email": null,
+      "website": null
+    },
+    "primaryPhoto": "https://www.compass.com/m/1d8ae2ba15c24aa16cebd7cb2ebc317909d6279c898251eb4dcd0014ca270e8a/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/536-White-Steppe-Way-Unit-253-Georgetown-TX-78626/1294222370932392137_lid/",
     "sortOrder": 133,
     "featured": false
   },
@@ -3036,28 +3036,6 @@
     "featured": false
   },
   {
-    "id": "25514425708535937_lid",
-    "formattedAddress": "18605 Jana Patrice Dr, Pflugerville, TX 78660",
-    "addressLine1": "18605 Jana Patrice Dr",
-    "price": 269900,
-    "bedrooms": 3,
-    "bathrooms": 2,
-    "squareFootage": 2263,
-    "lotSize": 9147,
-    "propertyType": "single_family",
-    "status": "Sold",
-    "listingAgent": {
-      "name": null,
-      "phone": null,
-      "email": null,
-      "website": null
-    },
-    "primaryPhoto": "https://www.compass.com/m/8f6096077ca86953cd0f3f9f3e3501076af90b1f051bd4117257af1c233ce46f/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/18605-Jana-Patrice-Dr-Pflugerville-TX-78660/25514425708535937_lid/",
-    "sortOrder": 139,
-    "featured": false
-  },
-  {
     "id": "118893726398483393_lid",
     "formattedAddress": "10502 Walnut Bend Dr, Austin, TX 78753",
     "addressLine1": "10502 Walnut Bend Dr",
@@ -3076,6 +3054,28 @@
     },
     "primaryPhoto": "https://www.compass.com/m/01f023879fcf821b63a96e64e2d90a8fc812548d_img_0_f8b48/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/10502-Walnut-Bend-Dr-Austin-TX-78753/118893726398483393_lid/",
+    "sortOrder": 139,
+    "featured": false
+  },
+  {
+    "id": "25514425708535937_lid",
+    "formattedAddress": "18605 Jana Patrice Dr, Pflugerville, TX 78660",
+    "addressLine1": "18605 Jana Patrice Dr",
+    "price": 269900,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "squareFootage": 2263,
+    "lotSize": 9147,
+    "propertyType": "single_family",
+    "status": "Sold",
+    "listingAgent": {
+      "name": null,
+      "phone": null,
+      "email": null,
+      "website": null
+    },
+    "primaryPhoto": "https://www.compass.com/m/8f6096077ca86953cd0f3f9f3e3501076af90b1f051bd4117257af1c233ce46f/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/18605-Jana-Patrice-Dr-Pflugerville-TX-78660/25514425708535937_lid/",
     "sortOrder": 140,
     "featured": false
   },
