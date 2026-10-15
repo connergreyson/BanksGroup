@@ -1,13 +1,13 @@
 [
   {
-    "id": "1961013433146125425_lid",
+    "id": "1907468925998728641_lid",
     "formattedAddress": "323 Patricia Rd, Georgetown, TX 78628",
     "addressLine1": "323 Patricia Rd",
-    "price": 2199999,
+    "price": 2089999,
     "bedrooms": 5,
     "bathrooms": 3,
-    "squareFootage": null,
-    "lotSize": null,
+    "squareFootage": 4654,
+    "lotSize": 436906,
     "propertyType": "single_family",
     "status": "Sold",
     "listingAgent": {
@@ -16,8 +16,8 @@
       "email": null,
       "website": null
     },
-    "primaryPhoto": "https://www.compass.com/m/e54aca9870b722f62d8473b07036d31ef02de62d_img_0_fb04c/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/323-Patricia-Rd-Georgetown-TX-78628/1961013433146125425_lid/",
+    "primaryPhoto": "https://www.compass.com/m/71454693ab4d0e7133a63239e495ed2e9cf9490d7d8ee8e1b6ae4a2b5da28d9c/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/323-Patricia-Rd-Georgetown-TX-78628/1907468925998728641_lid/",
     "sortOrder": 1,
     "featured": true
   },
@@ -836,28 +836,6 @@
     "featured": false
   },
   {
-    "id": "1866146411904756649_lid",
-    "formattedAddress": "531 Dennis Dr, Round Rock, TX 78664",
-    "addressLine1": "531 Dennis Dr",
-    "price": 525000,
-    "bedrooms": 4,
-    "bathrooms": 3,
-    "squareFootage": null,
-    "lotSize": null,
-    "propertyType": "single_family",
-    "status": "Sold",
-    "listingAgent": {
-      "name": null,
-      "phone": null,
-      "email": null,
-      "website": null
-    },
-    "primaryPhoto": "https://www.compass.com/m/1dada8d252e074cfae4f8b7cd703fbed906bf449_img_0_ca091/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/531-Dennis-Dr-Round-Rock-TX-78664/1866146411904756649_lid/",
-    "sortOrder": 39,
-    "featured": false
-  },
-  {
     "id": "766046637486274153_lid",
     "formattedAddress": "3742 Hermann St, Round Rock, TX 78681",
     "addressLine1": "3742 Hermann St",
@@ -876,6 +854,28 @@
     },
     "primaryPhoto": "https://www.compass.com/m/550db7971b4a2da27e9d6e1cadca372f7d36a7a8_img_0_65daf/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/3742-Hermann-St-Round-Rock-TX-78681/766046637486274153_lid/",
+    "sortOrder": 39,
+    "featured": false
+  },
+  {
+    "id": "1866146411904756649_lid",
+    "formattedAddress": "531 Dennis Dr, Round Rock, TX 78664",
+    "addressLine1": "531 Dennis Dr",
+    "price": 525000,
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "squareFootage": null,
+    "lotSize": null,
+    "propertyType": "single_family",
+    "status": "Sold",
+    "listingAgent": {
+      "name": null,
+      "phone": null,
+      "email": null,
+      "website": null
+    },
+    "primaryPhoto": "https://www.compass.com/m/1dada8d252e074cfae4f8b7cd703fbed906bf449_img_0_ca091/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/531-Dennis-Dr-Round-Rock-TX-78664/1866146411904756649_lid/",
     "sortOrder": 40,
     "featured": false
   },
@@ -2112,6 +2112,28 @@
     "featured": false
   },
   {
+    "id": "538280235459038313_lid",
+    "formattedAddress": "406 N Blue Ridge Pkwy, Cedar Park, TX 78613",
+    "addressLine1": "406 N Blue Ridge Pkwy",
+    "price": 350000,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "squareFootage": 1967,
+    "lotSize": 8712,
+    "propertyType": "single_family",
+    "status": "Sold",
+    "listingAgent": {
+      "name": null,
+      "phone": null,
+      "email": null,
+      "website": null
+    },
+    "primaryPhoto": "https://www.compass.com/m/3be64ed91c53ac61575bbbc65537d91e710ff9ac_img_0_d1971/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/406-N-Blue-Ridge-Pkwy-Cedar-Park-TX-78613/538280235459038313_lid/",
+    "sortOrder": 97,
+    "featured": false
+  },
+  {
     "id": "401578413702460353_lid",
     "formattedAddress": "1904 Jerry Ln, Cedar Park, TX 78613",
     "addressLine1": "1904 Jerry Ln",
@@ -2130,7 +2152,7 @@
     },
     "primaryPhoto": "https://www.compass.com/m/fd50c76ad4abcb8995b034f949f90a2fa57a93c4_img_0_5d8ba/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/1904-Jerry-Ln-Cedar-Park-TX-78613/401578413702460353_lid/",
-    "sortOrder": 97,
+    "sortOrder": 98,
     "featured": false
   },
   {
@@ -2152,28 +2174,6 @@
     },
     "primaryPhoto": "https://www.compass.com/m/5a9ba452b21f6400cc6fa6e57243df6ad5cdf2f6_img_0_79b8f/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/1107-Myrtle-St-Austin-TX-78702/518118847289635857_lid/",
-    "sortOrder": 98,
-    "featured": false
-  },
-  {
-    "id": "538280235459038313_lid",
-    "formattedAddress": "406 N Blue Ridge Pkwy, Cedar Park, TX 78613",
-    "addressLine1": "406 N Blue Ridge Pkwy",
-    "price": 350000,
-    "bedrooms": 3,
-    "bathrooms": 2,
-    "squareFootage": 1967,
-    "lotSize": 8712,
-    "propertyType": "single_family",
-    "status": "Sold",
-    "listingAgent": {
-      "name": null,
-      "phone": null,
-      "email": null,
-      "website": null
-    },
-    "primaryPhoto": "https://www.compass.com/m/3be64ed91c53ac61575bbbc65537d91e710ff9ac_img_0_d1971/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/406-N-Blue-Ridge-Pkwy-Cedar-Park-TX-78613/538280235459038313_lid/",
     "sortOrder": 99,
     "featured": false
   },
@@ -2882,28 +2882,6 @@
     "featured": false
   },
   {
-    "id": "1294222370932392137_lid",
-    "formattedAddress": "536 White Steppe Way Unit 253, Georgetown, TX 78626",
-    "addressLine1": "536 White Steppe Way Unit 253",
-    "price": 285000,
-    "bedrooms": 3,
-    "bathrooms": 3,
-    "squareFootage": 1406,
-    "lotSize": null,
-    "propertyType": "single_family",
-    "status": "Sold",
-    "listingAgent": {
-      "name": null,
-      "phone": null,
-      "email": null,
-      "website": null
-    },
-    "primaryPhoto": "https://www.compass.com/m/1d8ae2ba15c24aa16cebd7cb2ebc317909d6279c898251eb4dcd0014ca270e8a/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/536-White-Steppe-Way-Unit-253-Georgetown-TX-78626/1294222370932392137_lid/",
-    "sortOrder": 132,
-    "featured": false
-  },
-  {
     "id": "709314474808294129_lid",
     "formattedAddress": "236 Easley Rd, Smithville, TX 78957",
     "addressLine1": "236 Easley Rd",
@@ -2922,6 +2900,28 @@
     },
     "primaryPhoto": "https://www.compass.com/m/94f5485db4219fbfaea30db4c4b3119d2e32d039_img_0_3b173/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/236-Easley-Rd-Smithville-TX-78957/709314474808294129_lid/",
+    "sortOrder": 132,
+    "featured": false
+  },
+  {
+    "id": "1294222370932392137_lid",
+    "formattedAddress": "536 White Steppe Way Unit 253, Georgetown, TX 78626",
+    "addressLine1": "536 White Steppe Way Unit 253",
+    "price": 285000,
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "squareFootage": 1406,
+    "lotSize": null,
+    "propertyType": "single_family",
+    "status": "Sold",
+    "listingAgent": {
+      "name": null,
+      "phone": null,
+      "email": null,
+      "website": null
+    },
+    "primaryPhoto": "https://www.compass.com/m/1d8ae2ba15c24aa16cebd7cb2ebc317909d6279c898251eb4dcd0014ca270e8a/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/536-White-Steppe-Way-Unit-253-Georgetown-TX-78626/1294222370932392137_lid/",
     "sortOrder": 133,
     "featured": false
   },
@@ -3036,28 +3036,6 @@
     "featured": false
   },
   {
-    "id": "118893726398483393_lid",
-    "formattedAddress": "10502 Walnut Bend Dr, Austin, TX 78753",
-    "addressLine1": "10502 Walnut Bend Dr",
-    "price": 269900,
-    "bedrooms": 3,
-    "bathrooms": 2,
-    "squareFootage": 2261,
-    "lotSize": 13068,
-    "propertyType": "single_family",
-    "status": "Sold",
-    "listingAgent": {
-      "name": null,
-      "phone": null,
-      "email": null,
-      "website": null
-    },
-    "primaryPhoto": "https://www.compass.com/m/01f023879fcf821b63a96e64e2d90a8fc812548d_img_0_f8b48/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/10502-Walnut-Bend-Dr-Austin-TX-78753/118893726398483393_lid/",
-    "sortOrder": 139,
-    "featured": false
-  },
-  {
     "id": "25514425708535937_lid",
     "formattedAddress": "18605 Jana Patrice Dr, Pflugerville, TX 78660",
     "addressLine1": "18605 Jana Patrice Dr",
@@ -3076,6 +3054,28 @@
     },
     "primaryPhoto": "https://www.compass.com/m/8f6096077ca86953cd0f3f9f3e3501076af90b1f051bd4117257af1c233ce46f/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/18605-Jana-Patrice-Dr-Pflugerville-TX-78660/25514425708535937_lid/",
+    "sortOrder": 139,
+    "featured": false
+  },
+  {
+    "id": "118893726398483393_lid",
+    "formattedAddress": "10502 Walnut Bend Dr, Austin, TX 78753",
+    "addressLine1": "10502 Walnut Bend Dr",
+    "price": 269900,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "squareFootage": 2261,
+    "lotSize": 13068,
+    "propertyType": "single_family",
+    "status": "Sold",
+    "listingAgent": {
+      "name": null,
+      "phone": null,
+      "email": null,
+      "website": null
+    },
+    "primaryPhoto": "https://www.compass.com/m/01f023879fcf821b63a96e64e2d90a8fc812548d_img_0_f8b48/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/10502-Walnut-Bend-Dr-Austin-TX-78753/118893726398483393_lid/",
     "sortOrder": 140,
     "featured": false
   },
