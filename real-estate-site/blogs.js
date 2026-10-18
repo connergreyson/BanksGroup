@@ -40,16 +40,16 @@
 
   function defaultBlogImage(blog) {
     var images = {
-      'Home Owner': 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&q=80',
-      'Buyer': 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80',
-      'Seller': 'https://images.unsplash.com/photo-1605276374101-de7982db1739?w=800&q=80',
-      'Investor': 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&q=80',
-      'Education': 'https://images.unsplash.com/photo-1560520035-3a235ff2f517?w=800&q=80'
+      'Home Owner': 'assets/images/blog/home-value-austin.jpg',
+      'Buyer': 'assets/images/blog/questions-before-offer.jpg',
+      'Seller': 'assets/images/blog/staging-tips-sellers.jpg',
+      'Investor': 'assets/images/blog/investment-property-austin.jpg',
+      'Education': 'assets/images/blog/july-2026-austin-msa-snapshot.jpg'
     };
     if (blog.image) {
       return blog.image;
     }
-    return images[blog.category] || 'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&q=80';
+    return images[blog.category] || 'assets/images/blog/homes-with-acreage-near-austin.jpg';
   }
 
   function renderBlogCard(blog) {
@@ -113,7 +113,7 @@
       return window.__blogsLoadPromise;
     }
 
-    window.__blogsLoadPromise = fetch('blogs.json?v=20261018')
+    window.__blogsLoadPromise = fetch('blogs.json?v=20261018b')
       .then(function (response) {
         if (!response.ok) {
           throw new Error('Unable to load blog posts.');
