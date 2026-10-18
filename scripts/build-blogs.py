@@ -46,6 +46,8 @@ def write_sitemap(blogs: list[dict]) -> None:
         if not blog_id:
             continue
         lastmod = blog.get("date") or today
+        if lastmod > today:
+            continue
         loc = f"{SITE_ORIGIN}/blog-detail.html?id={blog_id}"
         lines.extend(
             [
@@ -107,8 +109,11 @@ def main() -> int:
 
     OUT_FILE.write_text(json.dumps(blogs, indent=2) + "\n", encoding="utf-8")
     write_sitemap(blogs)
+    from datetime import date as date_cls
+
+    published = [blog for blog in blogs if (blog.get("date") or "") <= date_cls.today().isoformat()]
     print(f"Built blogs.json with {len(blogs)} post(s).")
-    print(f"Wrote sitemap.xml with {len(blogs) + 4} URL(s).")
+    print(f"Wrote sitemap.xml with {len(published) + 4} URL(s).")
     return 0
 
 

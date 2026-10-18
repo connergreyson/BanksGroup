@@ -3,6 +3,18 @@
 
   window.BLOGS = [];
 
+  function todayISO() {
+    var now = new Date();
+    var month = now.getMonth() + 1;
+    var day = now.getDate();
+    return now.getFullYear() + '-' + (month < 10 ? '0' : '') + month + '-' + (day < 10 ? '0' : '') + day;
+  }
+
+  function isBlogPublished(blog) {
+    if (!blog || !blog.date) return true;
+    return String(blog.date).slice(0, 10) <= todayISO();
+  }
+
   function formatBlogDate(dateStr) {
     var date = new Date(dateStr + 'T12:00:00');
     return date.toLocaleDateString('en-US', {
@@ -101,7 +113,7 @@
       return window.__blogsLoadPromise;
     }
 
-    window.__blogsLoadPromise = fetch('blogs.json')
+    window.__blogsLoadPromise = fetch('blogs.json?v=20261018')
       .then(function (response) {
         if (!response.ok) {
           throw new Error('Unable to load blog posts.');
@@ -112,8 +124,8 @@
         if (!Array.isArray(blogs)) {
           throw new Error('Blog data is invalid.');
         }
-        window.BLOGS = blogs;
-        return blogs;
+        window.BLOGS = blogs.filter(isBlogPublished);
+        return window.BLOGS;
       })
       .catch(function (err) {
         console.error('Blog load failed:', err);
