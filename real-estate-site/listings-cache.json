@@ -91,7 +91,7 @@
     "id": "1D7L67_pid",
     "formattedAddress": "216 Mystic Cyn Ln, Georgetown, TX 78628",
     "addressLine1": "216 Mystic Cyn Ln",
-    "price": 490000,
+    "price": 485000,
     "bedrooms": 5,
     "bathrooms": 3,
     "squareFootage": 3063,
@@ -104,7 +104,7 @@
       "email": null,
       "website": null
     },
-    "primaryPhoto": "https://www.compass.com/m/73fc594d1ecf03244fad7649b981708f714c770e60154be36dc420cfc0f58aea/origin.webp",
+    "primaryPhoto": "https://www.compass.com/m/6f017adc0e34210790509a86e87fff8e6f788b4de8408a72c7ecc0c18a8ebc27/origin.webp",
     "realtorUrl": "https://www.compass.com/homedetails/216-Mystic-Cyn-Ln-Georgetown-TX-78628/1D7L67_pid/",
     "sortOrder": 5,
     "featured": false
