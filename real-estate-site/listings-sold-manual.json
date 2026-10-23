@@ -1,13 +1,13 @@
 [
   {
-    "id": "1961013433146125425_lid",
+    "id": "1907468925998728641_lid",
     "formattedAddress": "323 Patricia Rd, Georgetown, TX 78628",
     "addressLine1": "323 Patricia Rd",
-    "price": 2199999,
+    "price": 2089999,
     "bedrooms": 5,
     "bathrooms": 3,
-    "squareFootage": null,
-    "lotSize": null,
+    "squareFootage": 4654,
+    "lotSize": 436906,
     "propertyType": "single_family",
     "status": "Sold",
     "listingAgent": {
@@ -16,8 +16,8 @@
       "email": null,
       "website": null
     },
-    "primaryPhoto": "https://www.compass.com/m/e54aca9870b722f62d8473b07036d31ef02de62d_img_0_fb04c/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/323-Patricia-Rd-Georgetown-TX-78628/1961013433146125425_lid/",
+    "primaryPhoto": "https://www.compass.com/m/71454693ab4d0e7133a63239e495ed2e9cf9490d7d8ee8e1b6ae4a2b5da28d9c/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/323-Patricia-Rd-Georgetown-TX-78628/1907468925998728641_lid/",
     "sortOrder": 1,
     "featured": true
   },
@@ -836,28 +836,6 @@
     "featured": false
   },
   {
-    "id": "766046637486274153_lid",
-    "formattedAddress": "3742 Hermann St, Round Rock, TX 78681",
-    "addressLine1": "3742 Hermann St",
-    "price": 525000,
-    "bedrooms": 4,
-    "bathrooms": 4,
-    "squareFootage": 2620,
-    "lotSize": 7405,
-    "propertyType": "single_family",
-    "status": "Sold",
-    "listingAgent": {
-      "name": null,
-      "phone": null,
-      "email": null,
-      "website": null
-    },
-    "primaryPhoto": "https://www.compass.com/m/550db7971b4a2da27e9d6e1cadca372f7d36a7a8_img_0_65daf/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/3742-Hermann-St-Round-Rock-TX-78681/766046637486274153_lid/",
-    "sortOrder": 39,
-    "featured": false
-  },
-  {
     "id": "1866146411904756649_lid",
     "formattedAddress": "531 Dennis Dr, Round Rock, TX 78664",
     "addressLine1": "531 Dennis Dr",
@@ -876,6 +854,28 @@
     },
     "primaryPhoto": "https://www.compass.com/m/1dada8d252e074cfae4f8b7cd703fbed906bf449_img_0_ca091/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/531-Dennis-Dr-Round-Rock-TX-78664/1866146411904756649_lid/",
+    "sortOrder": 39,
+    "featured": false
+  },
+  {
+    "id": "766046637486274153_lid",
+    "formattedAddress": "3742 Hermann St, Round Rock, TX 78681",
+    "addressLine1": "3742 Hermann St",
+    "price": 525000,
+    "bedrooms": 4,
+    "bathrooms": 4,
+    "squareFootage": 2620,
+    "lotSize": 7405,
+    "propertyType": "single_family",
+    "status": "Sold",
+    "listingAgent": {
+      "name": null,
+      "phone": null,
+      "email": null,
+      "website": null
+    },
+    "primaryPhoto": "https://www.compass.com/m/550db7971b4a2da27e9d6e1cadca372f7d36a7a8_img_0_65daf/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/3742-Hermann-St-Round-Rock-TX-78681/766046637486274153_lid/",
     "sortOrder": 40,
     "featured": false
   },
@@ -990,14 +990,14 @@
     "featured": false
   },
   {
-    "id": "1850820535382562449_lid",
+    "id": "1829315778580478561_lid",
     "formattedAddress": "2474 Santa Barbara Loop, Round Rock, TX 78665",
     "addressLine1": "2474 Santa Barbara Loop",
     "price": 499940,
     "bedrooms": 4,
     "bathrooms": 3,
-    "squareFootage": null,
-    "lotSize": null,
+    "squareFootage": 3336,
+    "lotSize": 6534,
     "propertyType": "single_family",
     "status": "Sold",
     "listingAgent": {
@@ -1006,8 +1006,8 @@
       "email": null,
       "website": null
     },
-    "primaryPhoto": "https://www.compass.com/m/8cf628975027ca99617877d0ed27885b898bfc59_img_0_035c3/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/2474-Santa-Barbara-Loop-Round-Rock-TX-78665/1850820535382562449_lid/",
+    "primaryPhoto": "https://www.compass.com/m/38df7fbfa9307b34673d8e234b976314e17308c2_img_0_b4876/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/2474-Santa-Barbara-Loop-Round-Rock-TX-78665/1829315778580478561_lid/",
     "sortOrder": 46,
     "featured": false
   },
@@ -2024,28 +2024,6 @@
     "featured": false
   },
   {
-    "id": "2018342908631655369_lid",
-    "formattedAddress": "529 Peace Dr, Liberty Hill, TX 78642",
-    "addressLine1": "529 Peace Dr",
-    "price": 365000,
-    "bedrooms": 4,
-    "bathrooms": 3,
-    "squareFootage": null,
-    "lotSize": null,
-    "propertyType": "single_family",
-    "status": "Sold",
-    "listingAgent": {
-      "name": null,
-      "phone": null,
-      "email": null,
-      "website": null
-    },
-    "primaryPhoto": "https://www.compass.com/m/33fb10be4e3233dee78636f64892d1a3d71b64d151d5bbd6bf37c4bec839de75/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/529-Peace-Dr-Liberty-Hill-TX-78642/2018342908631655369_lid/",
-    "sortOrder": 93,
-    "featured": false
-  },
-  {
     "id": "1545167829336057945_lid",
     "formattedAddress": "306 E Castleshoals Dr, Granite Shoals, TX 78654",
     "addressLine1": "306 E Castleshoals Dr",
@@ -2064,6 +2042,28 @@
     },
     "primaryPhoto": "https://www.compass.com/m/2af5afeaf7c6f255976ca9995632e94e500e4f75_img_0_89f3d/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/306-E-Castleshoals-Dr-Granite-Shoals-TX-78654/1545167829336057945_lid/",
+    "sortOrder": 93,
+    "featured": false
+  },
+  {
+    "id": "2018342908631655369_lid",
+    "formattedAddress": "529 Peace Dr, Liberty Hill, TX 78642",
+    "addressLine1": "529 Peace Dr",
+    "price": 365000,
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "squareFootage": null,
+    "lotSize": null,
+    "propertyType": "single_family",
+    "status": "Sold",
+    "listingAgent": {
+      "name": null,
+      "phone": null,
+      "email": null,
+      "website": null
+    },
+    "primaryPhoto": "https://www.compass.com/m/33fb10be4e3233dee78636f64892d1a3d71b64d151d5bbd6bf37c4bec839de75/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/529-Peace-Dr-Liberty-Hill-TX-78642/2018342908631655369_lid/",
     "sortOrder": 94,
     "featured": false
   },
@@ -2112,6 +2112,28 @@
     "featured": false
   },
   {
+    "id": "518118847289635857_lid",
+    "formattedAddress": "1107 Myrtle St, Austin, TX 78702",
+    "addressLine1": "1107 Myrtle St",
+    "price": 350000,
+    "bedrooms": 3,
+    "bathrooms": 1,
+    "squareFootage": 890,
+    "lotSize": 4791,
+    "propertyType": "single_family",
+    "status": "Sold",
+    "listingAgent": {
+      "name": null,
+      "phone": null,
+      "email": null,
+      "website": null
+    },
+    "primaryPhoto": "https://www.compass.com/m/5a9ba452b21f6400cc6fa6e57243df6ad5cdf2f6_img_0_79b8f/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/1107-Myrtle-St-Austin-TX-78702/518118847289635857_lid/",
+    "sortOrder": 97,
+    "featured": false
+  },
+  {
     "id": "401578413702460353_lid",
     "formattedAddress": "1904 Jerry Ln, Cedar Park, TX 78613",
     "addressLine1": "1904 Jerry Ln",
@@ -2130,7 +2152,7 @@
     },
     "primaryPhoto": "https://www.compass.com/m/fd50c76ad4abcb8995b034f949f90a2fa57a93c4_img_0_5d8ba/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/1904-Jerry-Ln-Cedar-Park-TX-78613/401578413702460353_lid/",
-    "sortOrder": 97,
+    "sortOrder": 98,
     "featured": false
   },
   {
@@ -2152,28 +2174,6 @@
     },
     "primaryPhoto": "https://www.compass.com/m/3be64ed91c53ac61575bbbc65537d91e710ff9ac_img_0_d1971/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/406-N-Blue-Ridge-Pkwy-Cedar-Park-TX-78613/538280235459038313_lid/",
-    "sortOrder": 98,
-    "featured": false
-  },
-  {
-    "id": "518118847289635857_lid",
-    "formattedAddress": "1107 Myrtle St, Austin, TX 78702",
-    "addressLine1": "1107 Myrtle St",
-    "price": 350000,
-    "bedrooms": 3,
-    "bathrooms": 1,
-    "squareFootage": 890,
-    "lotSize": 4791,
-    "propertyType": "single_family",
-    "status": "Sold",
-    "listingAgent": {
-      "name": null,
-      "phone": null,
-      "email": null,
-      "website": null
-    },
-    "primaryPhoto": "https://www.compass.com/m/5a9ba452b21f6400cc6fa6e57243df6ad5cdf2f6_img_0_79b8f/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/1107-Myrtle-St-Austin-TX-78702/518118847289635857_lid/",
     "sortOrder": 99,
     "featured": false
   },
@@ -3036,28 +3036,6 @@
     "featured": false
   },
   {
-    "id": "25514425708535937_lid",
-    "formattedAddress": "18605 Jana Patrice Dr, Pflugerville, TX 78660",
-    "addressLine1": "18605 Jana Patrice Dr",
-    "price": 269900,
-    "bedrooms": 3,
-    "bathrooms": 2,
-    "squareFootage": 2263,
-    "lotSize": 9147,
-    "propertyType": "single_family",
-    "status": "Sold",
-    "listingAgent": {
-      "name": null,
-      "phone": null,
-      "email": null,
-      "website": null
-    },
-    "primaryPhoto": "https://www.compass.com/m/8f6096077ca86953cd0f3f9f3e3501076af90b1f051bd4117257af1c233ce46f/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/18605-Jana-Patrice-Dr-Pflugerville-TX-78660/25514425708535937_lid/",
-    "sortOrder": 139,
-    "featured": false
-  },
-  {
     "id": "118893726398483393_lid",
     "formattedAddress": "10502 Walnut Bend Dr, Austin, TX 78753",
     "addressLine1": "10502 Walnut Bend Dr",
@@ -3076,6 +3054,28 @@
     },
     "primaryPhoto": "https://www.compass.com/m/01f023879fcf821b63a96e64e2d90a8fc812548d_img_0_f8b48/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/10502-Walnut-Bend-Dr-Austin-TX-78753/118893726398483393_lid/",
+    "sortOrder": 139,
+    "featured": false
+  },
+  {
+    "id": "25514425708535937_lid",
+    "formattedAddress": "18605 Jana Patrice Dr, Pflugerville, TX 78660",
+    "addressLine1": "18605 Jana Patrice Dr",
+    "price": 269900,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "squareFootage": 2263,
+    "lotSize": 9147,
+    "propertyType": "single_family",
+    "status": "Sold",
+    "listingAgent": {
+      "name": null,
+      "phone": null,
+      "email": null,
+      "website": null
+    },
+    "primaryPhoto": "https://www.compass.com/m/8f6096077ca86953cd0f3f9f3e3501076af90b1f051bd4117257af1c233ce46f/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/18605-Jana-Patrice-Dr-Pflugerville-TX-78660/25514425708535937_lid/",
     "sortOrder": 140,
     "featured": false
   },
@@ -3388,28 +3388,6 @@
     "featured": false
   },
   {
-    "id": "106542705420579921_lid",
-    "formattedAddress": "5460 Farm To Market Road 973, Taylor, TX 76574",
-    "addressLine1": "5460 Farm To Market Road 973",
-    "price": 225000,
-    "bedrooms": 3,
-    "bathrooms": 2,
-    "squareFootage": 1336,
-    "lotSize": 21780,
-    "propertyType": "single_family",
-    "status": "Sold",
-    "listingAgent": {
-      "name": null,
-      "phone": null,
-      "email": null,
-      "website": null
-    },
-    "primaryPhoto": "https://www.compass.com/m/8231813df5dc656670a21880cf6cbb39af7f16ad_img_0_0806c/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/5460-Farm-To-Market-Road-973-Taylor-TX-76574/106542705420579921_lid/",
-    "sortOrder": 155,
-    "featured": false
-  },
-  {
     "id": "25525813948550737_lid",
     "formattedAddress": "2021 Bluebonnet Ln Unit 109, Austin, TX 78704",
     "addressLine1": "2021 Bluebonnet Ln Unit 109",
@@ -3428,6 +3406,28 @@
     },
     "primaryPhoto": "https://www.compass.com/m/18bfee6e553bd9a31135bc34a0e6483488b571ec_img_0_f595b/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/2021-Bluebonnet-Ln-Unit-109-Austin-TX-78704/25525813948550737_lid/",
+    "sortOrder": 155,
+    "featured": false
+  },
+  {
+    "id": "106542705420579921_lid",
+    "formattedAddress": "5460 Farm To Market Road 973, Taylor, TX 76574",
+    "addressLine1": "5460 Farm To Market Road 973",
+    "price": 225000,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "squareFootage": 1336,
+    "lotSize": 21780,
+    "propertyType": "single_family",
+    "status": "Sold",
+    "listingAgent": {
+      "name": null,
+      "phone": null,
+      "email": null,
+      "website": null
+    },
+    "primaryPhoto": "https://www.compass.com/m/8231813df5dc656670a21880cf6cbb39af7f16ad_img_0_0806c/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/5460-Farm-To-Market-Road-973-Taylor-TX-76574/106542705420579921_lid/",
     "sortOrder": 156,
     "featured": false
   },
@@ -3674,28 +3674,6 @@
     "featured": false
   },
   {
-    "id": "168065317765919457_lid",
-    "formattedAddress": "801 Dew Drop Ln, Leander, TX 78641",
-    "addressLine1": "801 Dew Drop Ln",
-    "price": 179900,
-    "bedrooms": 3,
-    "bathrooms": 1,
-    "squareFootage": 1239,
-    "lotSize": 14374,
-    "propertyType": "single_family",
-    "status": "Sold",
-    "listingAgent": {
-      "name": null,
-      "phone": null,
-      "email": null,
-      "website": null
-    },
-    "primaryPhoto": "https://www.compass.com/m/ca30bc5341e2493b8e934bd9f8d04a43dc78fefb_img_0_16e34/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/801-Dew-Drop-Ln-Leander-TX-78641/168065317765919457_lid/",
-    "sortOrder": 168,
-    "featured": false
-  },
-  {
     "id": "182999121362256465_lid",
     "formattedAddress": "3008 Don Hill Ln, Taylor, TX 76574",
     "addressLine1": "3008 Don Hill Ln",
@@ -3714,6 +3692,28 @@
     },
     "primaryPhoto": "https://www.compass.com/m/ae8bc68b6b9d37688d33a8ec9883f8735d31e8f1_img_0_dd6e6/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/3008-Don-Hill-Ln-Taylor-TX-76574/182999121362256465_lid/",
+    "sortOrder": 168,
+    "featured": false
+  },
+  {
+    "id": "168065317765919457_lid",
+    "formattedAddress": "801 Dew Drop Ln, Leander, TX 78641",
+    "addressLine1": "801 Dew Drop Ln",
+    "price": 179900,
+    "bedrooms": 3,
+    "bathrooms": 1,
+    "squareFootage": 1239,
+    "lotSize": 14374,
+    "propertyType": "single_family",
+    "status": "Sold",
+    "listingAgent": {
+      "name": null,
+      "phone": null,
+      "email": null,
+      "website": null
+    },
+    "primaryPhoto": "https://www.compass.com/m/ca30bc5341e2493b8e934bd9f8d04a43dc78fefb_img_0_16e34/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/801-Dew-Drop-Ln-Leander-TX-78641/168065317765919457_lid/",
     "sortOrder": 169,
     "featured": false
   },
