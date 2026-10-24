@@ -990,14 +990,14 @@
     "featured": false
   },
   {
-    "id": "1829315778580478561_lid",
+    "id": "1850820535382562449_lid",
     "formattedAddress": "2474 Santa Barbara Loop, Round Rock, TX 78665",
     "addressLine1": "2474 Santa Barbara Loop",
     "price": 499940,
     "bedrooms": 4,
     "bathrooms": 3,
-    "squareFootage": 3336,
-    "lotSize": 6534,
+    "squareFootage": null,
+    "lotSize": null,
     "propertyType": "single_family",
     "status": "Sold",
     "listingAgent": {
@@ -1006,8 +1006,8 @@
       "email": null,
       "website": null
     },
-    "primaryPhoto": "https://www.compass.com/m/38df7fbfa9307b34673d8e234b976314e17308c2_img_0_b4876/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/2474-Santa-Barbara-Loop-Round-Rock-TX-78665/1829315778580478561_lid/",
+    "primaryPhoto": "https://www.compass.com/m/8cf628975027ca99617877d0ed27885b898bfc59_img_0_035c3/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/2474-Santa-Barbara-Loop-Round-Rock-TX-78665/1850820535382562449_lid/",
     "sortOrder": 46,
     "featured": false
   },
@@ -1672,28 +1672,6 @@
     "featured": false
   },
   {
-    "id": "1563011180226786297_lid",
-    "formattedAddress": "8108 Purple Aster Pass, Lago Vista, TX 78645",
-    "addressLine1": "8108 Purple Aster Pass",
-    "price": 399000,
-    "bedrooms": 4,
-    "bathrooms": 4,
-    "squareFootage": 2395,
-    "lotSize": 5662,
-    "propertyType": "single_family",
-    "status": "Sold",
-    "listingAgent": {
-      "name": null,
-      "phone": null,
-      "email": null,
-      "website": null
-    },
-    "primaryPhoto": "https://www.compass.com/m/0f3114b3da42b4307418ea977cc8684a84014966_img_0_806ab/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/8108-Purple-Aster-Pass-Lago-Vista-TX-78645/1563011180226786297_lid/",
-    "sortOrder": 77,
-    "featured": false
-  },
-  {
     "id": "1699670388718925041_lid",
     "formattedAddress": "2304 Sycamore Trail, Round Rock, TX 78664",
     "addressLine1": "2304 Sycamore Trail",
@@ -1712,6 +1690,28 @@
     },
     "primaryPhoto": "https://www.compass.com/m/947a043c2cc2b5d6ccf68343a44b4bba70c9280d_img_0_b6f97/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/2304-Sycamore-Trail-Round-Rock-TX-78664/1699670388718925041_lid/",
+    "sortOrder": 77,
+    "featured": false
+  },
+  {
+    "id": "1563011180226786297_lid",
+    "formattedAddress": "8108 Purple Aster Pass, Lago Vista, TX 78645",
+    "addressLine1": "8108 Purple Aster Pass",
+    "price": 399000,
+    "bedrooms": 4,
+    "bathrooms": 4,
+    "squareFootage": 2395,
+    "lotSize": 5662,
+    "propertyType": "single_family",
+    "status": "Sold",
+    "listingAgent": {
+      "name": null,
+      "phone": null,
+      "email": null,
+      "website": null
+    },
+    "primaryPhoto": "https://www.compass.com/m/0f3114b3da42b4307418ea977cc8684a84014966_img_0_806ab/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/8108-Purple-Aster-Pass-Lago-Vista-TX-78645/1563011180226786297_lid/",
     "sortOrder": 78,
     "featured": false
   },
@@ -1804,28 +1804,6 @@
     "featured": false
   },
   {
-    "id": "1360407367989050889_lid",
-    "formattedAddress": "1115 Sussex Pl, Round Rock, TX 78665",
-    "addressLine1": "1115 Sussex Pl",
-    "price": 389000,
-    "bedrooms": 3,
-    "bathrooms": 2,
-    "squareFootage": 1742,
-    "lotSize": 8712,
-    "propertyType": "single_family",
-    "status": "Sold",
-    "listingAgent": {
-      "name": null,
-      "phone": null,
-      "email": null,
-      "website": null
-    },
-    "primaryPhoto": "https://www.compass.com/m/2ecc5bb916f3ed450f8c1f81bb658f9e12b50a1b_img_0_f80ef/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/1115-Sussex-Pl-Round-Rock-TX-78665/1360407367989050889_lid/",
-    "sortOrder": 83,
-    "featured": false
-  },
-  {
     "id": "1039822592950941121_lid",
     "formattedAddress": "301 Pheasant Cove, Hutto, TX 78634",
     "addressLine1": "301 Pheasant Cove",
@@ -1844,6 +1822,28 @@
     },
     "primaryPhoto": "https://www.compass.com/m/83114b54dbad9928898c990e2245ba8e4cfa8ef1_img_0_16efc/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/301-Pheasant-Cove-Hutto-TX-78634/1039822592950941121_lid/",
+    "sortOrder": 83,
+    "featured": false
+  },
+  {
+    "id": "1360407367989050889_lid",
+    "formattedAddress": "1115 Sussex Pl, Round Rock, TX 78665",
+    "addressLine1": "1115 Sussex Pl",
+    "price": 389000,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "squareFootage": 1742,
+    "lotSize": 8712,
+    "propertyType": "single_family",
+    "status": "Sold",
+    "listingAgent": {
+      "name": null,
+      "phone": null,
+      "email": null,
+      "website": null
+    },
+    "primaryPhoto": "https://www.compass.com/m/2ecc5bb916f3ed450f8c1f81bb658f9e12b50a1b_img_0_f80ef/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/1115-Sussex-Pl-Round-Rock-TX-78665/1360407367989050889_lid/",
     "sortOrder": 84,
     "featured": false
   },
@@ -2112,28 +2112,6 @@
     "featured": false
   },
   {
-    "id": "518118847289635857_lid",
-    "formattedAddress": "1107 Myrtle St, Austin, TX 78702",
-    "addressLine1": "1107 Myrtle St",
-    "price": 350000,
-    "bedrooms": 3,
-    "bathrooms": 1,
-    "squareFootage": 890,
-    "lotSize": 4791,
-    "propertyType": "single_family",
-    "status": "Sold",
-    "listingAgent": {
-      "name": null,
-      "phone": null,
-      "email": null,
-      "website": null
-    },
-    "primaryPhoto": "https://www.compass.com/m/5a9ba452b21f6400cc6fa6e57243df6ad5cdf2f6_img_0_79b8f/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/1107-Myrtle-St-Austin-TX-78702/518118847289635857_lid/",
-    "sortOrder": 97,
-    "featured": false
-  },
-  {
     "id": "401578413702460353_lid",
     "formattedAddress": "1904 Jerry Ln, Cedar Park, TX 78613",
     "addressLine1": "1904 Jerry Ln",
@@ -2152,6 +2130,28 @@
     },
     "primaryPhoto": "https://www.compass.com/m/fd50c76ad4abcb8995b034f949f90a2fa57a93c4_img_0_5d8ba/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/1904-Jerry-Ln-Cedar-Park-TX-78613/401578413702460353_lid/",
+    "sortOrder": 97,
+    "featured": false
+  },
+  {
+    "id": "518118847289635857_lid",
+    "formattedAddress": "1107 Myrtle St, Austin, TX 78702",
+    "addressLine1": "1107 Myrtle St",
+    "price": 350000,
+    "bedrooms": 3,
+    "bathrooms": 1,
+    "squareFootage": 890,
+    "lotSize": 4791,
+    "propertyType": "single_family",
+    "status": "Sold",
+    "listingAgent": {
+      "name": null,
+      "phone": null,
+      "email": null,
+      "website": null
+    },
+    "primaryPhoto": "https://www.compass.com/m/5a9ba452b21f6400cc6fa6e57243df6ad5cdf2f6_img_0_79b8f/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/1107-Myrtle-St-Austin-TX-78702/518118847289635857_lid/",
     "sortOrder": 98,
     "featured": false
   },
@@ -2882,28 +2882,6 @@
     "featured": false
   },
   {
-    "id": "1294222370932392137_lid",
-    "formattedAddress": "536 White Steppe Way Unit 253, Georgetown, TX 78626",
-    "addressLine1": "536 White Steppe Way Unit 253",
-    "price": 285000,
-    "bedrooms": 3,
-    "bathrooms": 3,
-    "squareFootage": 1406,
-    "lotSize": null,
-    "propertyType": "single_family",
-    "status": "Sold",
-    "listingAgent": {
-      "name": null,
-      "phone": null,
-      "email": null,
-      "website": null
-    },
-    "primaryPhoto": "https://www.compass.com/m/1d8ae2ba15c24aa16cebd7cb2ebc317909d6279c898251eb4dcd0014ca270e8a/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/536-White-Steppe-Way-Unit-253-Georgetown-TX-78626/1294222370932392137_lid/",
-    "sortOrder": 132,
-    "featured": false
-  },
-  {
     "id": "709314474808294129_lid",
     "formattedAddress": "236 Easley Rd, Smithville, TX 78957",
     "addressLine1": "236 Easley Rd",
@@ -2922,6 +2900,28 @@
     },
     "primaryPhoto": "https://www.compass.com/m/94f5485db4219fbfaea30db4c4b3119d2e32d039_img_0_3b173/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/236-Easley-Rd-Smithville-TX-78957/709314474808294129_lid/",
+    "sortOrder": 132,
+    "featured": false
+  },
+  {
+    "id": "1294222370932392137_lid",
+    "formattedAddress": "536 White Steppe Way Unit 253, Georgetown, TX 78626",
+    "addressLine1": "536 White Steppe Way Unit 253",
+    "price": 285000,
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "squareFootage": 1406,
+    "lotSize": null,
+    "propertyType": "single_family",
+    "status": "Sold",
+    "listingAgent": {
+      "name": null,
+      "phone": null,
+      "email": null,
+      "website": null
+    },
+    "primaryPhoto": "https://www.compass.com/m/1d8ae2ba15c24aa16cebd7cb2ebc317909d6279c898251eb4dcd0014ca270e8a/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/536-White-Steppe-Way-Unit-253-Georgetown-TX-78626/1294222370932392137_lid/",
     "sortOrder": 133,
     "featured": false
   },
@@ -3784,28 +3784,6 @@
     "featured": false
   },
   {
-    "id": "625748236722354681_lid",
-    "formattedAddress": "901 County Road 100 Unit LOT 1, Georgetown, TX 78626",
-    "addressLine1": "901 County Road 100 Unit LOT 1",
-    "price": 164599,
-    "bedrooms": null,
-    "bathrooms": null,
-    "squareFootage": null,
-    "lotSize": 223898,
-    "propertyType": "single_family",
-    "status": "Sold",
-    "listingAgent": {
-      "name": null,
-      "phone": null,
-      "email": null,
-      "website": null
-    },
-    "primaryPhoto": "https://www.compass.com/m/46f97b278183677d865ea946cd7d39ae7db3cbfaf76e944185fb742403ee906a/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/901-County-Road-100-Unit-LOT-1-Georgetown-TX-78626/625748236722354681_lid/",
-    "sortOrder": 173,
-    "featured": false
-  },
-  {
     "id": "625747284119951489_lid",
     "formattedAddress": "901 County Road 100 Unit LOT 1, Georgetown, TX 78626",
     "addressLine1": "901 County Road 100 Unit LOT 1",
@@ -3824,6 +3802,28 @@
     },
     "primaryPhoto": "https://www.compass.com/m/46f97b278183677d865ea946cd7d39ae7db3cbfaf76e944185fb742403ee906a/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/901-County-Road-100-Unit-LOT-1-Georgetown-TX-78626/625747284119951489_lid/",
+    "sortOrder": 173,
+    "featured": false
+  },
+  {
+    "id": "625748236722354681_lid",
+    "formattedAddress": "901 County Road 100 Unit LOT 1, Georgetown, TX 78626",
+    "addressLine1": "901 County Road 100 Unit LOT 1",
+    "price": 164599,
+    "bedrooms": null,
+    "bathrooms": null,
+    "squareFootage": null,
+    "lotSize": 223898,
+    "propertyType": "single_family",
+    "status": "Sold",
+    "listingAgent": {
+      "name": null,
+      "phone": null,
+      "email": null,
+      "website": null
+    },
+    "primaryPhoto": "https://www.compass.com/m/46f97b278183677d865ea946cd7d39ae7db3cbfaf76e944185fb742403ee906a/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/901-County-Road-100-Unit-LOT-1-Georgetown-TX-78626/625748236722354681_lid/",
     "sortOrder": 174,
     "featured": false
   },
