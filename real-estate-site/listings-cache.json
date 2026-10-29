@@ -22,28 +22,6 @@
     "featured": false
   },
   {
-    "id": "1FN94H_pid",
-    "formattedAddress": "1604 County Road 204, Liberty Hill, TX 78642",
-    "addressLine1": "1604 County Road 204",
-    "price": 525000,
-    "bedrooms": null,
-    "bathrooms": null,
-    "squareFootage": null,
-    "lotSize": 561052,
-    "propertyType": "single_family",
-    "status": "For Sale",
-    "listingAgent": {
-      "name": null,
-      "phone": null,
-      "email": null,
-      "website": null
-    },
-    "primaryPhoto": "https://www.compass.com/m/be7372d416cccbb372132bfabc0e303144eac5f7664579f2387856e5b5761304/origin.webp",
-    "realtorUrl": "https://www.compass.com/homedetails/1604-County-Road-204-Liberty-Hill-TX-78642/1FN94H_pid/",
-    "sortOrder": 2,
-    "featured": false
-  },
-  {
     "id": "1EWI76_pid",
     "formattedAddress": "703 Parkway St, Georgetown, TX 78628",
     "addressLine1": "703 Parkway St",
@@ -62,6 +40,28 @@
     },
     "primaryPhoto": "https://www.compass.com/m/54ca1580300bc5cfd7254c1a895836b9e9e62c3969edf561e8f97a0a47248e16/origin.webp",
     "realtorUrl": "https://www.compass.com/homedetails/703-Parkway-St-Georgetown-TX-78628/1EWI76_pid/",
+    "sortOrder": 2,
+    "featured": false
+  },
+  {
+    "id": "1FN94H_pid",
+    "formattedAddress": "1604 County Road 204, Liberty Hill, TX 78642",
+    "addressLine1": "1604 County Road 204",
+    "price": 500000,
+    "bedrooms": null,
+    "bathrooms": null,
+    "squareFootage": null,
+    "lotSize": 561052,
+    "propertyType": "single_family",
+    "status": "For Sale",
+    "listingAgent": {
+      "name": null,
+      "phone": null,
+      "email": null,
+      "website": null
+    },
+    "primaryPhoto": "https://www.compass.com/m/be7372d416cccbb372132bfabc0e303144eac5f7664579f2387856e5b5761304/origin.webp",
+    "realtorUrl": "https://www.compass.com/homedetails/1604-County-Road-204-Liberty-Hill-TX-78642/1FN94H_pid/",
     "sortOrder": 3,
     "featured": false
   },
@@ -69,7 +69,7 @@
     "id": "1D7L67_pid",
     "formattedAddress": "216 Mystic Cyn Ln, Georgetown, TX 78628",
     "addressLine1": "216 Mystic Cyn Ln",
-    "price": 485000,
+    "price": 475000,
     "bedrooms": 5,
     "bathrooms": 3,
     "squareFootage": 3063,
