@@ -3036,28 +3036,6 @@
     "featured": false
   },
   {
-    "id": "25514425708535937_lid",
-    "formattedAddress": "18605 Jana Patrice Dr, Pflugerville, TX 78660",
-    "addressLine1": "18605 Jana Patrice Dr",
-    "price": 269900,
-    "bedrooms": 3,
-    "bathrooms": 2,
-    "squareFootage": 2263,
-    "lotSize": 9147,
-    "propertyType": "single_family",
-    "status": "Sold",
-    "listingAgent": {
-      "name": null,
-      "phone": null,
-      "email": null,
-      "website": null
-    },
-    "primaryPhoto": "https://www.compass.com/m/8f6096077ca86953cd0f3f9f3e3501076af90b1f051bd4117257af1c233ce46f/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/18605-Jana-Patrice-Dr-Pflugerville-TX-78660/25514425708535937_lid/",
-    "sortOrder": 139,
-    "featured": false
-  },
-  {
     "id": "118893726398483393_lid",
     "formattedAddress": "10502 Walnut Bend Dr, Austin, TX 78753",
     "addressLine1": "10502 Walnut Bend Dr",
@@ -3076,6 +3054,28 @@
     },
     "primaryPhoto": "https://www.compass.com/m/01f023879fcf821b63a96e64e2d90a8fc812548d_img_0_f8b48/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/10502-Walnut-Bend-Dr-Austin-TX-78753/118893726398483393_lid/",
+    "sortOrder": 139,
+    "featured": false
+  },
+  {
+    "id": "25514425708535937_lid",
+    "formattedAddress": "18605 Jana Patrice Dr, Pflugerville, TX 78660",
+    "addressLine1": "18605 Jana Patrice Dr",
+    "price": 269900,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "squareFootage": 2263,
+    "lotSize": 9147,
+    "propertyType": "single_family",
+    "status": "Sold",
+    "listingAgent": {
+      "name": null,
+      "phone": null,
+      "email": null,
+      "website": null
+    },
+    "primaryPhoto": "https://www.compass.com/m/8f6096077ca86953cd0f3f9f3e3501076af90b1f051bd4117257af1c233ce46f/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/18605-Jana-Patrice-Dr-Pflugerville-TX-78660/25514425708535937_lid/",
     "sortOrder": 140,
     "featured": false
   },
