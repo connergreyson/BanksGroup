@@ -88,14 +88,14 @@
     "featured": false
   },
   {
-    "id": "1907468925998728641_lid",
+    "id": "1961013433146125425_lid",
     "formattedAddress": "323 Patricia Rd, Georgetown, TX 78628",
     "addressLine1": "323 Patricia Rd",
-    "price": 2089999,
+    "price": 2199999,
     "bedrooms": 5,
     "bathrooms": 3,
-    "squareFootage": 4654,
-    "lotSize": 436906,
+    "squareFootage": null,
+    "lotSize": null,
     "propertyType": "single_family",
     "status": "For Sale",
     "listingAgent": {
@@ -104,8 +104,8 @@
       "email": null,
       "website": null
     },
-    "primaryPhoto": "https://www.compass.com/m/71454693ab4d0e7133a63239e495ed2e9cf9490d7d8ee8e1b6ae4a2b5da28d9c/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/323-Patricia-Rd-Georgetown-TX-78628/1907468925998728641_lid/",
+    "primaryPhoto": "https://www.compass.com/m/e54aca9870b722f62d8473b07036d31ef02de62d_img_0_fb04c/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/323-Patricia-Rd-Georgetown-TX-78628/1961013433146125425_lid/",
     "sortOrder": 5,
     "featured": false
   }
