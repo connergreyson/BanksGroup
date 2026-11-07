@@ -69,7 +69,7 @@
     "id": "1D7L67_pid",
     "formattedAddress": "216 Mystic Cyn Ln, Georgetown, TX 78628",
     "addressLine1": "216 Mystic Cyn Ln",
-    "price": 475000,
+    "price": 474900,
     "bedrooms": 5,
     "bathrooms": 3,
     "squareFootage": 3063,
@@ -82,20 +82,20 @@
       "email": null,
       "website": null
     },
-    "primaryPhoto": "https://www.compass.com/m/6f017adc0e34210790509a86e87fff8e6f788b4de8408a72c7ecc0c18a8ebc27/origin.webp",
+    "primaryPhoto": "https://www.compass.com/m/fa922bea163984dd99809e46822a20c692caacf25ef5ccef23b96400cceb505c/origin.webp",
     "realtorUrl": "https://www.compass.com/homedetails/216-Mystic-Cyn-Ln-Georgetown-TX-78628/1D7L67_pid/",
     "sortOrder": 4,
     "featured": false
   },
   {
-    "id": "1961013433146125425_lid",
+    "id": "1907468925998728641_lid",
     "formattedAddress": "323 Patricia Rd, Georgetown, TX 78628",
     "addressLine1": "323 Patricia Rd",
-    "price": 2199999,
+    "price": 2089999,
     "bedrooms": 5,
     "bathrooms": 3,
-    "squareFootage": null,
-    "lotSize": null,
+    "squareFootage": 4654,
+    "lotSize": 436906,
     "propertyType": "single_family",
     "status": "For Sale",
     "listingAgent": {
@@ -104,8 +104,8 @@
       "email": null,
       "website": null
     },
-    "primaryPhoto": "https://www.compass.com/m/e54aca9870b722f62d8473b07036d31ef02de62d_img_0_fb04c/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/323-Patricia-Rd-Georgetown-TX-78628/1961013433146125425_lid/",
+    "primaryPhoto": "https://www.compass.com/m/71454693ab4d0e7133a63239e495ed2e9cf9490d7d8ee8e1b6ae4a2b5da28d9c/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/323-Patricia-Rd-Georgetown-TX-78628/1907468925998728641_lid/",
     "sortOrder": 5,
     "featured": false
   }
