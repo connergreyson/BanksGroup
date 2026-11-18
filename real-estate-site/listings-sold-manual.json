@@ -836,28 +836,6 @@
     "featured": false
   },
   {
-    "id": "1866146411904756649_lid",
-    "formattedAddress": "531 Dennis Dr, Round Rock, TX 78664",
-    "addressLine1": "531 Dennis Dr",
-    "price": 525000,
-    "bedrooms": 4,
-    "bathrooms": 3,
-    "squareFootage": null,
-    "lotSize": null,
-    "propertyType": "single_family",
-    "status": "Sold",
-    "listingAgent": {
-      "name": null,
-      "phone": null,
-      "email": null,
-      "website": null
-    },
-    "primaryPhoto": "https://www.compass.com/m/1dada8d252e074cfae4f8b7cd703fbed906bf449_img_0_ca091/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/531-Dennis-Dr-Round-Rock-TX-78664/1866146411904756649_lid/",
-    "sortOrder": 39,
-    "featured": false
-  },
-  {
     "id": "766046637486274153_lid",
     "formattedAddress": "3742 Hermann St, Round Rock, TX 78681",
     "addressLine1": "3742 Hermann St",
@@ -876,6 +854,28 @@
     },
     "primaryPhoto": "https://www.compass.com/m/550db7971b4a2da27e9d6e1cadca372f7d36a7a8_img_0_65daf/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/3742-Hermann-St-Round-Rock-TX-78681/766046637486274153_lid/",
+    "sortOrder": 39,
+    "featured": false
+  },
+  {
+    "id": "1866146411904756649_lid",
+    "formattedAddress": "531 Dennis Dr, Round Rock, TX 78664",
+    "addressLine1": "531 Dennis Dr",
+    "price": 525000,
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "squareFootage": null,
+    "lotSize": null,
+    "propertyType": "single_family",
+    "status": "Sold",
+    "listingAgent": {
+      "name": null,
+      "phone": null,
+      "email": null,
+      "website": null
+    },
+    "primaryPhoto": "https://www.compass.com/m/1dada8d252e074cfae4f8b7cd703fbed906bf449_img_0_ca091/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/531-Dennis-Dr-Round-Rock-TX-78664/1866146411904756649_lid/",
     "sortOrder": 40,
     "featured": false
   },
@@ -1320,28 +1320,6 @@
     "featured": false
   },
   {
-    "id": "25514437922269537_lid",
-    "formattedAddress": "107 Goose Island Dr, Georgetown, TX 78633",
-    "addressLine1": "107 Goose Island Dr",
-    "price": 450000,
-    "bedrooms": 4,
-    "bathrooms": 2,
-    "squareFootage": 2598,
-    "lotSize": 8712,
-    "propertyType": "single_family",
-    "status": "Sold",
-    "listingAgent": {
-      "name": null,
-      "phone": null,
-      "email": null,
-      "website": null
-    },
-    "primaryPhoto": "https://www.compass.com/m/eac1c19e07c5c8ba82f19c0a391dddf5455d40a72e9ae611fbd946d3d22c4a8e/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/107-Goose-Island-Dr-Georgetown-TX-78633/25514437922269537_lid/",
-    "sortOrder": 61,
-    "featured": false
-  },
-  {
     "id": "2105235659952977033_lid",
     "formattedAddress": "1902 Walsh Dr, Round Rock, TX 78681",
     "addressLine1": "1902 Walsh Dr",
@@ -1360,6 +1338,28 @@
     },
     "primaryPhoto": "https://www.compass.com/m/f1640398e3be3924a2db82078aedc9cba294f5360b884baab0ea7c39f255487c/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/1902-Walsh-Dr-Round-Rock-TX-78681/2105235659952977033_lid/",
+    "sortOrder": 61,
+    "featured": false
+  },
+  {
+    "id": "25514437922269537_lid",
+    "formattedAddress": "107 Goose Island Dr, Georgetown, TX 78633",
+    "addressLine1": "107 Goose Island Dr",
+    "price": 450000,
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "squareFootage": 2598,
+    "lotSize": 8712,
+    "propertyType": "single_family",
+    "status": "Sold",
+    "listingAgent": {
+      "name": null,
+      "phone": null,
+      "email": null,
+      "website": null
+    },
+    "primaryPhoto": "https://www.compass.com/m/eac1c19e07c5c8ba82f19c0a391dddf5455d40a72e9ae611fbd946d3d22c4a8e/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/107-Goose-Island-Dr-Georgetown-TX-78633/25514437922269537_lid/",
     "sortOrder": 62,
     "featured": false
   },
@@ -1672,28 +1672,6 @@
     "featured": false
   },
   {
-    "id": "1699670388718925041_lid",
-    "formattedAddress": "2304 Sycamore Trail, Round Rock, TX 78664",
-    "addressLine1": "2304 Sycamore Trail",
-    "price": 399000,
-    "bedrooms": 3,
-    "bathrooms": 2,
-    "squareFootage": 1722,
-    "lotSize": 6969,
-    "propertyType": "single_family",
-    "status": "Sold",
-    "listingAgent": {
-      "name": null,
-      "phone": null,
-      "email": null,
-      "website": null
-    },
-    "primaryPhoto": "https://www.compass.com/m/947a043c2cc2b5d6ccf68343a44b4bba70c9280d_img_0_b6f97/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/2304-Sycamore-Trail-Round-Rock-TX-78664/1699670388718925041_lid/",
-    "sortOrder": 77,
-    "featured": false
-  },
-  {
     "id": "1563011180226786297_lid",
     "formattedAddress": "8108 Purple Aster Pass, Lago Vista, TX 78645",
     "addressLine1": "8108 Purple Aster Pass",
@@ -1712,6 +1690,28 @@
     },
     "primaryPhoto": "https://www.compass.com/m/0f3114b3da42b4307418ea977cc8684a84014966_img_0_806ab/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/8108-Purple-Aster-Pass-Lago-Vista-TX-78645/1563011180226786297_lid/",
+    "sortOrder": 77,
+    "featured": false
+  },
+  {
+    "id": "1699670388718925041_lid",
+    "formattedAddress": "2304 Sycamore Trail, Round Rock, TX 78664",
+    "addressLine1": "2304 Sycamore Trail",
+    "price": 399000,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "squareFootage": 1722,
+    "lotSize": 6969,
+    "propertyType": "single_family",
+    "status": "Sold",
+    "listingAgent": {
+      "name": null,
+      "phone": null,
+      "email": null,
+      "website": null
+    },
+    "primaryPhoto": "https://www.compass.com/m/947a043c2cc2b5d6ccf68343a44b4bba70c9280d_img_0_b6f97/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/2304-Sycamore-Trail-Round-Rock-TX-78664/1699670388718925041_lid/",
     "sortOrder": 78,
     "featured": false
   },
@@ -2134,14 +2134,14 @@
     "featured": false
   },
   {
-    "id": "538280235459038313_lid",
-    "formattedAddress": "406 N Blue Ridge Pkwy, Cedar Park, TX 78613",
-    "addressLine1": "406 N Blue Ridge Pkwy",
+    "id": "518118847289635857_lid",
+    "formattedAddress": "1107 Myrtle St, Austin, TX 78702",
+    "addressLine1": "1107 Myrtle St",
     "price": 350000,
     "bedrooms": 3,
-    "bathrooms": 2,
-    "squareFootage": 1967,
-    "lotSize": 8712,
+    "bathrooms": 1,
+    "squareFootage": 890,
+    "lotSize": 4791,
     "propertyType": "single_family",
     "status": "Sold",
     "listingAgent": {
@@ -2150,8 +2150,8 @@
       "email": null,
       "website": null
     },
-    "primaryPhoto": "https://www.compass.com/m/3be64ed91c53ac61575bbbc65537d91e710ff9ac_img_0_d1971/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/406-N-Blue-Ridge-Pkwy-Cedar-Park-TX-78613/538280235459038313_lid/",
+    "primaryPhoto": "https://www.compass.com/m/5a9ba452b21f6400cc6fa6e57243df6ad5cdf2f6_img_0_79b8f/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/1107-Myrtle-St-Austin-TX-78702/518118847289635857_lid/",
     "sortOrder": 98,
     "featured": false
   },
@@ -2178,14 +2178,14 @@
     "featured": false
   },
   {
-    "id": "518118847289635857_lid",
-    "formattedAddress": "1107 Myrtle St, Austin, TX 78702",
-    "addressLine1": "1107 Myrtle St",
+    "id": "538280235459038313_lid",
+    "formattedAddress": "406 N Blue Ridge Pkwy, Cedar Park, TX 78613",
+    "addressLine1": "406 N Blue Ridge Pkwy",
     "price": 350000,
     "bedrooms": 3,
-    "bathrooms": 1,
-    "squareFootage": 890,
-    "lotSize": 4791,
+    "bathrooms": 2,
+    "squareFootage": 1967,
+    "lotSize": 8712,
     "propertyType": "single_family",
     "status": "Sold",
     "listingAgent": {
@@ -2194,8 +2194,8 @@
       "email": null,
       "website": null
     },
-    "primaryPhoto": "https://www.compass.com/m/5a9ba452b21f6400cc6fa6e57243df6ad5cdf2f6_img_0_79b8f/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/1107-Myrtle-St-Austin-TX-78702/518118847289635857_lid/",
+    "primaryPhoto": "https://www.compass.com/m/3be64ed91c53ac61575bbbc65537d91e710ff9ac_img_0_d1971/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/406-N-Blue-Ridge-Pkwy-Cedar-Park-TX-78613/538280235459038313_lid/",
     "sortOrder": 100,
     "featured": false
   },
@@ -3102,28 +3102,6 @@
     "featured": false
   },
   {
-    "id": "118893726398483393_lid",
-    "formattedAddress": "10502 Walnut Bend Dr, Austin, TX 78753",
-    "addressLine1": "10502 Walnut Bend Dr",
-    "price": 269900,
-    "bedrooms": 3,
-    "bathrooms": 2,
-    "squareFootage": 2261,
-    "lotSize": 13068,
-    "propertyType": "single_family",
-    "status": "Sold",
-    "listingAgent": {
-      "name": null,
-      "phone": null,
-      "email": null,
-      "website": null
-    },
-    "primaryPhoto": "https://www.compass.com/m/01f023879fcf821b63a96e64e2d90a8fc812548d_img_0_f8b48/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/10502-Walnut-Bend-Dr-Austin-TX-78753/118893726398483393_lid/",
-    "sortOrder": 142,
-    "featured": false
-  },
-  {
     "id": "25514425708535937_lid",
     "formattedAddress": "18605 Jana Patrice Dr, Pflugerville, TX 78660",
     "addressLine1": "18605 Jana Patrice Dr",
@@ -3142,6 +3120,28 @@
     },
     "primaryPhoto": "https://www.compass.com/m/8f6096077ca86953cd0f3f9f3e3501076af90b1f051bd4117257af1c233ce46f/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/18605-Jana-Patrice-Dr-Pflugerville-TX-78660/25514425708535937_lid/",
+    "sortOrder": 142,
+    "featured": false
+  },
+  {
+    "id": "118893726398483393_lid",
+    "formattedAddress": "10502 Walnut Bend Dr, Austin, TX 78753",
+    "addressLine1": "10502 Walnut Bend Dr",
+    "price": 269900,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "squareFootage": 2261,
+    "lotSize": 13068,
+    "propertyType": "single_family",
+    "status": "Sold",
+    "listingAgent": {
+      "name": null,
+      "phone": null,
+      "email": null,
+      "website": null
+    },
+    "primaryPhoto": "https://www.compass.com/m/01f023879fcf821b63a96e64e2d90a8fc812548d_img_0_f8b48/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/10502-Walnut-Bend-Dr-Austin-TX-78753/118893726398483393_lid/",
     "sortOrder": 143,
     "featured": false
   },
@@ -3234,28 +3234,6 @@
     "featured": false
   },
   {
-    "id": "1592780436159214065_lid",
-    "formattedAddress": "19008 Romano Dr, Elgin, TX 78621",
-    "addressLine1": "19008 Romano Dr",
-    "price": 255000,
-    "bedrooms": 3,
-    "bathrooms": 2,
-    "squareFootage": 1296,
-    "lotSize": 4791,
-    "propertyType": "single_family",
-    "status": "Sold",
-    "listingAgent": {
-      "name": null,
-      "phone": null,
-      "email": null,
-      "website": null
-    },
-    "primaryPhoto": "https://www.compass.com/m/c5b266ff908bd2a79d68b94d1c93db03ca77006e_img_0_931af/origin.jpg",
-    "realtorUrl": "https://www.compass.com/homedetails/19008-Romano-Dr-Elgin-TX-78621/1592780436159214065_lid/",
-    "sortOrder": 148,
-    "featured": false
-  },
-  {
     "id": "1501543186695938473_lid",
     "formattedAddress": "Undisclosed, Address Jarrell, TX 76537",
     "addressLine1": "Undisclosed",
@@ -3274,6 +3252,28 @@
     },
     "primaryPhoto": "https://www.compass.com/m/5cedcd1515c2e9188835641c49dae8bdff98be1c_img_0_df390/origin.jpg",
     "realtorUrl": "https://www.compass.com/homedetails/Undisclosed-Address-Jarrell-TX-76537/1501543186695938473_lid/",
+    "sortOrder": 148,
+    "featured": false
+  },
+  {
+    "id": "1592780436159214065_lid",
+    "formattedAddress": "19008 Romano Dr, Elgin, TX 78621",
+    "addressLine1": "19008 Romano Dr",
+    "price": 255000,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "squareFootage": 1296,
+    "lotSize": 4791,
+    "propertyType": "single_family",
+    "status": "Sold",
+    "listingAgent": {
+      "name": null,
+      "phone": null,
+      "email": null,
+      "website": null
+    },
+    "primaryPhoto": "https://www.compass.com/m/c5b266ff908bd2a79d68b94d1c93db03ca77006e_img_0_931af/origin.jpg",
+    "realtorUrl": "https://www.compass.com/homedetails/19008-Romano-Dr-Elgin-TX-78621/1592780436159214065_lid/",
     "sortOrder": 149,
     "featured": false
   },
